@@ -1,0 +1,51 @@
+name: CI / CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test_and_build:
+    name: Analyze, Test & Verify Release Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate Puzzles Compilation
+        run: |
+          python tools/build_titles.py
+          python tools/build_clues.py
+          python tools/compile_puzzles.py
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Flutter Dependencies
+        run: flutter pub get
+
+      - name: Run Static Code Analysis
+        run: dart analyze --fatal-infos
+
+      - name: Run Test Suite
+        run: flutter test --coverage
+
+      - name: Build Release Android App Bundle (AAB)
+        run: flutter build appbundle --release

@@ -1,0 +1,3924 @@
+[
+  {
+    "id": "rebus-001",
+    "levelNumber": 1,
+    "titleId": "ben-10-2005",
+    "fullTitle": "BEN 10",
+    "network": "Cartoon Network",
+    "hintText": "Action show starring Ben Tennyson",
+    "emojis": [
+      "👦",
+      "⌚",
+      "👽",
+      "🔟"
+    ],
+    "triviaFact": "The Omnitrix was originally designed to transform Ben into 10 different human superheroes before alien heroes were chosen.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_10_(2005_TV_series)",
+      "https://www.themoviedb.org/tv/4254-ben-10"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-002",
+    "levelNumber": 2,
+    "titleId": "teen-titans-2003",
+    "fullTitle": "TEEN TITANS",
+    "network": "Cartoon Network",
+    "hintText": "Action show starring Robin",
+    "emojis": [
+      "🦸",
+      "🗼",
+      "🍕",
+      "🖤",
+      "🦅"
+    ],
+    "triviaFact": "Japanese pop duo Puffy AmiYumi recorded both the English and Japanese versions of the iconic opening theme song.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Teen_Titans_(TV_series)",
+      "https://www.themoviedb.org/tv/4207-teen-titans"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-003",
+    "levelNumber": 3,
+    "titleId": "samurai-jack-2001",
+    "fullTitle": "SAMURAI JACK",
+    "network": "Cartoon Network",
+    "hintText": "Action show starring Jack",
+    "emojis": [
+      "🗡️",
+      "🥋",
+      "⏳",
+      "👹"
+    ],
+    "triviaFact": "The series drew visual inspiration from Frank Miller's Ronin comic and classic samurai cinema with minimal dialogue.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samurai_Jack",
+      "https://www.televisionacademy.com/shows/samurai-jack"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-004",
+    "levelNumber": 4,
+    "titleId": "fosters-home-for-imaginary-friends-2004",
+    "fullTitle": "FOSTER'S HOME FOR IMAGINARY FRIENDS",
+    "network": "Cartoon Network",
+    "hintText": "Comedy show starring Mac",
+    "emojis": [
+      "🏡",
+      "🔵",
+      "🏀",
+      "🍪"
+    ],
+    "triviaFact": "The entire show was animated using Adobe Flash vectors, creating a flat storybook graphic look that won 7 Emmys.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Foster%27s_Home_for_Imaginary_Friends",
+      "https://www.televisionacademy.com/shows/fosters-home-for-imaginary-friends"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-005",
+    "levelNumber": 5,
+    "titleId": "codename-kids-next-door-2002",
+    "fullTitle": "CODENAME: KIDS NEXT DOOR",
+    "network": "Cartoon Network",
+    "hintText": "Action show starring Numbuh 1",
+    "emojis": [
+      "🌳",
+      "🏠",
+      "🕶️",
+      "👶"
+    ],
+    "triviaFact": "Codename: Kids Next Door won Cartoon Network's 2001 Big Pick weekend marathon viewer poll against 9 other pilots.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Codename:_Kids_Next_Door",
+      "https://www.themoviedb.org/tv/2422-codename-kids-next-door"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-006",
+    "levelNumber": 6,
+    "titleId": "the-grim-adventures-of-billy-and-mandy-2003",
+    "fullTitle": "THE GRIM ADVENTURES OF BILLY & MANDY",
+    "network": "Cartoon Network",
+    "hintText": "Black Comedy show starring Billy",
+    "emojis": [
+      "💀",
+      "👧",
+      "👦",
+      "🌾"
+    ],
+    "triviaFact": "Grim was given a warm Jamaican accent by voice actor Greg Eagles, subverting traditional grim reaper tropes.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Grim_Adventures_of_Billy_%26_Mandy",
+      "https://www.themoviedb.org/tv/2478-the-grim-adventures-of-billy-mandy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-007",
+    "levelNumber": 7,
+    "titleId": "chowder-2007",
+    "fullTitle": "CHOWDER",
+    "network": "Cartoon Network",
+    "hintText": "Comedy show starring Chowder",
+    "emojis": [
+      "🍲",
+      "👨‍🍳",
+      "🟣",
+      "🍰"
+    ],
+    "triviaFact": "Patterns on characters' clothes used static background fills that stayed stationary while character outlines moved.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chowder_(TV_series)",
+      "https://www.televisionacademy.com/shows/chowder"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-008",
+    "levelNumber": 8,
+    "titleId": "the-marvelous-misadventures-of-flapjack-2008",
+    "fullTitle": "THE MARVELOUS MISADVENTURES OF FLAPJACK",
+    "network": "Cartoon Network",
+    "hintText": "Comedy show starring Flapjack",
+    "emojis": [
+      "🥞",
+      "🐳",
+      "🏴‍☠️",
+      "🍭"
+    ],
+    "triviaFact": "The show served as an incubator where future cartoon creators Pendleton Ward, J.G. Quintel, and Alex Hirsch worked.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Marvelous_Misadventures_of_Flapjack",
+      "https://www.themoviedb.org/tv/15264-the-marvelous-misadventures-of-flapjack"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-009",
+    "levelNumber": 9,
+    "titleId": "ed-edd-n-eddy-1999",
+    "fullTitle": "ED, EDD N EDDY",
+    "network": "Cartoon Network",
+    "hintText": "Slapstick show starring Ed",
+    "emojis": [
+      "🍭",
+      "🪵",
+      "🧢",
+      "🏘️"
+    ],
+    "triviaFact": "Creator Danny Antonucci made the show on a bet that he could not produce a hit kids show without weapons or aliens.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ed,_Edd_n_Eddy",
+      "https://www.themoviedb.org/tv/2420-ed-edd-n-eddy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-010",
+    "levelNumber": 10,
+    "titleId": "courage-the-cowardly-dog-1999",
+    "fullTitle": "COURAGE THE COWARDLY DOG",
+    "network": "Cartoon Network",
+    "hintText": "Horror Comedy show starring Courage",
+    "emojis": [
+      "🐕",
+      "🌾",
+      "😱",
+      "🛸"
+    ],
+    "triviaFact": "The pilot short The Chicken from Outer Space was nominated for the 1996 Academy Award for Best Animated Short Film.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog",
+      "https://www.oscars.org/oscars/ceremonies/1996"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-011",
+    "levelNumber": 11,
+    "titleId": "megas-xlr-2004",
+    "fullTitle": "MEGAS XLR",
+    "network": "Cartoon Network",
+    "hintText": "Mecha show starring Coop",
+    "emojis": [
+      "🤖",
+      "🚗",
+      "🎮",
+      "💥"
+    ],
+    "triviaFact": "Coop steered the giant mecha using a modified classic muscle car cockpit hooked up to video game gamepads.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Megas_XLR",
+      "https://www.themoviedb.org/tv/2424-megas-xlr"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-012",
+    "levelNumber": 12,
+    "titleId": "generator-rex-2010",
+    "fullTitle": "GENERATOR REX",
+    "network": "Cartoon Network",
+    "hintText": "Action show starring Rex Salazar",
+    "emojis": [
+      "🔧",
+      "🦾",
+      "🐒",
+      "🦠"
+    ],
+    "triviaFact": "The series was based on the 1999 comic series M. Rex created by Joe Kelly and Duncan Rouleau.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Generator_Rex",
+      "https://www.televisionacademy.com/shows/generator-rex"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-013",
+    "levelNumber": 13,
+    "titleId": "regular-show-2010",
+    "fullTitle": "REGULAR SHOW",
+    "network": "Cartoon Network",
+    "hintText": "Surreal Comedy show starring Mordecai",
+    "emojis": [
+      "🐦",
+      "🦝",
+      "☕",
+      "🎮"
+    ],
+    "triviaFact": "J.G. Quintel developed the characters from his CalArts student shorts The Naive Man from Lolliland and 2 in the AM PM.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Regular_Show",
+      "https://www.televisionacademy.com/shows/regular-show"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-014",
+    "levelNumber": 14,
+    "titleId": "adventure-time-2010",
+    "fullTitle": "ADVENTURE TIME",
+    "network": "Cartoon Network",
+    "hintText": "Fantasy show starring Finn the Human",
+    "emojis": [
+      "⚔️",
+      "🐕",
+      "👑",
+      "🧛‍♀️"
+    ],
+    "triviaFact": "The original short was rejected twice by Nickelodeon before Cartoon Network greenlit the groundbreaking series.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adventure_Time",
+      "https://www.themoviedb.org/tv/15260-adventure-time"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-015",
+    "levelNumber": 15,
+    "titleId": "star-wars-clone-wars-2003",
+    "fullTitle": "STAR WARS: CLONE WARS",
+    "network": "Cartoon Network",
+    "hintText": "Sci-Fi show starring Anakin Skywalker",
+    "emojis": [
+      "⚔️",
+      "🌌",
+      "🤖",
+      "🚀"
+    ],
+    "triviaFact": "This series marked the very first on-screen debut of General Grievous ahead of Revenge of the Sith.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Star_Wars:_Clone_Wars_(2003_TV_series)",
+      "https://www.televisionacademy.com/shows/star-wars-clone-wars"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-016",
+    "levelNumber": 16,
+    "titleId": "camp-lazlo-2005",
+    "fullTitle": "CAMP LAZLO",
+    "network": "Cartoon Network",
+    "hintText": "Comedy show starring Lazlo",
+    "emojis": [
+      "🏕️",
+      "🐒",
+      "🎺",
+      "🌲"
+    ],
+    "triviaFact": "Created by Joe Murray, the mastermind behind Rocko's Modern Life, who drew upon summer camp youth nostalgia.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Camp_Lazlo",
+      "https://www.televisionacademy.com/shows/camp-lazlo"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-017",
+    "levelNumber": 17,
+    "titleId": "my-gym-partners-a-monkey-2005",
+    "fullTitle": "MY GYM PARTNER'S A MONKEY",
+    "network": "Cartoon Network",
+    "hintText": "Comedy show starring Adam Lyon",
+    "emojis": [
+      "🐒",
+      "🏫",
+      "🏃",
+      "🍌"
+    ],
+    "triviaFact": "Adam was enrolled in an animal school because an administrative typo recorded his last name as Lion rather than Lyon.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/My_Gym_Partner%27s_a_Monkey",
+      "https://www.themoviedb.org/tv/3041-my-gym-partner-s-a-monkey"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-018",
+    "levelNumber": 18,
+    "titleId": "class-of-3000-2006",
+    "fullTitle": "CLASS OF 3000",
+    "network": "Cartoon Network",
+    "hintText": "Musical show starring Sunny Bridges",
+    "emojis": [
+      "🎷",
+      "🎵",
+      "🏫",
+      "🎹"
+    ],
+    "triviaFact": "Outkast hip-hop superstar André 3000 produced, composed, and performed original songs for every single episode.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Class_of_3000",
+      "https://www.televisionacademy.com/shows/class-of-3000"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-019",
+    "levelNumber": 19,
+    "titleId": "justice-league-2001",
+    "fullTitle": "JUSTICE LEAGUE",
+    "network": "Cartoon Network",
+    "hintText": "Superhero show starring Superman",
+    "emojis": [
+      "🦸‍♂️",
+      "🦇",
+      "⚡",
+      "🪐"
+    ],
+    "triviaFact": "John Stewart was specifically designated as the Green Lantern to establish racial diversity on the central league roster.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justice_League_(TV_series)",
+      "https://www.themoviedb.org/tv/1620-justice-league"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-020",
+    "levelNumber": 20,
+    "titleId": "justice-league-unlimited-2004",
+    "fullTitle": "JUSTICE LEAGUE UNLIMITED",
+    "network": "Cartoon Network",
+    "hintText": "Superhero show starring Green Arrow",
+    "emojis": [
+      "🦸",
+      "🏹",
+      "❓",
+      "🛰️"
+    ],
+    "triviaFact": "The series finale Destroyer marked the definitive conclusion to the 14-year-long DC Animated Universe that began with Batman TAS.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justice_League_Unlimited",
+      "https://www.themoviedb.org/tv/1930-justice-league-unlimited"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-021",
+    "levelNumber": 21,
+    "titleId": "avatar-the-last-airbender-2005",
+    "fullTitle": "AVATAR: THE LAST AIRBENDER",
+    "network": "Nickelodeon",
+    "hintText": "Fantasy show starring Aang",
+    "emojis": [
+      "💨",
+      "💧",
+      "🪨",
+      "🔥"
+    ],
+    "triviaFact": "Each of the 4 bending disciplines was modeled after a distinct Chinese martial arts discipline by consultant Sifu Kisu.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender",
+      "https://www.peabodyawards.com/award-profile/avatar-the-last-airbender/"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-022",
+    "levelNumber": 22,
+    "titleId": "spongebob-squarepants-1999",
+    "fullTitle": "SPONGEBOB SQUAREPANTS",
+    "network": "Nickelodeon",
+    "hintText": "Comedy show starring SpongeBob",
+    "emojis": [
+      "🧽",
+      "🍍",
+      "⭐",
+      "🦀"
+    ],
+    "triviaFact": "Stephen Hillenburg was a professional marine biologist who first designed characters in a comic called The Intertidal Zone.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/SpongeBob_SquarePants",
+      "https://www.themoviedb.org/tv/387-spongebob-squarepants"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-023",
+    "levelNumber": 23,
+    "titleId": "the-fairly-oddparents-2001",
+    "fullTitle": "THE FAIRLY ODDPARENTS",
+    "network": "Nickelodeon",
+    "hintText": "Comedy show starring Timmy Turner",
+    "emojis": [
+      "🧚",
+      "🪄",
+      "🐟",
+      "👑"
+    ],
+    "triviaFact": "Timmy's trademark hat was colored pink simply because creator Butch Hartman ran out of blue marker ink on his original sketch.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Fairly_OddParents",
+      "https://www.themoviedb.org/tv/1614-the-fairly-oddparents"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-024",
+    "levelNumber": 24,
+    "titleId": "danny-phantom-2004",
+    "fullTitle": "DANNY PHANTOM",
+    "network": "Nickelodeon",
+    "hintText": "Action show starring Danny Fenton",
+    "emojis": [
+      "👻",
+      "⚡",
+      "🧪",
+      "🦇"
+    ],
+    "triviaFact": "Danny was originally intended to possess a psychic bond with ghosts rather than transforming into a half-ghost hero.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Danny_Phantom",
+      "https://www.themoviedb.org/tv/2425-danny-phantom"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-025",
+    "levelNumber": 25,
+    "titleId": "invader-zim-2001",
+    "fullTitle": "INVADER ZIM",
+    "network": "Nickelodeon",
+    "hintText": "Dark Comedy show starring Zim",
+    "emojis": [
+      "👽",
+      "🤖",
+      "🌮",
+      "🛸"
+    ],
+    "triviaFact": "GIR voice actor Rosearik Rikki Simons recorded frantic lines while running around the recording booth or eating snacks.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Invader_Zim",
+      "https://www.televisionacademy.com/shows/invader-zim"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-026",
+    "levelNumber": 26,
+    "titleId": "the-adventures-of-jimmy-neutron-boy-genius-2002",
+    "fullTitle": "THE ADVENTURES OF JIMMY NEUTRON, BOY GENIUS",
+    "network": "Nickelodeon",
+    "hintText": "Sci-Fi show starring Jimmy Neutron",
+    "emojis": [
+      "🧠",
+      "🚀",
+      "🐶",
+      "🧪"
+    ],
+    "triviaFact": "Jimmy Neutron originated in a 1995 computer-animated demo short under the working title Johnny Quasar.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Adventures_of_Jimmy_Neutron,_Boy_Genius",
+      "https://www.themoviedb.org/tv/1618-the-adventures-of-jimmy-neutron-boy-genius"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-027",
+    "levelNumber": 27,
+    "titleId": "my-life-as-a-teenage-robot-2003",
+    "fullTitle": "MY LIFE AS A TEENAGE ROBOT",
+    "network": "Nickelodeon",
+    "hintText": "Action show starring Jenny Wakeman",
+    "emojis": [
+      "🤖",
+      "👧",
+      "👗",
+      "🚀"
+    ],
+    "triviaFact": "The aesthetic of the series was inspired by 1930s Art Deco architecture and vintage Machine Age illustration posters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/My_Life_as_a_Teenage_Robot",
+      "https://www.televisionacademy.com/shows/my-life-as-a-teenage-robot"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-028",
+    "levelNumber": 28,
+    "titleId": "chalkzone-2002",
+    "fullTitle": "CHALKZONE",
+    "network": "Nickelodeon",
+    "hintText": "Fantasy show starring Rudy Tabootie",
+    "emojis": [
+      "🖍️",
+      "🌀",
+      "🎨",
+      "🚪"
+    ],
+    "triviaFact": "Every drawing ever wiped off a blackboard was revealed to reassemble alive in the parallel dimension of ChalkZone.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/ChalkZone",
+      "https://www.themoviedb.org/tv/1617-chalkzone"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-029",
+    "levelNumber": 29,
+    "titleId": "all-grown-up-2003",
+    "fullTitle": "ALL GROWN UP!",
+    "network": "Nickelodeon",
+    "hintText": "Comedy show starring Tommy Pickles",
+    "emojis": [
+      "🎒",
+      "📷",
+      "🏫",
+      "👟"
+    ],
+    "triviaFact": "The Rugrats 10th anniversary special All Growed Up scored 11.9 million viewers, inspiring the full series order.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/All_Grown_Up!",
+      "https://www.themoviedb.org/tv/2421-all-grown-up"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-030",
+    "levelNumber": 30,
+    "titleId": "el-tigre-the-adventures-of-manny-rivera-2007",
+    "fullTitle": "EL TIGRE: THE ADVENTURES OF MANNY RIVERA",
+    "network": "Nickelodeon",
+    "hintText": "Action show starring Manny Rivera",
+    "emojis": [
+      "🐯",
+      "🦸‍♂️",
+      "🤼",
+      "🎸"
+    ],
+    "triviaFact": "Nickelodeon held an online viewer vote allowing audience members to decide if Manny chose heroism or villainy in the finale.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/El_Tigre:_The_Adventures_of_Manny_Rivera",
+      "https://www.themoviedb.org/tv/2426-el-tigre-the-adventures-of-manny-rivera"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-031",
+    "levelNumber": 31,
+    "titleId": "kim-possible-2002",
+    "fullTitle": "KIM POSSIBLE",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Action show starring Kim Possible",
+    "emojis": [
+      "📟",
+      "🦸‍♀️",
+      "🐀",
+      "🌮"
+    ],
+    "triviaFact": "Creators Bob Schooley and Mark McCorkle pitched the entire premise in an elevator ride based on two complementary characters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kim_Possible",
+      "https://www.themoviedb.org/tv/2428-kim-possible"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-032",
+    "levelNumber": 32,
+    "titleId": "phineas-and-ferb-2007",
+    "fullTitle": "PHINEAS AND FERB",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Musical show starring Phineas Flynn",
+    "emojis": [
+      "🛠️",
+      "🦆",
+      "🔬",
+      "🎢"
+    ],
+    "triviaFact": "Creators Dan Povenmire and Jeff Marsh pitched the cartoon for 16 years to multiple networks before Disney approved it.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Phineas_and_Ferb",
+      "https://www.televisionacademy.com/shows/phineas-and-ferb"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-033",
+    "levelNumber": 33,
+    "titleId": "the-proud-family-2001",
+    "fullTitle": "THE PROUD FAMILY",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Comedy show starring Penny Proud",
+    "emojis": [
+      "👨‍👩‍👧",
+      "👵",
+      "🍿",
+      "🐩"
+    ],
+    "triviaFact": "Destiny's Child and Solange Knowles sang the show's memorable original opening theme song.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Proud_Family",
+      "https://www.themoviedb.org/tv/2429-the-proud-family"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-034",
+    "levelNumber": 34,
+    "titleId": "lilo-and-stitch-the-series-2003",
+    "fullTitle": "LILO & STITCH: THE SERIES",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Sci-Fi show starring Lilo Pelekai",
+    "emojis": [
+      "🌺",
+      "👽",
+      "🏖️",
+      "🎸"
+    ],
+    "triviaFact": "The series followed Lilo and Stitch locating, capturing, and finding homes for Jumba's 625 other alien experiment pods.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lilo_%26_Stitch:_The_Series",
+      "https://www.themoviedb.org/tv/2430-lilo-stitch-the-series"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-035",
+    "levelNumber": 35,
+    "titleId": "american-dragon-jake-long-2005",
+    "fullTitle": "AMERICAN DRAGON: JAKE LONG",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Action show starring Jake Long",
+    "emojis": [
+      "🐉",
+      "🛹",
+      "🗽",
+      "🐕"
+    ],
+    "triviaFact": "Dante Basco, who voiced Zuko in Avatar: The Last Airbender and played Rufio in Hook, provided the voice of Jake Long.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/American_Dragon:_Jake_Long",
+      "https://www.themoviedb.org/tv/2431-american-dragon-jake-long"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-036",
+    "levelNumber": 36,
+    "titleId": "super-robot-monkey-team-hyperforce-go-2004",
+    "fullTitle": "SUPER ROBOT MONKEY TEAM HYPERFORCE GO!",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Mecha show starring Chiro",
+    "emojis": [
+      "🤖",
+      "🐒",
+      "🚀",
+      "⚡"
+    ],
+    "triviaFact": "Created by Ciro Nieli, who later served as executive producer of Nickelodeon's 2012 Teenage Mutant Ninja Turtles.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super_Robot_Monkey_Team_Hyperforce_Go!",
+      "https://www.themoviedb.org/tv/2436-super-robot-monkey-team-hyperforce-go"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-037",
+    "levelNumber": 37,
+    "titleId": "yin-yang-yo-2006",
+    "fullTitle": "YIN YANG YO!",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Action show starring Yin",
+    "emojis": [
+      "🐰",
+      "🐼",
+      "⚔️",
+      "☯️"
+    ],
+    "triviaFact": "Legendary voice actor John DiMaggio (Bender in Futurama) voiced the grumpy panda mentor Master Yo.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yin_Yang_Yo!",
+      "https://www.themoviedb.org/tv/2437-yin-yang-yo"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-038",
+    "levelNumber": 38,
+    "titleId": "pucca-2006",
+    "fullTitle": "PUCCA",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Action show starring Pucca",
+    "emojis": [
+      "🍜",
+      "🥷",
+      "💋",
+      "🏮"
+    ],
+    "triviaFact": "Neither of the two lead characters, Pucca or Garu, spoke dialogue throughout the series, relying on expressive pantomime.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pucca_(TV_series)",
+      "https://www.themoviedb.org/tv/2438-pucca"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-039",
+    "levelNumber": 39,
+    "titleId": "witch-2004",
+    "fullTitle": "W.I.T.C.H.",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Magical Girl show starring Will Vandom",
+    "emojis": [
+      "🧙‍♀️",
+      "💎",
+      "💧",
+      "🔥"
+    ],
+    "triviaFact": "The acronym W.I.T.C.H. is formed by the initials of the five teenage guardian protagonists: Will, Irma, Taranee, Cornelia, and Hay Lin.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/W.I.T.C.H._(TV_series)",
+      "https://www.themoviedb.org/tv/2439-w-i-t-c-h"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-040",
+    "levelNumber": 40,
+    "titleId": "jackie-chan-adventures-2000",
+    "fullTitle": "JACKIE CHAN ADVENTURES",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Action show starring Jackie Chan",
+    "emojis": [
+      "🥋",
+      "🐉",
+      "🪄",
+      "🏺"
+    ],
+    "triviaFact": "Jackie Chan appeared in live-action post-show interview segments while veteran voice actor James Sie voiced cartoon Jackie.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jackie_Chan_Adventures",
+      "https://www.themoviedb.org/tv/2441-jackie-chan-adventures"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-041",
+    "levelNumber": 41,
+    "titleId": "static-shock-2000",
+    "fullTitle": "STATIC SHOCK",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Superhero show starring Virgil Hawkins",
+    "emojis": [
+      "⚡",
+      "🛹",
+      "🏙️",
+      "🔋"
+    ],
+    "triviaFact": "Virgil Hawkins was named in honor of Virgil D. Hawkins, a Black attorney who fought for 9 years for integrated legal education.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Static_Shock",
+      "https://www.themoviedb.org/tv/1619-static-shock"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-042",
+    "levelNumber": 42,
+    "titleId": "x-men-evolution-2000",
+    "fullTitle": "X-MEN: EVOLUTION",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Superhero show starring Cyclops",
+    "emojis": [
+      "🧬",
+      "🏫",
+      "⚔️",
+      "⚡"
+    ],
+    "triviaFact": "Fan-favorite Marvel character X-23 (Laura Kinney) was created specifically for this animated show before entering comics.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/X-Men:_Evolution",
+      "https://www.themoviedb.org/tv/2442-x-men-evolution"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-043",
+    "levelNumber": 43,
+    "titleId": "the-batman-2004",
+    "fullTitle": "THE BATMAN",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Superhero show starring Bruce Wayne",
+    "emojis": [
+      "🦇",
+      "🃏",
+      "🌃",
+      "🚗"
+    ],
+    "triviaFact": "Character designer Jeff Matsuda completely reimagined the Joker as an agile, barefoot combatant in a straitjacket.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Batman_(TV_series)",
+      "https://www.themoviedb.org/tv/2443-the-batman"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-044",
+    "levelNumber": 44,
+    "titleId": "the-spectacular-spider-man-2008",
+    "fullTitle": "THE SPECTACULAR SPIDER-MAN",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Superhero show starring Peter Parker",
+    "emojis": [
+      "🕷️",
+      "🕸️",
+      "📸",
+      "🏫"
+    ],
+    "triviaFact": "Greg Weisman named each multi-episode arc after high school academic subjects like Biology, Economics, and Chemistry.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Spectacular_Spider-Man_(TV_series)",
+      "https://www.themoviedb.org/tv/14984-the-spectacular-spider-man"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-045",
+    "levelNumber": 45,
+    "titleId": "tmnt-2003",
+    "fullTitle": "TEENAGE MUTANT NINJA TURTLES",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Action show starring Leonardo",
+    "emojis": [
+      "🐢",
+      "🍕",
+      "🥷",
+      "🏙️"
+    ],
+    "triviaFact": "This series adapted the original gritty 1984 Mirage comic arcs directly, supervised closely by TMNT co-creator Peter Laird.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles_(2003_TV_series)",
+      "https://www.themoviedb.org/tv/242-teenage-mutant-ninja-turtles"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-046",
+    "levelNumber": 46,
+    "titleId": "yu-gi-oh-gx-2004",
+    "fullTitle": "YU-GI-OH! GX",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Action show starring Jaden Yuki",
+    "emojis": [
+      "🃏",
+      "🏫",
+      "⚡",
+      "🔴"
+    ],
+    "triviaFact": "The show introduced Duel Academy island, where student dormitories were named after the three Egyptian God cards.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yu-Gi-Oh!_GX",
+      "https://www.themoviedb.org/tv/3773-yu-gi-oh-gx"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-047",
+    "levelNumber": 47,
+    "titleId": "sonic-x-2003",
+    "fullTitle": "SONIC X",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Action show starring Sonic the Hedgehog",
+    "emojis": [
+      "🦔",
+      "💍",
+      "⚡",
+      "🚀"
+    ],
+    "triviaFact": "The anime adapted the story campaigns of the Sega Dreamcast classics Sonic Adventure and Sonic Adventure 2.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sonic_X",
+      "https://www.themoviedb.org/tv/2452-sonic-x"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-048",
+    "levelNumber": 48,
+    "titleId": "rescue-heroes-1999",
+    "fullTitle": "RESCUE HEROES",
+    "network": "KidsCo",
+    "hintText": "Action show starring Billy Blazes",
+    "emojis": [
+      "🚒",
+      "🪓",
+      "🚁",
+      "⚠️"
+    ],
+    "triviaFact": "Unlike most action cartoons, Rescue Heroes never fought human villains or used weapons, responding exclusively to natural disasters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rescue_Heroes_(TV_series)",
+      "https://www.themoviedb.org/tv/1621-rescue-heroes"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-049",
+    "levelNumber": 49,
+    "titleId": "dino-squad-2007",
+    "fullTitle": "DINO SQUAD",
+    "network": "KidsCo",
+    "hintText": "Action show starring Max",
+    "emojis": [
+      "🦖",
+      "🦕",
+      "🧪",
+      "🌊"
+    ],
+    "triviaFact": "Five high school teenagers gain the ability to shapeshift into dinosaurs after swimming in water tainted by prehistoric ooze.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dino_Squad",
+      "https://www.themoviedb.org/tv/3778-dino-squad"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-050",
+    "levelNumber": 50,
+    "titleId": "the-new-adventures-of-madeline-2000",
+    "fullTitle": "THE NEW ADVENTURES OF MADELINE",
+    "network": "KidsCo",
+    "hintText": "Adventure show starring Madeline",
+    "emojis": [
+      "👧",
+      "👒",
+      "🥖",
+      "🗼"
+    ],
+    "triviaFact": "Christopher Plummer provided the charming rhyming narration for the series, earning a Daytime Emmy Award nomination.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_New_Adventures_of_Madeline",
+      "https://www.themoviedb.org/tv/2453-the-new-adventures-of-madeline"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-051",
+    "levelNumber": 51,
+    "titleId": "archies-weird-mysteries-1999",
+    "fullTitle": "ARCHIE'S WEIRD MYSTERIES",
+    "network": "KidsCo",
+    "hintText": "Mystery show starring Archie Andrews",
+    "emojis": [
+      "🔍",
+      "👽",
+      "🍔",
+      "📰"
+    ],
+    "triviaFact": "The cartoon mixed Archie's classic teen triangle with X-Files-style paranormal investigations caused by a science lab accident.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Archie%27s_Weird_Mysteries",
+      "https://www.themoviedb.org/tv/2454-archie-s-weird-mysteries"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-052",
+    "levelNumber": 52,
+    "titleId": "sabrina-the-animated-series-1999",
+    "fullTitle": "SABRINA: THE ANIMATED SERIES",
+    "network": "KidsCo",
+    "hintText": "Comedy show starring Sabrina Spellman",
+    "emojis": [
+      "🧙‍♀️",
+      "🐱",
+      "🪄",
+      "🔮"
+    ],
+    "triviaFact": "Emily Hart, real-life younger sister of Sabrina live-action star Melissa Joan Hart, provided the voice of cartoon Sabrina.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sabrina:_The_Animated_Series",
+      "https://www.themoviedb.org/tv/2455-sabrina-the-animated-series"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-053",
+    "levelNumber": 53,
+    "titleId": "mary-kate-and-ashley-in-action-2001",
+    "fullTitle": "MARY-KATE AND ASHLEY IN ACTION!",
+    "network": "KidsCo",
+    "hintText": "Action show starring Misty",
+    "emojis": [
+      "👯‍♀️",
+      "🕶️",
+      "🕵️‍♀️",
+      "🌍"
+    ],
+    "triviaFact": "The Olsen twins recorded live-action intro and outro segments in Los Angeles for every animated secret agent episode.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary-Kate_and_Ashley_in_Action!",
+      "https://www.themoviedb.org/tv/2456-mary-kate-and-ashley-in-action"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-054",
+    "levelNumber": 54,
+    "titleId": "neds-newt-1997",
+    "fullTitle": "NED'S NEWT",
+    "network": "KidsCo",
+    "hintText": "Comedy show starring Ned Flemkin",
+    "emojis": [
+      "🦎",
+      "🥫",
+      "👦",
+      "🌀"
+    ],
+    "triviaFact": "Whenever ordinary pet newt Newton ate a handful of Zippo pet food, he expanded into a six-foot-tall fast-talking prankster.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ned%27s_Newt",
+      "https://www.themoviedb.org/tv/2457-ned-s-newt"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-055",
+    "levelNumber": 55,
+    "titleId": "tales-from-the-cryptkeeper-1999",
+    "fullTitle": "TALES FROM THE CRYPTKEEPER",
+    "network": "KidsCo",
+    "hintText": "Horror show starring The Cryptkeeper",
+    "emojis": [
+      "💀",
+      "⚰️",
+      "👻",
+      "🦇"
+    ],
+    "triviaFact": "The third season was rebranded as New Tales from the Cryptkeeper in 1999, swapping rival hosts with spooky moral stories.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tales_from_the_Cryptkeeper",
+      "https://www.themoviedb.org/tv/2458-tales-from-the-cryptkeeper"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-056",
+    "levelNumber": 56,
+    "titleId": "corduroy-2000",
+    "fullTitle": "CORDUROY",
+    "network": "KidsCo",
+    "hintText": "Family show starring Corduroy",
+    "emojis": [
+      "🧸",
+      "👖",
+      "🏬",
+      "👧"
+    ],
+    "triviaFact": "Based on Don Freeman's beloved 1968 classic children's book about an affectionate teddy bear in green overalls.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Corduroy_(TV_series)",
+      "https://www.themoviedb.org/tv/2459-corduroy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-057",
+    "levelNumber": 57,
+    "titleId": "babar-the-series-2000",
+    "fullTitle": "BABAR",
+    "network": "KidsCo",
+    "hintText": "Family show starring King Babar",
+    "emojis": [
+      "🐘",
+      "👑",
+      "🏰",
+      "🌴"
+    ],
+    "triviaFact": "Adapted from Jean and Laurent de Brunhoff's historic French books, Babar is celebrated as one of Canada's greatest animation exports.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Babar_(TV_series)",
+      "https://www.themoviedb.org/tv/2460-babar"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-058",
+    "levelNumber": 58,
+    "titleId": "bob-the-builder-1999",
+    "fullTitle": "BOB THE BUILDER",
+    "network": "JimJam",
+    "hintText": "Pre-School show starring Bob",
+    "emojis": [
+      "👷‍♂️",
+      "🚜",
+      "🔨",
+      "🏗️"
+    ],
+    "triviaFact": "The theme song 'Can We Fix It?' became the Christmas #1 best-selling music single in the UK Singles Chart in December 2000.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_the_Builder",
+      "https://www.themoviedb.org/tv/2461-bob-the-builder"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-059",
+    "levelNumber": 59,
+    "titleId": "thomas-and-friends-2000",
+    "fullTitle": "THOMAS & FRIENDS",
+    "network": "JimJam",
+    "hintText": "Family show starring Thomas",
+    "emojis": [
+      "🚂",
+      "🛤️",
+      "🎩",
+      "🏝️"
+    ],
+    "triviaFact": "In the 2000s era, Pierce Brosnan, Alec Baldwin, and Michael Angelis provided distinguished narrations for the engines.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_%26_Friends",
+      "https://www.themoviedb.org/tv/2462-thomas-friends"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-060",
+    "levelNumber": 60,
+    "titleId": "fireman-sam-2005",
+    "fullTitle": "FIREMAN SAM",
+    "network": "JimJam",
+    "hintText": "Action show starring Fireman Sam",
+    "emojis": [
+      "👨‍🚒",
+      "🚒",
+      "🔥",
+      "🚨"
+    ],
+    "triviaFact": "The series was created by two former London firemen who wanted to teach young children fire prevention techniques.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fireman_Sam",
+      "https://www.themoviedb.org/tv/2463-fireman-sam"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-061",
+    "levelNumber": 61,
+    "titleId": "pingu-2003",
+    "fullTitle": "PINGU",
+    "network": "JimJam",
+    "hintText": "Claymation show starring Pingu",
+    "emojis": [
+      "🐧",
+      "❄️",
+      "🦭",
+      "🐟"
+    ],
+    "triviaFact": "All characters spoke a universally understood gibberish sound language called 'Penguinese' voiced by Italian actor Carlo Bonomi.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pingu",
+      "https://www.themoviedb.org/tv/2464-pingu"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-062",
+    "levelNumber": 62,
+    "titleId": "barney-and-friends-2000",
+    "fullTitle": "BARNEY & FRIENDS",
+    "network": "JimJam",
+    "hintText": "Musical show starring Barney",
+    "emojis": [
+      "🦖",
+      "💜",
+      "🎵",
+      "🌳"
+    ],
+    "triviaFact": "Pop superstars Selena Gomez and Demi Lovato both began their television entertainment careers as child cast members on Barney.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barney_%26_Friends",
+      "https://www.themoviedb.org/tv/2465-barney-friends"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-063",
+    "levelNumber": 63,
+    "titleId": "postman-pat-2004",
+    "fullTitle": "POSTMAN PAT",
+    "network": "JimJam",
+    "hintText": "Stop Motion show starring Postman Pat Clifton",
+    "emojis": [
+      "📮",
+      "🚐",
+      "🐈‍⬛",
+      "✉️"
+    ],
+    "triviaFact": "Postman Pat delivered mail in the scenic English valley of Greendale accompanied by his faithful black and white cat Jess.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Postman_Pat",
+      "https://www.themoviedb.org/tv/2466-postman-pat"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-064",
+    "levelNumber": 64,
+    "titleId": "kipper-1997",
+    "fullTitle": "KIPPER",
+    "network": "JimJam",
+    "hintText": "Pre-School show starring Kipper",
+    "emojis": [
+      "🐶",
+      "🧺",
+      "🎨",
+      "☀️"
+    ],
+    "triviaFact": "Martin Clunes voiced Kipper the dog, giving the hand-drawn watercolor series its warm, gentle, and relaxing narrative tone.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kipper_(TV_series)",
+      "https://www.themoviedb.org/tv/2467-kipper"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-065",
+    "levelNumber": 65,
+    "titleId": "angelina-ballerina-2001",
+    "fullTitle": "ANGELINA BALLERINA",
+    "network": "JimJam",
+    "hintText": "Musical show starring Angelina Mouseling",
+    "emojis": [
+      "🩰",
+      "🐭",
+      "🎀",
+      "🎭"
+    ],
+    "triviaFact": "Academy Award-winning actress Dame Finty Williams and her mother Dame Judi Dench both provided voices for the mouse characters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Angelina_Ballerina_(TV_series)",
+      "https://www.themoviedb.org/tv/2468-angelina-ballerina"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-066",
+    "levelNumber": 66,
+    "titleId": "roary-the-racing-car-2007",
+    "fullTitle": "ROARY THE RACING CAR",
+    "network": "JimJam",
+    "hintText": "Stop Motion show starring Roary",
+    "emojis": [
+      "🏎️",
+      "🏁",
+      "🔧",
+      "🏆"
+    ],
+    "triviaFact": "British comedy legend Peter Kay voiced Big Chris the absent-minded racing mechanic and sang several show songs.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roary_the_Racing_Car",
+      "https://www.themoviedb.org/tv/2469-roary-the-racing-car"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-067",
+    "levelNumber": 67,
+    "titleId": "fifi-and-the-flowertots-2005",
+    "fullTitle": "FIFI AND THE FLOWERTOTS",
+    "network": "JimJam",
+    "hintText": "Stop Motion show starring Fifi Forget-Me-Not",
+    "emojis": [
+      "🌸",
+      "🐝",
+      "🪴",
+      "🍯"
+    ],
+    "triviaFact": "Jane Horrocks (Bubble from Absolutely Fabulous) voiced the sweet titular forget-me-not flower heroine Fifi.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fifi_and_the_Flowertots",
+      "https://www.themoviedb.org/tv/2470-fifi-and-the-flowertots"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-068",
+    "levelNumber": 68,
+    "titleId": "oswald-2001",
+    "fullTitle": "OSWALD",
+    "network": "JimJam",
+    "hintText": "Pre-School show starring Oswald",
+    "emojis": [
+      "🐙",
+      "🎩",
+      "🌭",
+      "☕"
+    ],
+    "triviaFact": "Beloved comedy actor Fred Savage voiced the gentle blue octopus Oswald who lived in an apartment with his dachshund Weenie.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oswald_(TV_series)",
+      "https://www.themoviedb.org/tv/2471-oswald"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-069",
+    "levelNumber": 69,
+    "titleId": "rubbadubbers-2003",
+    "fullTitle": "RUBBADUBBERS",
+    "network": "JimJam",
+    "hintText": "Stop Motion show starring Tubb the Frog",
+    "emojis": [
+      "🛁",
+      "🐸",
+      "🦈",
+      "🫧"
+    ],
+    "triviaFact": "Every episode centered on bath toys daydreaming fantastical 'If Only' wish adventures whenever the bathroom door closed.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rubbadubbers",
+      "https://www.themoviedb.org/tv/2472-rubbadubbers"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-070",
+    "levelNumber": 70,
+    "titleId": "jakers-the-adventures-of-piggley-winks-2003",
+    "fullTitle": "JAKERS! THE ADVENTURES OF PIGGLEY WINKS",
+    "network": "JimJam",
+    "hintText": "CGI Animation show starring Piggley Winks",
+    "emojis": [
+      "🐷",
+      "🍀",
+      "🐑",
+      "🥧"
+    ],
+    "triviaFact": "Screen legend Mel Brooks provided the voice of Wiley the Sheep, who led a flock of philosophical talking sheep.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jakers!_The_Adventures_of_Piggley_Winks",
+      "https://www.themoviedb.org/tv/2473-jakers-the-adventures-of-piggley-winks"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-071",
+    "levelNumber": 71,
+    "titleId": "chuggington-2008",
+    "fullTitle": "CHUGGINGTON",
+    "network": "JimJam",
+    "hintText": "CGI Animation show starring Wilson",
+    "emojis": [
+      "🚆",
+      "🛤️",
+      "🛑",
+      "⚡"
+    ],
+    "triviaFact": "Directed by Sarah Ball, former director of Bob the Builder, teaching problem-solving to young locomotive trainees.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chuggington",
+      "https://www.themoviedb.org/tv/2474-chuggington"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-072",
+    "levelNumber": 72,
+    "titleId": "total-drama-island-2007",
+    "fullTitle": "TOTAL DRAMA ISLAND",
+    "network": "Teletoon & International",
+    "hintText": "Reality TV Parody show starring Chris McLean",
+    "emojis": [
+      "🏕️",
+      "🔥",
+      "🍢",
+      "🏝️"
+    ],
+    "triviaFact": "The series was animated in Flash and satirized reality survival TV like Survivor with comedic camp eliminations.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Total_Drama_Island",
+      "https://www.themoviedb.org/tv/3776-total-drama"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-073",
+    "levelNumber": 73,
+    "titleId": "6teen-2004",
+    "fullTitle": "6TEEN",
+    "network": "Teletoon & International",
+    "hintText": "Sitcom show starring Jude Lizowski",
+    "emojis": [
+      "🛍️",
+      "🍋",
+      "🛹",
+      "☕"
+    ],
+    "triviaFact": "The entire series was set inside a giant shopping mall where the six high school friends worked their first jobs.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/6teen",
+      "https://www.themoviedb.org/tv/2447-6teen"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-074",
+    "levelNumber": 74,
+    "titleId": "code-lyoko-2003",
+    "fullTitle": "CODE LYOKO",
+    "network": "Teletoon & International",
+    "hintText": "Sci-Fi show starring Jeremy Belpois",
+    "emojis": [
+      "💻",
+      "🗼",
+      "⚔️",
+      "👾"
+    ],
+    "triviaFact": "The series combined 2D hand-drawn animation for the boarding school with 3D CGI rendering for the digital Lyoko world.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Code_Lyoko",
+      "https://www.themoviedb.org/tv/2448-code-lyoko"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-075",
+    "levelNumber": 75,
+    "titleId": "winx-club-2004",
+    "fullTitle": "WINX CLUB",
+    "network": "Teletoon & International",
+    "hintText": "Fantasy show starring Bloom",
+    "emojis": [
+      "🧚‍♀️",
+      "✨",
+      "🔥",
+      "👗"
+    ],
+    "triviaFact": "Creator Iginio Straffi based Bloom's personality on his real-life wife Joanne Lee and actress Antonella Rossi.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Winx_Club",
+      "https://www.themoviedb.org/tv/2449-winx-club"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-076",
+    "levelNumber": 76,
+    "titleId": "martin-mystery-2003",
+    "fullTitle": "MARTIN MYSTERY",
+    "network": "Teletoon & International",
+    "hintText": "Horror show starring Martin Mystery",
+    "emojis": [
+      "🔍",
+      "⌚",
+      "👻",
+      "🦴"
+    ],
+    "triviaFact": "Adapted from Alfredo Castelli's Italian comic Martin Mystère, reimagining the adult investigator as an eccentric teen.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Martin_Mystery",
+      "https://www.themoviedb.org/tv/2450-martin-mystery"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-077",
+    "levelNumber": 77,
+    "titleId": "atomic-betty-2004",
+    "fullTitle": "ATOMIC BETTY",
+    "network": "Teletoon & International",
+    "hintText": "Sci-Fi show starring Betty Barrett",
+    "emojis": [
+      "🚀",
+      "👧",
+      "🛸",
+      "🪐"
+    ],
+    "triviaFact": "Betty concealed her secret identity as Galactic Guardian while attending middle school in Moose Jaw, Saskatchewan.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Atomic_Betty",
+      "https://www.themoviedb.org/tv/2451-atomic-betty"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-078",
+    "levelNumber": 78,
+    "titleId": "time-squad-2001",
+    "fullTitle": "TIME SQUAD",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Otto Osworth",
+    "emojis": [
+      "⏳",
+      "🤖",
+      "🚀"
+    ],
+    "triviaFact": "Otto was recruited from an orphanage because of his encyclopedic knowledge of world history.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Time_Squad",
+      "https://www.themoviedb.org/search?query=Time+Squad"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-079",
+    "levelNumber": 79,
+    "titleId": "whatever-happened-to-robot-jones?-2002",
+    "fullTitle": "WHATEVER HAPPENED TO... ROBOT JONES?",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Robot Jones",
+    "emojis": [
+      "🤖",
+      "🏫",
+      "💾"
+    ],
+    "triviaFact": "In the first season, Robot Jones was voiced by a real computer speech synthesizer program.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Whatever_Happened_to..._Robot_Jones?",
+      "https://www.themoviedb.org/search?query=Whatever+Happened+to...+Robot+Jones?"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-080",
+    "levelNumber": 80,
+    "titleId": "duck-dodgers-2003",
+    "fullTitle": "DUCK DODGERS",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Duck Dodgers",
+    "emojis": [
+      "🦆",
+      "🚀",
+      "🪐"
+    ],
+    "triviaFact": "Tom Jones sang the James Bond-style theme song with music composed by The Flaming Lips.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duck_Dodgers",
+      "https://www.themoviedb.org/search?query=Duck+Dodgers"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-081",
+    "levelNumber": 81,
+    "titleId": "robotboy-2005",
+    "fullTitle": "ROBOTBOY",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Robotboy",
+    "emojis": [
+      "🤖",
+      "🔋",
+      "🧒"
+    ],
+    "triviaFact": "Robotboy possessed three power stages: Deactivated, Activated, and combat Superactivated.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robotboy",
+      "https://www.themoviedb.org/search?query=Robotboy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-082",
+    "levelNumber": 82,
+    "titleId": "the-life-and-times-of-juniper-lee-2005",
+    "fullTitle": "THE LIFE AND TIMES OF JUNIPER LEE",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Juniper Lee",
+    "emojis": [
+      "🪄",
+      "👧",
+      "🐕"
+    ],
+    "triviaFact": "Created by Judd Winick, former MTV Real World cast member and acclaimed superhero comic writer.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Life_and_Times_of_Juniper_Lee",
+      "https://www.themoviedb.org/search?query=The+Life+and+Times+of+Juniper+Lee"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-083",
+    "levelNumber": 83,
+    "titleId": "squirrel-boy-2006",
+    "fullTitle": "SQUIRREL BOY",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Andy Johnson",
+    "emojis": [
+      "🐿️",
+      "👦",
+      "🌳"
+    ],
+    "triviaFact": "Created by Everett Peck, the creator of the cult 1990s animated series Duckman.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Squirrel_Boy",
+      "https://www.themoviedb.org/search?query=Squirrel+Boy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-084",
+    "levelNumber": 84,
+    "titleId": "ben-10-alien-force-2008",
+    "fullTitle": "BEN 10: ALIEN FORCE",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Ben Tennyson",
+    "emojis": [
+      "👽",
+      "⌚",
+      "🌱"
+    ],
+    "triviaFact": "Set five years after the original series with a mature 15-year-old Ben and recalibrated Omnitrix.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_10_Alien_Force",
+      "https://www.themoviedb.org/search?query=Ben+10+Alien+Force"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-085",
+    "levelNumber": 85,
+    "titleId": "ben-10-ultimate-alien-2010",
+    "fullTitle": "BEN 10: ULTIMATE ALIEN",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Ben Tennyson",
+    "emojis": [
+      "⚡",
+      "👽",
+      "🦾"
+    ],
+    "triviaFact": "Ben's secret identity was revealed to the world, turning him into a famous teen celebrity hero.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_10_Ultimate_Alien",
+      "https://www.themoviedb.org/search?query=Ben+10+Ultimate+Alien"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-086",
+    "levelNumber": 86,
+    "titleId": "sym-bionic-titan-2010",
+    "fullTitle": "SYM-BIONIC TITAN",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Ilana",
+    "emojis": [
+      "🤖",
+      "🛡️",
+      "🪐"
+    ],
+    "triviaFact": "Genndy Tartakovsky blended mecha combat with teenage drama influenced by 1980s John Hughes films.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sym-Bionic_Titan",
+      "https://www.themoviedb.org/search?query=Sym-Bionic+Titan"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-087",
+    "levelNumber": 87,
+    "titleId": "batman-the-brave-and-the-bold-2008",
+    "fullTitle": "BATMAN: THE BRAVE AND THE BOLD",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Batman",
+    "emojis": [
+      "🦇",
+      "🔱",
+      "🪲"
+    ],
+    "triviaFact": "Embraced the joyful, lighthearted camp of 1960s Silver Age comics with famous weekly guest heroes.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Batman_The_Brave_and_the_Bold",
+      "https://www.themoviedb.org/search?query=Batman+The+Brave+and+the+Bold"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-088",
+    "levelNumber": 88,
+    "titleId": "young-justice-2010",
+    "fullTitle": "YOUNG JUSTICE",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Dick Grayson",
+    "emojis": [
+      "🏹",
+      "⚡",
+      "🦸"
+    ],
+    "triviaFact": "Kaldur'ahm (Aqualad) was designed for the show before debuting in DC Comics Brightest Day.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Young_Justice",
+      "https://www.themoviedb.org/search?query=Young+Justice"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-089",
+    "levelNumber": 89,
+    "titleId": "xiaolin-showdown-2003",
+    "fullTitle": "XIAOLIN SHOWDOWN",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Omi",
+    "emojis": [
+      "🥋",
+      "🐉",
+      "🔮"
+    ],
+    "triviaFact": "Whenever two warriors grasped an artifact at once, reality shifted into a mystical martial arena.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Xiaolin_Showdown",
+      "https://www.themoviedb.org/search?query=Xiaolin+Showdown"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-090",
+    "levelNumber": 90,
+    "titleId": "¡mucha-lucha-2002",
+    "fullTitle": "¡MUCHA LUCHA!",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Rikochet",
+    "emojis": [
+      "🤼",
+      "🎭",
+      "💥"
+    ],
+    "triviaFact": "The very first animated television series made entirely using Adobe Flash vector animation.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/¡Mucha_Lucha!",
+      "https://www.themoviedb.org/search?query=¡Mucha+Lucha!"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-091",
+    "levelNumber": 91,
+    "titleId": "totally-spies-2001",
+    "fullTitle": "TOTALLY SPIES!",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Sam",
+    "emojis": [
+      "💄",
+      "🕶️",
+      "👗"
+    ],
+    "triviaFact": "French-Canadian co-production broadcast globally, inspired by anime aesthetics and spy films.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Totally_Spies!",
+      "https://www.themoviedb.org/search?query=Totally+Spies!"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-092",
+    "levelNumber": 92,
+    "titleId": "hi-hi-puffy-amiyumi-2004",
+    "fullTitle": "HI HI PUFFY AMIYUMI",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Ami Onuki",
+    "emojis": [
+      "🎸",
+      "🎤",
+      "🚌"
+    ],
+    "triviaFact": "Based on real-life J-pop rock band PUFFY, who provided live-action greetings for every episode.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hi_Hi_Puffy_AmiYumi",
+      "https://www.themoviedb.org/search?query=Hi+Hi+Puffy+AmiYumi"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-093",
+    "levelNumber": 93,
+    "titleId": "the-secret-saturdays-2008",
+    "fullTitle": "THE SECRET SATURDAYS",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Zak Saturday",
+    "emojis": [
+      "🦎",
+      "🦍",
+      "🗺️"
+    ],
+    "triviaFact": "Jay Stephens pitched the show inspired by 1960s Hanna-Barbera adventure serials like Jonny Quest.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Secret_Saturdays",
+      "https://www.themoviedb.org/search?query=The+Secret+Saturdays"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-094",
+    "levelNumber": 94,
+    "titleId": "storm-hawks-2007",
+    "fullTitle": "STORM HAWKS",
+    "network": "Cartoon Network",
+    "hintText": "Animation show starring Aerrow",
+    "emojis": [
+      "🦅",
+      "🏍️",
+      "⚡"
+    ],
+    "triviaFact": "Characters piloted transformable motorcycle-gliders called Skimmers powered by energy crystals.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Storm_Hawks",
+      "https://www.themoviedb.org/search?query=Storm+Hawks"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-095",
+    "levelNumber": 95,
+    "titleId": "rocket-power-2000",
+    "fullTitle": "ROCKET POWER",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Otto Rocket",
+    "emojis": [
+      "🛹",
+      "🏄‍♂️",
+      "🌴"
+    ],
+    "triviaFact": "The creators hired professional action sports athletes as consultants for authentic trick names.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rocket_Power",
+      "https://www.themoviedb.org/search?query=Rocket+Power"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-096",
+    "levelNumber": 96,
+    "titleId": "the-wild-thornberrys-2000",
+    "fullTitle": "THE WILD THORNBERRYS",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Eliza Thornberry",
+    "emojis": [
+      "🚐",
+      "🐒",
+      "🌍"
+    ],
+    "triviaFact": "Eliza received her secret gift to speak with animals from an African warthog shaman named Mnyambo.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Wild_Thornberrys",
+      "https://www.themoviedb.org/search?query=The+Wild+Thornberrys"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-097",
+    "levelNumber": 97,
+    "titleId": "as-told-by-ginger-2000",
+    "fullTitle": "AS TOLD BY GINGER",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Ginger Foutley",
+    "emojis": [
+      "📔",
+      "👧",
+      "🏫"
+    ],
+    "triviaFact": "Unlike most cartoons, characters wore different outfits in every episode and grew up naturally.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/As_Told_by_Ginger",
+      "https://www.themoviedb.org/search?query=As+Told+by+Ginger"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-098",
+    "levelNumber": 98,
+    "titleId": "kappa-mikey-2006",
+    "fullTitle": "KAPPA MIKEY",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Mikey Simon",
+    "emojis": [
+      "🇯🇵",
+      "📺",
+      "🍜"
+    ],
+    "triviaFact": "Combined American flat cartoon styling for Mikey with anime parody styling for Japanese characters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kappa_Mikey",
+      "https://www.themoviedb.org/search?query=Kappa+Mikey"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-099",
+    "levelNumber": 99,
+    "titleId": "wayside-2007",
+    "fullTitle": "WAYSIDE",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Todd",
+    "emojis": [
+      "🏫",
+      "🛼",
+      "🐄"
+    ],
+    "triviaFact": "Based on Louis Sachar's best-selling Sideways Stories from Wayside School book series.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wayside",
+      "https://www.themoviedb.org/search?query=Wayside"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-100",
+    "levelNumber": 100,
+    "titleId": "the-mighty-b-2008",
+    "fullTitle": "THE MIGHTY B!",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Bessie Higgenbottom",
+    "emojis": [
+      "🐝",
+      "🏅",
+      "👧"
+    ],
+    "triviaFact": "Amy Poehler based Bessie's unstoppable enthusiasm on her real childhood girl scout memories.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Mighty_B!",
+      "https://www.themoviedb.org/search?query=The+Mighty+B!"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-101",
+    "levelNumber": 101,
+    "titleId": "back-at-the-barnyard-2007",
+    "fullTitle": "BACK AT THE BARNYARD",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Otis",
+    "emojis": [
+      "🐮",
+      "🚜",
+      "🥛"
+    ],
+    "triviaFact": "Despite being a bull, Otis was animated with udders as a surreal comedic choice by Oedekerk.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Back_at_the_Barnyard",
+      "https://www.themoviedb.org/search?query=Back+at+the+Barnyard"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-102",
+    "levelNumber": 102,
+    "titleId": "catscratch-2005",
+    "fullTitle": "CATSCRATCH",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Mr. Blik",
+    "emojis": [
+      "🐱",
+      "🏰",
+      "🍺"
+    ],
+    "triviaFact": "Wayne Knight (Newman on Seinfeld) voiced the bossy, aristocratic black cat Mr. Blik.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Catscratch",
+      "https://www.themoviedb.org/search?query=Catscratch"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-103",
+    "levelNumber": 103,
+    "titleId": "the-penguins-of-madagascar-2008",
+    "fullTitle": "THE PENGUINS OF MADAGASCAR",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Skipper",
+    "emojis": [
+      "🐧",
+      "👑",
+      "💣"
+    ],
+    "triviaFact": "The premiere episode drew 6.1 million viewers, one of Nick's biggest animated debuts ever.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Penguins_of_Madagascar",
+      "https://www.themoviedb.org/search?query=The+Penguins+of+Madagascar"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-104",
+    "levelNumber": 104,
+    "titleId": "the-legend-of-korra-2012",
+    "fullTitle": "THE LEGEND OF KORRA",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Korra",
+    "emojis": [
+      "🌊",
+      "🔥",
+      "💨"
+    ],
+    "triviaFact": "Originally greenlit as a 12-episode mini-series before expanding to 4 full televised seasons.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Legend_of_Korra",
+      "https://www.themoviedb.org/search?query=The+Legend+of+Korra"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-105",
+    "levelNumber": 105,
+    "titleId": "tuff-puppy-2010",
+    "fullTitle": "T.U.F.F. PUPPY",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Dudley Puppy",
+    "emojis": [
+      "🐶",
+      "🐱",
+      "🚨"
+    ],
+    "triviaFact": "Butch Hartman's third original Nicktoon series, pairing an energetic dog with a superspy cat.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/T.U.F.F._Puppy",
+      "https://www.themoviedb.org/search?query=T.U.F.F.+Puppy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-106",
+    "levelNumber": 106,
+    "titleId": "fanboy-and-chum-chum-2009",
+    "fullTitle": "FANBOY & CHUM CHUM",
+    "network": "Nickelodeon",
+    "hintText": "Animation show starring Fanboy",
+    "emojis": [
+      "🦸",
+      "🥤",
+      "🍦"
+    ],
+    "triviaFact": "The premiere scored 5.8 million viewers following SpongeBob's Truth or Square event.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fanboy_&_Chum_Chum",
+      "https://www.themoviedb.org/search?query=Fanboy+&+Chum+Chum"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-107",
+    "levelNumber": 107,
+    "titleId": "the-emperors-new-school-2006",
+    "fullTitle": "THE EMPEROR'S NEW SCHOOL",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Kuzco",
+    "emojis": [
+      "🦙",
+      "👑",
+      "🏫"
+    ],
+    "triviaFact": "Eartha Kitt and Patrick Warburton reprised their beloved film roles as Yzma and Kronk.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Emperor's_New_School",
+      "https://www.themoviedb.org/search?query=The+Emperor's+New+School"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-108",
+    "levelNumber": 108,
+    "titleId": "dave-the-barbarian-2004",
+    "fullTitle": "DAVE THE BARBARIAN",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Dave",
+    "emojis": [
+      "🛡️",
+      "🗡️",
+      "🧶"
+    ],
+    "triviaFact": "Narrated by voice icon Jeff Bennett, who frequently traded witty banter with the characters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dave_the_Barbarian",
+      "https://www.themoviedb.org/search?query=Dave+the+Barbarian"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-109",
+    "levelNumber": 109,
+    "titleId": "fillmore-2002",
+    "fullTitle": "FILLMORE!",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Cornelius Fillmore",
+    "emojis": [
+      "🚨",
+      "🔍",
+      "🏫"
+    ],
+    "triviaFact": "Created by Scott M. Gimple, who later became showrunner of The Walking Dead TV universe.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fillmore!",
+      "https://www.themoviedb.org/search?query=Fillmore!"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-110",
+    "levelNumber": 110,
+    "titleId": "house-of-mouse-2001",
+    "fullTitle": "HOUSE OF MOUSE",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Mickey Mouse",
+    "emojis": [
+      "🐭",
+      "🎭",
+      "🍽️"
+    ],
+    "triviaFact": "The club audience seated cartoon characters from almost every classic Disney animated film.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/House_of_Mouse",
+      "https://www.themoviedb.org/search?query=House+of+Mouse"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-111",
+    "levelNumber": 111,
+    "titleId": "the-replacements-2006",
+    "fullTitle": "THE REPLACEMENTS",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Todd Daring",
+    "emojis": [
+      "📱",
+      "🚗",
+      "🕵️‍♀️"
+    ],
+    "triviaFact": "Created by author Dan Santat, who later won the prestigious Caldecott Medal for Beekle.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Replacements",
+      "https://www.themoviedb.org/search?query=The+Replacements"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-112",
+    "levelNumber": 112,
+    "titleId": "kick-buttowski-suburban-daredevil-2010",
+    "fullTitle": "KICK BUTTOWSKI: SUBURBAN DAREDEVIL",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Kick Buttowski",
+    "emojis": [
+      "🛹",
+      "🪖",
+      "💥"
+    ],
+    "triviaFact": "Kick was deliberately designed without visible hair or ears, wearing an iconic stunt helmet.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kick_Buttowski_Suburban_Daredevil",
+      "https://www.themoviedb.org/search?query=Kick+Buttowski+Suburban+Daredevil"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-113",
+    "levelNumber": 113,
+    "titleId": "gravity-falls-2012",
+    "fullTitle": "GRAVITY FALLS",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Dipper Pines",
+    "emojis": [
+      "🌲",
+      "📖",
+      "👁️"
+    ],
+    "triviaFact": "Every episode concluded with hidden secret ciphers decipherable using Caesar and Atbash keys.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gravity_Falls",
+      "https://www.themoviedb.org/search?query=Gravity+Falls"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-114",
+    "levelNumber": 114,
+    "titleId": "brandy-and-mr-whiskers-2004",
+    "fullTitle": "BRANDY & MR. WHISKERS",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Brandy Harrington",
+    "emojis": [
+      "🐕",
+      "🐰",
+      "🌴"
+    ],
+    "triviaFact": "Brandy was an aristocratic Florida show-dog who accidentally tumbled into the Amazon.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brandy_&_Mr._Whiskers",
+      "https://www.themoviedb.org/search?query=Brandy+&+Mr.+Whiskers"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-115",
+    "levelNumber": 115,
+    "titleId": "motorcity-2012",
+    "fullTitle": "MOTORCITY",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Mike Chilton",
+    "emojis": [
+      "🚗",
+      "⚡",
+      "🏙️"
+    ],
+    "triviaFact": "Produced by animation studio Titmouse featuring dynamic hand-drawn vehicle drift physics.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Motorcity",
+      "https://www.themoviedb.org/search?query=Motorcity"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-116",
+    "levelNumber": 116,
+    "titleId": "randy-cunningham-9th-grade-ninja-2012",
+    "fullTitle": "RANDY CUNNINGHAM: 9TH GRADE NINJA",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Animation show starring Randy Cunningham",
+    "emojis": [
+      "🥷",
+      "📖",
+      "💣"
+    ],
+    "triviaFact": "A high school freshman inherits an ancient mystical guide passed down for 800 years.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Randy_Cunningham_9th_Grade_Ninja",
+      "https://www.themoviedb.org/search?query=Randy+Cunningham+9th+Grade+Ninja"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-117",
+    "levelNumber": 117,
+    "titleId": "legion-of-super-heroes-2006",
+    "fullTitle": "LEGION OF SUPER HEROES",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Superman",
+    "emojis": [
+      "🦸‍♂️",
+      "💍",
+      "🚀"
+    ],
+    "triviaFact": "Followed a young Superman traveling to the 31st century to lead the United Planets heroes.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Legion_of_Super_Heroes",
+      "https://www.themoviedb.org/search?query=Legion+of+Super+Heroes"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-118",
+    "levelNumber": 118,
+    "titleId": "wolverine-and-the-x-men-2009",
+    "fullTitle": "WOLVERINE AND THE X-MEN",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Wolverine",
+    "emojis": [
+      "🐺",
+      "⚔️",
+      "🤖"
+    ],
+    "triviaFact": "Followed Wolverine reuniting the X-Men after receiving psychic alerts from future Professor X.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wolverine_and_the_X-Men",
+      "https://www.themoviedb.org/search?query=Wolverine+and+the+X-Men"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-119",
+    "levelNumber": 119,
+    "titleId": "transformers-animated-2007",
+    "fullTitle": "TRANSFORMERS: ANIMATED",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Optimus Prime",
+    "emojis": [
+      "🚗",
+      "🤖",
+      "🏙️"
+    ],
+    "triviaFact": "Art director Derrick J. Wyatt designed exaggerated angular silhouettes for the Transformers.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Transformers_Animated",
+      "https://www.themoviedb.org/search?query=Transformers+Animated"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-120",
+    "levelNumber": 120,
+    "titleId": "cyberchase-2002",
+    "fullTitle": "CYBERCHASE",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Jackie",
+    "emojis": [
+      "💻",
+      "🔢",
+      "🦜"
+    ],
+    "triviaFact": "Legendary comedian Gilbert Gottfried voiced the cybird sidekick Digit LeBoid for decades.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cyberchase",
+      "https://www.themoviedb.org/search?query=Cyberchase"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-121",
+    "levelNumber": 121,
+    "titleId": "clone-high-2002",
+    "fullTitle": "CLONE HIGH",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Abe Lincoln",
+    "emojis": [
+      "🏫",
+      "🧬",
+      "🎩"
+    ],
+    "triviaFact": "Lord and Miller later directed The Lego Movie, 21 Jump Street, and produced Spider-Verse.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Clone_High",
+      "https://www.themoviedb.org/search?query=Clone+High"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-122",
+    "levelNumber": 122,
+    "titleId": "kirby-right-back-at-ya-2002",
+    "fullTitle": "KIRBY: RIGHT BACK AT YA!",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Kirby",
+    "emojis": [
+      "⭐",
+      "🔨",
+      "👑"
+    ],
+    "triviaFact": "Game creator Masahiro Sakurai personally supervised production blending 2D and 3D Kirby.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kirby_Right_Back_at_Ya!",
+      "https://www.themoviedb.org/search?query=Kirby+Right+Back+at+Ya!"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-123",
+    "levelNumber": 123,
+    "titleId": "shaman-king-2001",
+    "fullTitle": "SHAMAN KING",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Yoh Asakura",
+    "emojis": [
+      "⚔️",
+      "👻",
+      "🌸"
+    ],
+    "triviaFact": "Introduced millions of Western children to spirit integration and the Shaman Tournament.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shaman_King",
+      "https://www.themoviedb.org/search?query=Shaman+King"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-124",
+    "levelNumber": 124,
+    "titleId": "yu-gi-oh-5ds-2008",
+    "fullTitle": "YU-GI-OH! 5D'S",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Yusei Fudo",
+    "emojis": [
+      "🏍️",
+      "🃏",
+      "🐉"
+    ],
+    "triviaFact": "Pioneered Turbo Duels played on specialized motorcycles called Duel Runners.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yu-Gi-Oh!_5D's",
+      "https://www.themoviedb.org/search?query=Yu-Gi-Oh!+5D's"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-125",
+    "levelNumber": 125,
+    "titleId": "dinosaur-king-2007",
+    "fullTitle": "DINOSAUR KING",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Max Taylor",
+    "emojis": [
+      "🦖",
+      "🃏",
+      "⚡"
+    ],
+    "triviaFact": "Kids summoned living dinosaurs in battle by swiping cards through handheld stone Dino Holders.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dinosaur_King",
+      "https://www.themoviedb.org/search?query=Dinosaur+King"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-126",
+    "levelNumber": 126,
+    "titleId": "chaotic-2006",
+    "fullTitle": "CHAOTIC",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Tom Majors",
+    "emojis": [
+      "🃏",
+      "💻",
+      "👾"
+    ],
+    "triviaFact": "Allowed card players to scan real-world creatures in Perim to use in digital drome matches.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chaotic",
+      "https://www.themoviedb.org/search?query=Chaotic"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-127",
+    "levelNumber": 127,
+    "titleId": "huntik-secrets-and-seekers-2009",
+    "fullTitle": "HUNTIK: SECRETS & SEEKERS",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Lok Lambert",
+    "emojis": [
+      "💎",
+      "📜",
+      "⚔️"
+    ],
+    "triviaFact": "Seekers bonded with legendary Titans inside ancient mystical amulets across European ruins.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Huntik_Secrets_&_Seekers",
+      "https://www.themoviedb.org/search?query=Huntik+Secrets+&+Seekers"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-128",
+    "levelNumber": 128,
+    "titleId": "ozzy-and-drix-2002",
+    "fullTitle": "OZZY & DRIX",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Animation show starring Ozzy",
+    "emojis": [
+      "💊",
+      "🦠",
+      "🧬"
+    ],
+    "triviaFact": "Spun off from Osmosis Jones into the body of teenage Hector Cruz in a bustling bodily metropolis.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ozzy_&_Drix",
+      "https://www.themoviedb.org/search?query=Ozzy+&+Drix"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-129",
+    "levelNumber": 129,
+    "titleId": "dennis-the-menace-2000",
+    "fullTitle": "DENNIS THE MENACE",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Dennis Mitchell",
+    "emojis": [
+      "👦",
+      "👴",
+      "🐕"
+    ],
+    "triviaFact": "KidsCo broadcast the classic animated adventures of Dennis driving poor Mr. Wilson crazy.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dennis_the_Menace",
+      "https://www.themoviedb.org/search?query=Dennis+the+Menace"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-130",
+    "levelNumber": 130,
+    "titleId": "inspector-gadgets-field-trip-2000",
+    "fullTitle": "INSPECTOR GADGET'S FIELD TRIP",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Inspector Gadget",
+    "emojis": [
+      "🕵️",
+      "🌍",
+      "🏛️"
+    ],
+    "triviaFact": "Blended animation with live-action documentary footage of world historical landmarks.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Inspector_Gadget's_Field_Trip",
+      "https://www.themoviedb.org/search?query=Inspector+Gadget's+Field+Trip"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-131",
+    "levelNumber": 131,
+    "titleId": "sonic-underground-2000",
+    "fullTitle": "SONIC UNDERGROUND",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Sonic",
+    "emojis": [
+      "🦔",
+      "🎸",
+      "👑"
+    ],
+    "triviaFact": "Sonic and his royal hedgehog siblings used magical musical instruments to fight Robotnik.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sonic_Underground",
+      "https://www.themoviedb.org/search?query=Sonic+Underground"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-132",
+    "levelNumber": 132,
+    "titleId": "heathcliff-and-the-catillac-cats-2000",
+    "fullTitle": "HEATHCLIFF AND THE CATILLAC CATS",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Heathcliff",
+    "emojis": [
+      "🐱",
+      "🐟",
+      "🗑️"
+    ],
+    "triviaFact": "A prominent syndicated staple on KidsCo following the wisecracking orange street cat.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Heathcliff_and_the_Catillac_Cats",
+      "https://www.themoviedb.org/search?query=Heathcliff+and+the+Catillac+Cats"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-133",
+    "levelNumber": 133,
+    "titleId": "rupert-2000",
+    "fullTitle": "RUPERT",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Rupert Bear",
+    "emojis": [
+      "🐻",
+      "🧣",
+      "🌲"
+    ],
+    "triviaFact": "Adapted from the classic British Daily Express newspaper comic strip created in 1920.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rupert",
+      "https://www.themoviedb.org/search?query=Rupert"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-134",
+    "levelNumber": 134,
+    "titleId": "danger-rangers-2005",
+    "fullTitle": "DANGER RANGERS",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Sully",
+    "emojis": [
+      "🚨",
+      "🦺",
+      "🛑"
+    ],
+    "triviaFact": "KidsCo educational safety series designed to teach kids home safety, water safety, and road rules.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Danger_Rangers",
+      "https://www.themoviedb.org/search?query=Danger+Rangers"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-135",
+    "levelNumber": 135,
+    "titleId": "grossology-2006",
+    "fullTitle": "GROSSOLOGY",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Ty Archer",
+    "emojis": [
+      "🔬",
+      "🤢",
+      "🧪"
+    ],
+    "triviaFact": "Followed teen crimefighters investigating bizarre science mysteries and bio-hazards.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grossology",
+      "https://www.themoviedb.org/search?query=Grossology"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-136",
+    "levelNumber": 136,
+    "titleId": "the-wacky-world-of-tex-avery-2000",
+    "fullTitle": "THE WACKY WORLD OF TEX AVERY",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Tex Avery",
+    "emojis": [
+      "💥",
+      "🤠",
+      "🔨"
+    ],
+    "triviaFact": "Paid homage to the outrageous golden age cartoon sight-gags created by animator Tex Avery.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Wacky_World_of_Tex_Avery",
+      "https://www.themoviedb.org/search?query=The+Wacky+World+of+Tex+Avery"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-137",
+    "levelNumber": 137,
+    "titleId": "sherlock-holmes-in-the-22nd-century-2000",
+    "fullTitle": "SHERLOCK HOLMES IN THE 22ND CENTURY",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Sherlock Holmes",
+    "emojis": [
+      "🕵️",
+      "🚀",
+      "🔍"
+    ],
+    "triviaFact": "Revived the legendary Victorian detective in futuristic cyberpunk London with a robotic Watson.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sherlock_Holmes_in_the_22nd_Century",
+      "https://www.themoviedb.org/search?query=Sherlock+Holmes+in+the+22nd+Century"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-138",
+    "levelNumber": 138,
+    "titleId": "horseland-2006",
+    "fullTitle": "HORSELAND",
+    "network": "KidsCo",
+    "hintText": "Animation show starring Sarah Whitney",
+    "emojis": [
+      "🐎",
+      "🎀",
+      "🌾"
+    ],
+    "triviaFact": "Showcased young equestrian students bonding with their horses at a scenic riding academy.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Horseland",
+      "https://www.themoviedb.org/search?query=Horseland"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-139",
+    "levelNumber": 139,
+    "titleId": "noddy-in-toyland-2009",
+    "fullTitle": "NODDY IN TOYLAND",
+    "network": "JimJam",
+    "hintText": "Animation show starring Noddy",
+    "emojis": [
+      "🚗",
+      "🔔",
+      "🧸"
+    ],
+    "triviaFact": "Based on Enid Blyton's iconic character, featuring Noddy driving his signature yellow car.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Noddy_in_Toyland",
+      "https://www.themoviedb.org/search?query=Noddy+in+Toyland"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-140",
+    "levelNumber": 140,
+    "titleId": "connie-the-cow-2001",
+    "fullTitle": "CONNIE THE COW",
+    "network": "JimJam",
+    "hintText": "Animation show starring Connie",
+    "emojis": [
+      "🐮",
+      "🌸",
+      "🦉"
+    ],
+    "triviaFact": "Connie explored farm animals and nature with a colorful patchwork coat in gentle storytelling.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Connie_the_Cow",
+      "https://www.themoviedb.org/search?query=Connie+the+Cow"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-141",
+    "levelNumber": 141,
+    "titleId": "tiny-planets-2001",
+    "fullTitle": "TINY PLANETS",
+    "network": "JimJam",
+    "hintText": "Animation show starring Bing",
+    "emojis": [
+      "🪐",
+      "🚀",
+      "🛋️"
+    ],
+    "triviaFact": "Followed two furry white aliens visiting miniature planets to solve practical science concepts.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tiny_Planets",
+      "https://www.themoviedb.org/search?query=Tiny+Planets"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-142",
+    "levelNumber": 142,
+    "titleId": "mumble-bumble-2000",
+    "fullTitle": "MUMBLE BUMBLE",
+    "network": "JimJam",
+    "hintText": "Animation show starring Mumble",
+    "emojis": [
+      "🦛",
+      "🎵",
+      "🎈"
+    ],
+    "triviaFact": "A whimsical preschool title following a jovial blue hippopotamus and his animal companions.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mumble_Bumble",
+      "https://www.themoviedb.org/search?query=Mumble+Bumble"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-143",
+    "levelNumber": 143,
+    "titleId": "wobbly-land-2007",
+    "fullTitle": "WOBBLY LAND",
+    "network": "JimJam",
+    "hintText": "Animation show starring Wobbly Friends",
+    "emojis": [
+      "🍮",
+      "🌈",
+      "🎈"
+    ],
+    "triviaFact": "A vibrant stop-motion world made entirely out of colorful wobbling jelly and tactile textures.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wobbly_Land",
+      "https://www.themoviedb.org/search?query=Wobbly+Land"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-144",
+    "levelNumber": 144,
+    "titleId": "igloo-gloo-2005",
+    "fullTitle": "IGLOO-GLOO",
+    "network": "JimJam",
+    "hintText": "Animation show starring Snowflake",
+    "emojis": [
+      "❄️",
+      "🧊",
+      "🦭"
+    ],
+    "triviaFact": "Two joyful baby seal puppets explored curious objects that fell from the sky onto their iceberg.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Igloo-Gloo",
+      "https://www.themoviedb.org/search?query=Igloo-Gloo"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-145",
+    "levelNumber": 145,
+    "titleId": "rubbadubbers-tubbs-pirate-treasure-2003",
+    "fullTitle": "RUBBADUBBERS: TUBB'S PIRATE TREASURE",
+    "network": "JimJam",
+    "hintText": "Animation show starring Tubb",
+    "emojis": [
+      "🏴‍☠️",
+      "🛁",
+      "🪙"
+    ],
+    "triviaFact": "Tubb imagined commanding a grand bubble pirate ship across an ocean of soapy warm water.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rubbadubbers_Tubb's_Pirate_Treasure",
+      "https://www.themoviedb.org/search?query=Rubbadubbers+Tubb's+Pirate+Treasure"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-146",
+    "levelNumber": 146,
+    "titleId": "bob-the-builder-project-build-it-2005",
+    "fullTitle": "BOB THE BUILDER: PROJECT: BUILD IT",
+    "network": "JimJam",
+    "hintText": "Animation show starring Bob",
+    "emojis": [
+      "🌻",
+      "👷‍♂️",
+      "🏗️"
+    ],
+    "triviaFact": "Rebooted the construction series with an emphasis on sustainable green building and solar energy.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bob_the_Builder_Project_Build_It",
+      "https://www.themoviedb.org/search?query=Bob+the+Builder+Project+Build+It"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-147",
+    "levelNumber": 147,
+    "titleId": "thomas-and-friends-calling-all-engines-2005",
+    "fullTitle": "THOMAS & FRIENDS: CALLING ALL ENGINES!",
+    "network": "JimJam",
+    "hintText": "Animation show starring Thomas",
+    "emojis": [
+      "✈️",
+      "🚂",
+      "🤝"
+    ],
+    "triviaFact": "Feature-length television special where steam engines and diesel engines united to build Sodor Airport.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_&_Friends_Calling_All_Engines!",
+      "https://www.themoviedb.org/search?query=Thomas+&+Friends+Calling+All+Engines!"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-148",
+    "levelNumber": 148,
+    "titleId": "fireman-sam-the-great-fire-of-pontypandy-2009",
+    "fullTitle": "FIREMAN SAM: THE GREAT FIRE OF PONTYPANDY",
+    "network": "JimJam",
+    "hintText": "Animation show starring Fireman Sam",
+    "emojis": [
+      "🌲",
+      "🔥",
+      "🚒"
+    ],
+    "triviaFact": "Broadcast worldwide on JimJam highlighting forest fire prevention and brave emergency teamwork.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fireman_Sam_The_Great_Fire_of_Pontypandy",
+      "https://www.themoviedb.org/search?query=Fireman+Sam+The+Great+Fire+of+Pontypandy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-149",
+    "levelNumber": 149,
+    "titleId": "total-drama-action-2009",
+    "fullTitle": "TOTAL DRAMA ACTION",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Duncan",
+    "emojis": [
+      "🎬",
+      "🍿",
+      "🏆"
+    ],
+    "triviaFact": "Set in an abandoned Hollywood movie lot where weekly challenges spoofed cinema genres.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Total_Drama_Action",
+      "https://www.themoviedb.org/search?query=Total+Drama+Action"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-150",
+    "levelNumber": 150,
+    "titleId": "total-drama-world-tour-2010",
+    "fullTitle": "TOTAL DRAMA WORLD TOUR",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Alejandro",
+    "emojis": [
+      "✈️",
+      "🎤",
+      "🌍"
+    ],
+    "triviaFact": "Contestants circled the planet aboard a creaky airplane and were required to sing musical songs.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Total_Drama_World_Tour",
+      "https://www.themoviedb.org/search?query=Total+Drama+World+Tour"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-151",
+    "levelNumber": 151,
+    "titleId": "total-drama-revenge-of-the-island-2012",
+    "fullTitle": "TOTAL DRAMA: REVENGE OF THE ISLAND",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Mike",
+    "emojis": [
+      "☢️",
+      "🏝️",
+      "⚡"
+    ],
+    "triviaFact": "Introduced an all-new generation of contestants to a radioactive Camp Wawanakwa.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Total_Drama_Revenge_of_the_Island",
+      "https://www.themoviedb.org/search?query=Total+Drama+Revenge+of+the+Island"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-152",
+    "levelNumber": 152,
+    "titleId": "skyland-2005",
+    "fullTitle": "SKYLAND",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Mahad",
+    "emojis": [
+      "☁️",
+      "⚡",
+      "🛸"
+    ],
+    "triviaFact": "Pioneered motion-captured 3D animation set in an Earth shattered into floating atmospheric blocks.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Skyland",
+      "https://www.themoviedb.org/search?query=Skyland"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-153",
+    "levelNumber": 153,
+    "titleId": "whats-with-andy?-2001",
+    "fullTitle": "WHAT'S WITH ANDY?",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Andy Larkin",
+    "emojis": [
+      "🤪",
+      "🎭",
+      "🏫"
+    ],
+    "triviaFact": "Based on Andy Griffiths' books, celebrating a relentless middle-school prankster prodigy.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/What's_with_Andy?",
+      "https://www.themoviedb.org/search?query=What's+with+Andy?"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-154",
+    "levelNumber": 154,
+    "titleId": "creepschool-2004",
+    "fullTitle": "CREEPSCHOOL",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Elliott",
+    "emojis": [
+      "👻",
+      "🏫",
+      "🦇"
+    ],
+    "triviaFact": "Four teenagers discover their remote boarding school is secretly populated by charming monsters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Creepschool",
+      "https://www.themoviedb.org/search?query=Creepschool"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-155",
+    "levelNumber": 155,
+    "titleId": "he-man-and-the-masters-of-the-universe-2002",
+    "fullTitle": "HE-MAN AND THE MASTERS OF THE UNIVERSE",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring He-Man",
+    "emojis": [
+      "⚔️",
+      "🏰",
+      "⚡"
+    ],
+    "triviaFact": "A modern reboot giving deep lore, backstories, and martial choreography to Eternian warriors.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/He-Man_and_the_Masters_of_the_Universe",
+      "https://www.themoviedb.org/search?query=He-Man+and+the+Masters+of+the+Universe"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-156",
+    "levelNumber": 156,
+    "titleId": "medabots-2001",
+    "fullTitle": "MEDABOTS",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Ikki Tenryo",
+    "emojis": [
+      "🤖",
+      "🏅",
+      "🥊"
+    ],
+    "triviaFact": "Kids engaged in competitive street Robattles using modular robots powered by ancient medals.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Medabots",
+      "https://www.themoviedb.org/search?query=Medabots"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-157",
+    "levelNumber": 157,
+    "titleId": "megaman-nt-warrior-2002",
+    "fullTitle": "MEGAMAN NT WARRIOR",
+    "network": "Teletoon & International",
+    "hintText": "Animation show starring Lan Hikari",
+    "emojis": [
+      "💾",
+      "🤖",
+      "🌐"
+    ],
+    "triviaFact": "Pioneered the Battle Network universe where human operators jack into cyber battle arenas.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/MegaMan_NT_Warrior",
+      "https://www.themoviedb.org/search?query=MegaMan+NT+Warrior"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-158",
+    "levelNumber": 158,
+    "titleId": "ben-10-2005",
+    "fullTitle": "BEN 10",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2005)",
+    "emojis": [
+      "👦",
+      "⌚",
+      "👽",
+      "🔟"
+    ],
+    "triviaFact": "The Omnitrix was originally designed to transform Ben into 10 different human superheroes before alien heroes were chosen.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_10_(2005_TV_series)",
+      "https://www.themoviedb.org/tv/4254-ben-10"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-159",
+    "levelNumber": 159,
+    "titleId": "teen-titans-2003",
+    "fullTitle": "TEEN TITANS",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2003)",
+    "emojis": [
+      "🦸",
+      "🗼",
+      "🍕",
+      "🖤",
+      "🦅"
+    ],
+    "triviaFact": "Japanese pop duo Puffy AmiYumi recorded both the English and Japanese versions of the iconic opening theme song.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Teen_Titans_(TV_series)",
+      "https://www.themoviedb.org/tv/4207-teen-titans"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-160",
+    "levelNumber": 160,
+    "titleId": "samurai-jack-2001",
+    "fullTitle": "SAMURAI JACK",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2001)",
+    "emojis": [
+      "🗡️",
+      "🥋",
+      "⏳",
+      "👹"
+    ],
+    "triviaFact": "The series drew visual inspiration from Frank Miller's Ronin comic and classic samurai cinema with minimal dialogue.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samurai_Jack",
+      "https://www.televisionacademy.com/shows/samurai-jack"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-161",
+    "levelNumber": 161,
+    "titleId": "fosters-home-for-imaginary-friends-2004",
+    "fullTitle": "FOSTER'S HOME FOR IMAGINARY FRIENDS",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2004)",
+    "emojis": [
+      "🏡",
+      "🔵",
+      "🏀",
+      "🍪"
+    ],
+    "triviaFact": "The entire show was animated using Adobe Flash vectors, creating a flat storybook graphic look that won 7 Emmys.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Foster%27s_Home_for_Imaginary_Friends",
+      "https://www.televisionacademy.com/shows/fosters-home-for-imaginary-friends"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-162",
+    "levelNumber": 162,
+    "titleId": "codename-kids-next-door-2002",
+    "fullTitle": "CODENAME: KIDS NEXT DOOR",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2002)",
+    "emojis": [
+      "🌳",
+      "🏠",
+      "🕶️",
+      "👶"
+    ],
+    "triviaFact": "Codename: Kids Next Door won Cartoon Network's 2001 Big Pick weekend marathon viewer poll against 9 other pilots.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Codename:_Kids_Next_Door",
+      "https://www.themoviedb.org/tv/2422-codename-kids-next-door"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-163",
+    "levelNumber": 163,
+    "titleId": "the-grim-adventures-of-billy-and-mandy-2003",
+    "fullTitle": "THE GRIM ADVENTURES OF BILLY & MANDY",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2003)",
+    "emojis": [
+      "💀",
+      "👧",
+      "👦",
+      "🌾"
+    ],
+    "triviaFact": "Grim was given a warm Jamaican accent by voice actor Greg Eagles, subverting traditional grim reaper tropes.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Grim_Adventures_of_Billy_%26_Mandy",
+      "https://www.themoviedb.org/tv/2478-the-grim-adventures-of-billy-mandy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-164",
+    "levelNumber": 164,
+    "titleId": "chowder-2007",
+    "fullTitle": "CHOWDER",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2007)",
+    "emojis": [
+      "🍲",
+      "👨‍🍳",
+      "🟣",
+      "🍰"
+    ],
+    "triviaFact": "Patterns on characters' clothes used static background fills that stayed stationary while character outlines moved.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chowder_(TV_series)",
+      "https://www.televisionacademy.com/shows/chowder"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-165",
+    "levelNumber": 165,
+    "titleId": "the-marvelous-misadventures-of-flapjack-2008",
+    "fullTitle": "THE MARVELOUS MISADVENTURES OF FLAPJACK",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2008)",
+    "emojis": [
+      "🥞",
+      "🐳",
+      "🏴‍☠️",
+      "🍭"
+    ],
+    "triviaFact": "The show served as an incubator where future cartoon creators Pendleton Ward, J.G. Quintel, and Alex Hirsch worked.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Marvelous_Misadventures_of_Flapjack",
+      "https://www.themoviedb.org/tv/15264-the-marvelous-misadventures-of-flapjack"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-166",
+    "levelNumber": 166,
+    "titleId": "ed-edd-n-eddy-1999",
+    "fullTitle": "ED, EDD N EDDY",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (1999)",
+    "emojis": [
+      "🍭",
+      "🪵",
+      "🧢",
+      "🏘️"
+    ],
+    "triviaFact": "Creator Danny Antonucci made the show on a bet that he could not produce a hit kids show without weapons or aliens.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ed,_Edd_n_Eddy",
+      "https://www.themoviedb.org/tv/2420-ed-edd-n-eddy"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-167",
+    "levelNumber": 167,
+    "titleId": "courage-the-cowardly-dog-1999",
+    "fullTitle": "COURAGE THE COWARDLY DOG",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (1999)",
+    "emojis": [
+      "🐕",
+      "🌾",
+      "😱",
+      "🛸"
+    ],
+    "triviaFact": "The pilot short The Chicken from Outer Space was nominated for the 1996 Academy Award for Best Animated Short Film.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog",
+      "https://www.oscars.org/oscars/ceremonies/1996"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-168",
+    "levelNumber": 168,
+    "titleId": "megas-xlr-2004",
+    "fullTitle": "MEGAS XLR",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2004)",
+    "emojis": [
+      "🤖",
+      "🚗",
+      "🎮",
+      "💥"
+    ],
+    "triviaFact": "Coop steered the giant mecha using a modified classic muscle car cockpit hooked up to video game gamepads.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Megas_XLR",
+      "https://www.themoviedb.org/tv/2424-megas-xlr"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-169",
+    "levelNumber": 169,
+    "titleId": "generator-rex-2010",
+    "fullTitle": "GENERATOR REX",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2010)",
+    "emojis": [
+      "🔧",
+      "🦾",
+      "🐒",
+      "🦠"
+    ],
+    "triviaFact": "The series was based on the 1999 comic series M. Rex created by Joe Kelly and Duncan Rouleau.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Generator_Rex",
+      "https://www.televisionacademy.com/shows/generator-rex"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-170",
+    "levelNumber": 170,
+    "titleId": "regular-show-2010",
+    "fullTitle": "REGULAR SHOW",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2010)",
+    "emojis": [
+      "🐦",
+      "🦝",
+      "☕",
+      "🎮"
+    ],
+    "triviaFact": "J.G. Quintel developed the characters from his CalArts student shorts The Naive Man from Lolliland and 2 in the AM PM.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Regular_Show",
+      "https://www.televisionacademy.com/shows/regular-show"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-171",
+    "levelNumber": 171,
+    "titleId": "adventure-time-2010",
+    "fullTitle": "ADVENTURE TIME",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2010)",
+    "emojis": [
+      "⚔️",
+      "🐕",
+      "👑",
+      "🧛‍♀️"
+    ],
+    "triviaFact": "The original short was rejected twice by Nickelodeon before Cartoon Network greenlit the groundbreaking series.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adventure_Time",
+      "https://www.themoviedb.org/tv/15260-adventure-time"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-172",
+    "levelNumber": 172,
+    "titleId": "star-wars-clone-wars-2003",
+    "fullTitle": "STAR WARS: CLONE WARS",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2003)",
+    "emojis": [
+      "⚔️",
+      "🌌",
+      "🤖",
+      "🚀"
+    ],
+    "triviaFact": "This series marked the very first on-screen debut of General Grievous ahead of Revenge of the Sith.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Star_Wars:_Clone_Wars_(2003_TV_series)",
+      "https://www.televisionacademy.com/shows/star-wars-clone-wars"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-173",
+    "levelNumber": 173,
+    "titleId": "camp-lazlo-2005",
+    "fullTitle": "CAMP LAZLO",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2005)",
+    "emojis": [
+      "🏕️",
+      "🐒",
+      "🎺",
+      "🌲"
+    ],
+    "triviaFact": "Created by Joe Murray, the mastermind behind Rocko's Modern Life, who drew upon summer camp youth nostalgia.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Camp_Lazlo",
+      "https://www.televisionacademy.com/shows/camp-lazlo"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-174",
+    "levelNumber": 174,
+    "titleId": "my-gym-partners-a-monkey-2005",
+    "fullTitle": "MY GYM PARTNER'S A MONKEY",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2005)",
+    "emojis": [
+      "🐒",
+      "🏫",
+      "🏃",
+      "🍌"
+    ],
+    "triviaFact": "Adam was enrolled in an animal school because an administrative typo recorded his last name as Lion rather than Lyon.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/My_Gym_Partner%27s_a_Monkey",
+      "https://www.themoviedb.org/tv/3041-my-gym-partner-s-a-monkey"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-175",
+    "levelNumber": 175,
+    "titleId": "class-of-3000-2006",
+    "fullTitle": "CLASS OF 3000",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2006)",
+    "emojis": [
+      "🎷",
+      "🎵",
+      "🏫",
+      "🎹"
+    ],
+    "triviaFact": "Outkast hip-hop superstar André 3000 produced, composed, and performed original songs for every single episode.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Class_of_3000",
+      "https://www.televisionacademy.com/shows/class-of-3000"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-176",
+    "levelNumber": 176,
+    "titleId": "justice-league-2001",
+    "fullTitle": "JUSTICE LEAGUE",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2001)",
+    "emojis": [
+      "🦸‍♂️",
+      "🦇",
+      "⚡",
+      "🪐"
+    ],
+    "triviaFact": "John Stewart was specifically designated as the Green Lantern to establish racial diversity on the central league roster.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justice_League_(TV_series)",
+      "https://www.themoviedb.org/tv/1620-justice-league"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-177",
+    "levelNumber": 177,
+    "titleId": "justice-league-unlimited-2004",
+    "fullTitle": "JUSTICE LEAGUE UNLIMITED",
+    "network": "Cartoon Network",
+    "hintText": "Bonus challenge: Cartoon Network classic (2004)",
+    "emojis": [
+      "🦸",
+      "🏹",
+      "❓",
+      "🛰️"
+    ],
+    "triviaFact": "The series finale Destroyer marked the definitive conclusion to the 14-year-long DC Animated Universe that began with Batman TAS.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justice_League_Unlimited",
+      "https://www.themoviedb.org/tv/1930-justice-league-unlimited"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-178",
+    "levelNumber": 178,
+    "titleId": "avatar-the-last-airbender-2005",
+    "fullTitle": "AVATAR: THE LAST AIRBENDER",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2005)",
+    "emojis": [
+      "💨",
+      "💧",
+      "🪨",
+      "🔥"
+    ],
+    "triviaFact": "Each of the 4 bending disciplines was modeled after a distinct Chinese martial arts discipline by consultant Sifu Kisu.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender",
+      "https://www.peabodyawards.com/award-profile/avatar-the-last-airbender/"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-179",
+    "levelNumber": 179,
+    "titleId": "spongebob-squarepants-1999",
+    "fullTitle": "SPONGEBOB SQUAREPANTS",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (1999)",
+    "emojis": [
+      "🧽",
+      "🍍",
+      "⭐",
+      "🦀"
+    ],
+    "triviaFact": "Stephen Hillenburg was a professional marine biologist who first designed characters in a comic called The Intertidal Zone.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/SpongeBob_SquarePants",
+      "https://www.themoviedb.org/tv/387-spongebob-squarepants"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-180",
+    "levelNumber": 180,
+    "titleId": "the-fairly-oddparents-2001",
+    "fullTitle": "THE FAIRLY ODDPARENTS",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2001)",
+    "emojis": [
+      "🧚",
+      "🪄",
+      "🐟",
+      "👑"
+    ],
+    "triviaFact": "Timmy's trademark hat was colored pink simply because creator Butch Hartman ran out of blue marker ink on his original sketch.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Fairly_OddParents",
+      "https://www.themoviedb.org/tv/1614-the-fairly-oddparents"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-181",
+    "levelNumber": 181,
+    "titleId": "danny-phantom-2004",
+    "fullTitle": "DANNY PHANTOM",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2004)",
+    "emojis": [
+      "👻",
+      "⚡",
+      "🧪",
+      "🦇"
+    ],
+    "triviaFact": "Danny was originally intended to possess a psychic bond with ghosts rather than transforming into a half-ghost hero.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Danny_Phantom",
+      "https://www.themoviedb.org/tv/2425-danny-phantom"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-182",
+    "levelNumber": 182,
+    "titleId": "invader-zim-2001",
+    "fullTitle": "INVADER ZIM",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2001)",
+    "emojis": [
+      "👽",
+      "🤖",
+      "🌮",
+      "🛸"
+    ],
+    "triviaFact": "GIR voice actor Rosearik Rikki Simons recorded frantic lines while running around the recording booth or eating snacks.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Invader_Zim",
+      "https://www.televisionacademy.com/shows/invader-zim"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-183",
+    "levelNumber": 183,
+    "titleId": "the-adventures-of-jimmy-neutron-boy-genius-2002",
+    "fullTitle": "THE ADVENTURES OF JIMMY NEUTRON, BOY GENIUS",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2002)",
+    "emojis": [
+      "🧠",
+      "🚀",
+      "🐶",
+      "🧪"
+    ],
+    "triviaFact": "Jimmy Neutron originated in a 1995 computer-animated demo short under the working title Johnny Quasar.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Adventures_of_Jimmy_Neutron,_Boy_Genius",
+      "https://www.themoviedb.org/tv/1618-the-adventures-of-jimmy-neutron-boy-genius"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-184",
+    "levelNumber": 184,
+    "titleId": "my-life-as-a-teenage-robot-2003",
+    "fullTitle": "MY LIFE AS A TEENAGE ROBOT",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2003)",
+    "emojis": [
+      "🤖",
+      "👧",
+      "👗",
+      "🚀"
+    ],
+    "triviaFact": "The aesthetic of the series was inspired by 1930s Art Deco architecture and vintage Machine Age illustration posters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/My_Life_as_a_Teenage_Robot",
+      "https://www.televisionacademy.com/shows/my-life-as-a-teenage-robot"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-185",
+    "levelNumber": 185,
+    "titleId": "chalkzone-2002",
+    "fullTitle": "CHALKZONE",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2002)",
+    "emojis": [
+      "🖍️",
+      "🌀",
+      "🎨",
+      "🚪"
+    ],
+    "triviaFact": "Every drawing ever wiped off a blackboard was revealed to reassemble alive in the parallel dimension of ChalkZone.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/ChalkZone",
+      "https://www.themoviedb.org/tv/1617-chalkzone"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-186",
+    "levelNumber": 186,
+    "titleId": "all-grown-up-2003",
+    "fullTitle": "ALL GROWN UP!",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2003)",
+    "emojis": [
+      "🎒",
+      "📷",
+      "🏫",
+      "👟"
+    ],
+    "triviaFact": "The Rugrats 10th anniversary special All Growed Up scored 11.9 million viewers, inspiring the full series order.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/All_Grown_Up!",
+      "https://www.themoviedb.org/tv/2421-all-grown-up"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-187",
+    "levelNumber": 187,
+    "titleId": "el-tigre-the-adventures-of-manny-rivera-2007",
+    "fullTitle": "EL TIGRE: THE ADVENTURES OF MANNY RIVERA",
+    "network": "Nickelodeon",
+    "hintText": "Bonus challenge: Nickelodeon classic (2007)",
+    "emojis": [
+      "🐯",
+      "🦸‍♂️",
+      "🤼",
+      "🎸"
+    ],
+    "triviaFact": "Nickelodeon held an online viewer vote allowing audience members to decide if Manny chose heroism or villainy in the finale.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/El_Tigre:_The_Adventures_of_Manny_Rivera",
+      "https://www.themoviedb.org/tv/2426-el-tigre-the-adventures-of-manny-rivera"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-188",
+    "levelNumber": 188,
+    "titleId": "kim-possible-2002",
+    "fullTitle": "KIM POSSIBLE",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2002)",
+    "emojis": [
+      "📟",
+      "🦸‍♀️",
+      "🐀",
+      "🌮"
+    ],
+    "triviaFact": "Creators Bob Schooley and Mark McCorkle pitched the entire premise in an elevator ride based on two complementary characters.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kim_Possible",
+      "https://www.themoviedb.org/tv/2428-kim-possible"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-189",
+    "levelNumber": 189,
+    "titleId": "phineas-and-ferb-2007",
+    "fullTitle": "PHINEAS AND FERB",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2007)",
+    "emojis": [
+      "🛠️",
+      "🦆",
+      "🔬",
+      "🎢"
+    ],
+    "triviaFact": "Creators Dan Povenmire and Jeff Marsh pitched the cartoon for 16 years to multiple networks before Disney approved it.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Phineas_and_Ferb",
+      "https://www.televisionacademy.com/shows/phineas-and-ferb"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-190",
+    "levelNumber": 190,
+    "titleId": "the-proud-family-2001",
+    "fullTitle": "THE PROUD FAMILY",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2001)",
+    "emojis": [
+      "👨‍👩‍👧",
+      "👵",
+      "🍿",
+      "🐩"
+    ],
+    "triviaFact": "Destiny's Child and Solange Knowles sang the show's memorable original opening theme song.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Proud_Family",
+      "https://www.themoviedb.org/tv/2429-the-proud-family"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-191",
+    "levelNumber": 191,
+    "titleId": "lilo-and-stitch-the-series-2003",
+    "fullTitle": "LILO & STITCH: THE SERIES",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2003)",
+    "emojis": [
+      "🌺",
+      "👽",
+      "🏖️",
+      "🎸"
+    ],
+    "triviaFact": "The series followed Lilo and Stitch locating, capturing, and finding homes for Jumba's 625 other alien experiment pods.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lilo_%26_Stitch:_The_Series",
+      "https://www.themoviedb.org/tv/2430-lilo-stitch-the-series"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-192",
+    "levelNumber": 192,
+    "titleId": "american-dragon-jake-long-2005",
+    "fullTitle": "AMERICAN DRAGON: JAKE LONG",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2005)",
+    "emojis": [
+      "🐉",
+      "🛹",
+      "🗽",
+      "🐕"
+    ],
+    "triviaFact": "Dante Basco, who voiced Zuko in Avatar: The Last Airbender and played Rufio in Hook, provided the voice of Jake Long.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/American_Dragon:_Jake_Long",
+      "https://www.themoviedb.org/tv/2431-american-dragon-jake-long"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-193",
+    "levelNumber": 193,
+    "titleId": "super-robot-monkey-team-hyperforce-go-2004",
+    "fullTitle": "SUPER ROBOT MONKEY TEAM HYPERFORCE GO!",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2004)",
+    "emojis": [
+      "🤖",
+      "🐒",
+      "🚀",
+      "⚡"
+    ],
+    "triviaFact": "Created by Ciro Nieli, who later served as executive producer of Nickelodeon's 2012 Teenage Mutant Ninja Turtles.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Super_Robot_Monkey_Team_Hyperforce_Go!",
+      "https://www.themoviedb.org/tv/2436-super-robot-monkey-team-hyperforce-go"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-194",
+    "levelNumber": 194,
+    "titleId": "yin-yang-yo-2006",
+    "fullTitle": "YIN YANG YO!",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2006)",
+    "emojis": [
+      "🐰",
+      "🐼",
+      "⚔️",
+      "☯️"
+    ],
+    "triviaFact": "Legendary voice actor John DiMaggio (Bender in Futurama) voiced the grumpy panda mentor Master Yo.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yin_Yang_Yo!",
+      "https://www.themoviedb.org/tv/2437-yin-yang-yo"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-195",
+    "levelNumber": 195,
+    "titleId": "pucca-2006",
+    "fullTitle": "PUCCA",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2006)",
+    "emojis": [
+      "🍜",
+      "🥷",
+      "💋",
+      "🏮"
+    ],
+    "triviaFact": "Neither of the two lead characters, Pucca or Garu, spoke dialogue throughout the series, relying on expressive pantomime.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pucca_(TV_series)",
+      "https://www.themoviedb.org/tv/2438-pucca"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-196",
+    "levelNumber": 196,
+    "titleId": "witch-2004",
+    "fullTitle": "W.I.T.C.H.",
+    "network": "Disney Channel & Jetix",
+    "hintText": "Bonus challenge: Disney Channel & Jetix classic (2004)",
+    "emojis": [
+      "🧙‍♀️",
+      "💎",
+      "💧",
+      "🔥"
+    ],
+    "triviaFact": "The acronym W.I.T.C.H. is formed by the initials of the five teenage guardian protagonists: Will, Irma, Taranee, Cornelia, and Hay Lin.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/W.I.T.C.H._(TV_series)",
+      "https://www.themoviedb.org/tv/2439-w-i-t-c-h"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-197",
+    "levelNumber": 197,
+    "titleId": "jackie-chan-adventures-2000",
+    "fullTitle": "JACKIE CHAN ADVENTURES",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Bonus challenge: Kids' WB & 4Kids classic (2000)",
+    "emojis": [
+      "🥋",
+      "🐉",
+      "🪄",
+      "🏺"
+    ],
+    "triviaFact": "Jackie Chan appeared in live-action post-show interview segments while veteran voice actor James Sie voiced cartoon Jackie.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jackie_Chan_Adventures",
+      "https://www.themoviedb.org/tv/2441-jackie-chan-adventures"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-198",
+    "levelNumber": 198,
+    "titleId": "static-shock-2000",
+    "fullTitle": "STATIC SHOCK",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Bonus challenge: Kids' WB & 4Kids classic (2000)",
+    "emojis": [
+      "⚡",
+      "🛹",
+      "🏙️",
+      "🔋"
+    ],
+    "triviaFact": "Virgil Hawkins was named in honor of Virgil D. Hawkins, a Black attorney who fought for 9 years for integrated legal education.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Static_Shock",
+      "https://www.themoviedb.org/tv/1619-static-shock"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-199",
+    "levelNumber": 199,
+    "titleId": "x-men-evolution-2000",
+    "fullTitle": "X-MEN: EVOLUTION",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Bonus challenge: Kids' WB & 4Kids classic (2000)",
+    "emojis": [
+      "🧬",
+      "🏫",
+      "⚔️",
+      "⚡"
+    ],
+    "triviaFact": "Fan-favorite Marvel character X-23 (Laura Kinney) was created specifically for this animated show before entering comics.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/X-Men:_Evolution",
+      "https://www.themoviedb.org/tv/2442-x-men-evolution"
+    ],
+    "isSolved": false
+  },
+  {
+    "id": "rebus-200",
+    "levelNumber": 200,
+    "titleId": "the-batman-2004",
+    "fullTitle": "THE BATMAN",
+    "network": "Kids' WB & 4Kids",
+    "hintText": "Bonus challenge: Kids' WB & 4Kids classic (2004)",
+    "emojis": [
+      "🦇",
+      "🃏",
+      "🌃",
+      "🚗"
+    ],
+    "triviaFact": "Character designer Jeff Matsuda completely reimagined the Joker as an agile, barefoot combatant in a straitjacket.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Batman_(TV_series)",
+      "https://www.themoviedb.org/tv/2443-the-batman"
+    ],
+    "isSolved": false
+  }
+]
