@@ -1,5 +1,15 @@
 # Google Play Store Listing Metadata
 
+## 0. App Identity & Package Details
+* **App Name**: `2000s Toon Crosswords`
+* **Package Name (Application ID)**: `com.retrogames.tooncrosswords.toon_crosswords`
+* **Version Code**: `1`
+* **Version Name**: `1.0.0`
+* **App Category**: Puzzle / Trivia (Games)
+* **Default Language**: English (United States) - en-US
+
+---
+
 ## 1. App Title (Max 30 characters)
 `2000s Toon Crosswords`  
 *(Length: 21 characters — Compliant)*
