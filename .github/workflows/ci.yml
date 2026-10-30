@@ -80,6 +80,8 @@ jobs:
           body: |
             ## 📺 2000s Toon Crosswords v1.0.0 (Production Release)
 
+            > **If you are a child of the 2000s, this is the game you were born to play!**
+
             Official production release built strictly in **Release Mode** (signed with production upload keystore, zero debugger attached).
 
             ### Included Release Files:

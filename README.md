@@ -1,17 +1,47 @@
-# toon_crosswords
+# 📺 2000s Toon Crosswords
 
-A new Flutter project.
+> **If you are a child of the 2000s, this is the game you were born to play!**
 
-## Getting Started
+Step back into the golden age of Saturday morning cartoons, overflowing cereal bowls, and unstoppable after-school cable marathons. **2000s Toon Crosswords** is a premium, paid, 100% offline word puzzle game celebrating the greatest era in animation history (2000–2010s).
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🕹️ Highlights & Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **If You Grew Up in the 2000s, You'll Love This**: Over 157 verified animated series and movies covering Cartoon Network, Nickelodeon, Disney Channel & Jetix, Kids' WB & 4Kids, KidsCo, JimJam, and Teletoon.
+- **Dual Game Modes (400 Launch Levels)**:
+  - **Classic Crosswords (200 Levels)**: Connected alphanumeric grids (Easy 8x8 to Expert 12x12) with word-locking feedback, mint-green animations, and haptic chimes.
+  - **Emoji Title Rebus (200 Levels)**: Visual emoji riddle sequences with **dedicated word rows** that prevent awkward mid-word line breaks and adapt dynamically to your screen width.
+- **2,612 Double-Source Verified Trivia Clues**: Strictly verified against TMDb, Wikipedia, and official Emmy/Annie historical records.
+- **Gamified Economy & 3-Tier Hint Shop**:
+  - Earn coins on every solved word (+50), rebus (+100), and level completion (+200).
+  - 3-tier progressive hint shop: Reveal First Letter (50), Reveal Random Letter (100), Reveal Entire Word (250).
+- **Trophy Hall / Dex**: Every cleared level permanently unlocks a verified behind-the-scenes trivia card explaining pilot origins, voice actor secrets, and animation trivia.
+- **100% Offline & Zero-Permission**: No `android.permission.INTERNET`, zero ads, zero trackers, zero subscriptions, zero in-app purchases.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📺 Channel Packs Included
+* **Cartoon Network**: *Ben 10, Teen Titans, Samurai Jack, Foster's Home, Codename: Kids Next Door, Billy & Mandy, Chowder, Flapjack, Ed Edd n Eddy, Courage the Cowardly Dog, Regular Show, Adventure Time...*
+* **Nickelodeon**: *Avatar: The Last Airbender, SpongeBob SquarePants, The Fairly OddParents, Danny Phantom, Invader Zim, Jimmy Neutron, My Life as a Teenage Robot, ChalkZone, All Grown Up...*
+* **Disney Channel & Jetix**: *Kim Possible, Phineas and Ferb, The Proud Family, Lilo & Stitch, American Dragon, SRMTHG, Yin Yang Yo!, Pucca, W.I.T.C.H....*
+* **Kids' WB & 4Kids**: *Jackie Chan Adventures, Static Shock, X-Men: Evolution, The Batman, Spectacular Spider-Man, Transformers: Animated, Yu-Gi-Oh! GX, TMNT 2003...*
+* **KidsCo Classics**: *Rescue Heroes, Dino Squad, The New Adventures of Madeline, Archie's Weird Mysteries, Sabrina: The Animated Series, Corduroy, Ned's Newt...*
+* **JimJam Favorites**: *Bob the Builder, Thomas & Friends, Fireman Sam, Pingu, Barney & Friends, Postman Pat, Kipper, Angelina Ballerina, Roary...*
+* **Teletoon & International**: *Total Drama Island, 6teen, Code Lyoko, Winx Club, Martin Mystery, Atomic Betty, Grossology...*
+
+---
+
+## 🛠️ Tech Stack & Architecture
+- **Framework**: Flutter 3.47+ (Dart 3.13+)
+- **Architecture**: Pure-Dart decoupled engines (`CrosswordEngine`, `RebusEngine`) with 100% unit test coverage.
+- **Build-Time Generation**: Python compilers in `tools/` pre-generate all static JSON puzzles in `assets/puzzles/` for instant 60 FPS performance on all mobile devices.
+- **Keyboard System**: Native device IME integration with `WidgetsBindingObserver` for resilient soft keyboard focus recovery.
+
+---
+
+## 🚀 Release Downloads
+- **Latest Production Release (APK & AAB)**:
+  👉 [Download from GitHub Releases (v1.0.0)](https://github.com/kidkingstrange/2000ccw/releases)
+- **Direct GitHub Actions Build Artifacts**:
+  👉 [Download latest APK/AAB build artifacts from Actions tab](https://github.com/kidkingstrange/2000ccw/actions)
