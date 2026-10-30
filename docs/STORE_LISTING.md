@@ -17,8 +17,8 @@
 ---
 
 ## 2. Short Description (Max 80 characters)
-`Grew up in the 2000s? You'll love this! 400 cartoon crosswords & emoji rebuses.`  
-*(Length: 78 characters — Compliant)*
+`Child of the 2000s? You must play this! 400 cartoon crosswords & emoji rebuses.`  
+*(Length: 79 characters — Compliant)*
 
 ---
 
