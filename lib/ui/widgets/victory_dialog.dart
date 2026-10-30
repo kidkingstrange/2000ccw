@@ -97,7 +97,7 @@ class VictoryDialog extends StatelessWidget {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
               decoration: BoxDecoration(
-                color: ToonTheme.cheerfulOrange.withOpacity(0.2),
+                color: ToonTheme.cheerfulOrange.withValues(alpha: 0.2),
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(color: ToonTheme.cheerfulOrange, width: 1.5),
               ),
@@ -158,7 +158,7 @@ class VictoryDialog extends StatelessWidget {
                       Text(
                         'Verified Sources: ${sources.length} citations',
                         style: TextStyle(
-                          color: Colors.white.withOpacity(0.5),
+                          color: Colors.white.withValues(alpha: 0.5),
                           fontSize: 11,
                         ),
                       ),

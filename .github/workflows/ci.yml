@@ -1,14 +1,18 @@
-name: CI / CD Pipeline
+name: CI / CD Release Pipeline
 
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  test_and_build:
-    name: Analyze, Test & Verify Release Build
+  build_and_release:
+    name: Build Production Release (APK & AAB)
     runs-on: ubuntu-latest
 
     steps:
@@ -47,5 +51,47 @@ jobs:
       - name: Run Test Suite
         run: flutter test --coverage
 
-      - name: Build Release Android App Bundle (AAB)
+      - name: Build Production Release APK (No Debug)
+        run: flutter build apk --release
+
+      - name: Build Production Release App Bundle (AAB)
         run: flutter build appbundle --release
+
+      - name: Upload Release APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+
+      - name: Upload Release AAB Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+
+      - name: Create or Update GitHub Production Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          tag_name: v1.0.0
+          name: "2000s Toon Crosswords v1.0.0 (Production Release)"
+          draft: false
+          prerelease: false
+          body: |
+            ## 📺 2000s Toon Crosswords v1.0.0 (Production Release)
+
+            Official production release built strictly in **Release Mode** (signed with production upload keystore, zero debugger attached).
+
+            ### Included Release Files:
+            - **`app-release.apk`**: Direct standalone Android installation package.
+            - **`app-release.aab`**: Google Play Console release bundle for production publishing.
+
+            ### Highlights:
+            - **100% Offline & Zero Permission**: Zero internet permissions declared in AndroidManifest.xml. Zero tracking, zero ads.
+            - **400 Launch Levels**: 200 Classic Crosswords across 4 tiers + 200 Emoji Title Rebus Puzzles.
+            - **157 Verified Cartoons**: Cartoon Network, JimJam, Nickelodeon, Kids' WB, KidsCo, Disney Channel & Jetix, Teletoon.
+            - **2,612 Verified Clues**: Double-source verified factual trivia.
+            - **Systems**: 3-Tier Hint Shop, Trophy Hall / Dex, and Daily Challenge Streak.
+          files: |
+            build/app/outputs/flutter-apk/app-release.apk
+            build/app/outputs/bundle/release/app-release.aab

@@ -72,7 +72,7 @@ class ToonTheme {
       border: Border.all(color: glowColor, width: 2.5),
       boxShadow: [
         BoxShadow(
-          color: glowColor.withOpacity(0.35),
+          color: glowColor.withValues(alpha: 0.35),
           offset: const Offset(0, 4),
           blurRadius: 10,
         ),

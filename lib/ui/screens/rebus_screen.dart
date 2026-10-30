@@ -144,9 +144,9 @@ class _RebusScreenState extends State<RebusScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
               margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
               decoration: BoxDecoration(
-                color: networkColor.withOpacity(0.15),
+                color: networkColor.withValues(alpha: 0.15),
                 borderRadius: BorderRadius.circular(10),
-                border: Border.all(color: networkColor.withOpacity(0.5)),
+                border: Border.all(color: networkColor.withValues(alpha: 0.5)),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,

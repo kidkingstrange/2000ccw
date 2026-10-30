@@ -233,7 +233,7 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                               : ToonTheme.lockedGrey,
                           borderColor: isSolved
                               ? ToonTheme.mintSolved
-                              : (isUnlocked ? netColor.withOpacity(0.6) : Colors.black45),
+                              : (isUnlocked ? netColor.withValues(alpha: 0.6) : Colors.black45),
                           radius: 14,
                           shadowOffset: isUnlocked ? 3 : 1,
                         ),

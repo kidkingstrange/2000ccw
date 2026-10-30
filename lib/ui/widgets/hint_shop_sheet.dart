@@ -191,8 +191,8 @@ class HintShopSheet extends StatelessWidget {
                 CircleAvatar(
                   radius: 20,
                   backgroundColor: isPremium
-                      ? ToonTheme.cheerfulOrange.withOpacity(0.2)
-                      : ToonTheme.electricCyan.withOpacity(0.15),
+                      ? ToonTheme.cheerfulOrange.withValues(alpha: 0.2)
+                      : ToonTheme.electricCyan.withValues(alpha: 0.15),
                   child: Icon(
                     icon,
                     color: isPremium ? ToonTheme.cheerfulOrange : ToonTheme.electricCyan,
@@ -216,7 +216,7 @@ class HintShopSheet extends StatelessWidget {
                       Text(
                         subtitle,
                         style: TextStyle(
-                          color: Colors.white.withOpacity(0.65),
+                          color: Colors.white.withValues(alpha: 0.65),
                           fontSize: 12,
                         ),
                       ),
