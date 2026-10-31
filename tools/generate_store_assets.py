@@ -176,10 +176,10 @@ def generate_feature_graphic():
 def draw_phone_frame(draw, x0, y0, x1, y1):
     # Device outer chassis
     draw.rounded_rectangle([x0, y0, x1, y1], radius=60, fill=(30, 30, 42, 255), outline=(70, 70, 95, 255), width=8)
-    # Inner display area
+    # Inner display area (Light Theme Canvas)
     disp_x0, disp_y0 = x0 + 16, y0 + 16
     disp_x1, disp_y1 = x1 - 16, y1 - 16
-    draw.rounded_rectangle([disp_x0, disp_y0, disp_x1, disp_y1], radius=48, fill=BG_DARK)
+    draw.rounded_rectangle([disp_x0, disp_y0, disp_x1, disp_y1], radius=48, fill=(244, 247, 251, 255))
     # Punch hole camera
     cam_cx = (x0 + x1) // 2
     draw.ellipse([cam_cx - 10, disp_y0 + 14, cam_cx + 10, disp_y0 + 34], fill=(10, 10, 15, 255))
@@ -255,41 +255,41 @@ def generate_screenshots():
         # RENDER SCREEN CONTENTS
         if s["mode"] == "home":
             # Header
-            draw.text((px0 + 50, py0 + 60), "2000s TOON CROSSWORDS", font=get_font("impact.ttf", 46), fill=ACCENT_GREEN)
+            draw.text((px0 + 50, py0 + 60), "2000s TOON CROSSWORDS", font=get_font("impact.ttf", 46), fill=(15, 23, 42, 255))
             draw.text((px0 + 50, py0 + 120), "Retro Puzzle Station • v1.0.0", font=get_font("segoeui.ttf", 24), fill=TEXT_MUTED)
 
             # Daily Streak Banner
-            draw.rounded_rectangle([px0 + 40, py0 + 180, px1 - 40, py0 + 300], radius=24, fill=SURFACE_DARK, outline=ACCENT_ORANGE, width=3)
+            draw.rounded_rectangle([px0 + 40, py0 + 180, px1 - 40, py0 + 300], radius=24, fill=(255, 255, 255, 255), outline=ACCENT_ORANGE, width=3)
             draw.text((px0 + 70, py0 + 205), "🔥 5 DAY STREAK", font=get_font("arialbd.ttf", 34), fill=ACCENT_ORANGE)
-            draw.text((px0 + 70, py0 + 250), "+100 Coins Daily Streak Bonus Awarded!", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.text((px0 + 70, py0 + 250), "+100 Coins Daily Streak Bonus Awarded!", font=get_font("segoeui.ttf", 22), fill=(100, 116, 139, 255))
 
             # Mode Card 1: Classic Crosswords
             c1_y = py0 + 340
-            draw.rounded_rectangle([px0 + 40, c1_y, px1 - 40, c1_y + 240], radius=28, fill=SURFACE_DARK, outline=(50, 70, 90, 255), width=2)
+            draw.rounded_rectangle([px0 + 40, c1_y, px1 - 40, c1_y + 240], radius=28, fill=(255, 255, 255, 255), outline=(30, 41, 59, 255), width=2)
             draw.rounded_rectangle([px0 + 65, c1_y + 35, px0 + 175, c1_y + 145], radius=18, fill=ACCENT_CYAN)
             draw.text((px0 + 95, c1_y + 60), "✏️", font=get_font("segoeui.ttf", 44), fill=BG_DARK)
-            draw.text((px0 + 200, c1_y + 45), "Classic Crosswords", font=get_font("arialbd.ttf", 36), fill=TEXT_WHITE)
+            draw.text((px0 + 200, c1_y + 45), "Classic Crosswords", font=get_font("arialbd.ttf", 36), fill=(15, 23, 42, 255))
             draw.text((px0 + 200, c1_y + 95), "200 Grids • 7x7 to 12x12 • Word Lock", font=get_font("segoeui.ttf", 24), fill=ACCENT_CYAN)
             draw.rounded_rectangle([px0 + 200, c1_y + 150, px1 - 70, c1_y + 205], radius=16, fill=ACCENT_GREEN)
             draw.text((px0 + 320, c1_y + 162), "PLAY NOW", font=get_font("arialbd.ttf", 26), fill=BG_DARK)
 
             # Mode Card 2: Emoji Rebus
             c2_y = py0 + 610
-            draw.rounded_rectangle([px0 + 40, c2_y, px1 - 40, c2_y + 240], radius=28, fill=SURFACE_DARK, outline=(50, 70, 90, 255), width=2)
+            draw.rounded_rectangle([px0 + 40, c2_y, px1 - 40, c2_y + 240], radius=28, fill=(255, 255, 255, 255), outline=(30, 41, 59, 255), width=2)
             draw.rounded_rectangle([px0 + 65, c2_y + 35, px0 + 175, c2_y + 145], radius=18, fill=ACCENT_ORANGE)
             draw.text((px0 + 95, c2_y + 60), "🧩", font=get_font("segoeui.ttf", 44), fill=BG_DARK)
-            draw.text((px0 + 200, c2_y + 45), "Emoji Title Rebus", font=get_font("arialbd.ttf", 36), fill=TEXT_WHITE)
+            draw.text((px0 + 200, c2_y + 45), "Emoji Title Rebus", font=get_font("arialbd.ttf", 36), fill=(15, 23, 42, 255))
             draw.text((px0 + 200, c2_y + 95), "200 Riddles • Visual Puns • Dedicated Rows", font=get_font("segoeui.ttf", 24), fill=ACCENT_ORANGE)
             draw.rounded_rectangle([px0 + 200, c2_y + 150, px1 - 70, c2_y + 205], radius=16, fill=ACCENT_CYAN)
             draw.text((px0 + 320, c2_y + 162), "PLAY NOW", font=get_font("arialbd.ttf", 26), fill=BG_DARK)
 
             # Trophy Hall Card
             c3_y = py0 + 880
-            draw.rounded_rectangle([px0 + 40, c3_y, px1 - 40, c3_y + 200], radius=28, fill=SURFACE_DARK, outline=(60, 60, 85, 255), width=2)
+            draw.rounded_rectangle([px0 + 40, c3_y, px1 - 40, c3_y + 200], radius=28, fill=(255, 255, 255, 255), outline=(30, 41, 59, 255), width=2)
             draw.text((px0 + 70, c3_y + 40), "🏆 The Trophy Dex & Lore Hall", font=get_font("arialbd.ttf", 32), fill=GOLD)
             draw.text((px0 + 70, c3_y + 90), "48 / 400 Verified Trivia Lore Cards Unlocked", font=get_font("segoeui.ttf", 24), fill=TEXT_MUTED)
             # Progress bar
-            draw.rounded_rectangle([px0 + 70, c3_y + 140, px1 - 70, c3_y + 160], radius=10, fill=(40, 40, 60, 255))
+            draw.rounded_rectangle([px0 + 70, c3_y + 140, px1 - 70, c3_y + 160], radius=10, fill=(226, 232, 240, 255))
             draw.rounded_rectangle([px0 + 70, c3_y + 140, px0 + 280, c3_y + 160], radius=10, fill=GOLD)
 
         elif s["mode"] == "crossword":
@@ -298,9 +298,9 @@ def generate_screenshots():
             draw.text((px1 - 200, py0 + 55), "🪙 1,450 COINS", font=get_font("arialbd.ttf", 22), fill=GOLD)
 
             # Active Clue Ribbon
-            draw.rounded_rectangle([px0 + 40, py0 + 110, px1 - 40, py0 + 200], radius=16, fill=(35, 45, 65, 255), outline=ACCENT_CYAN, width=2)
+            draw.rounded_rectangle([px0 + 40, py0 + 110, px1 - 40, py0 + 200], radius=16, fill=(255, 255, 255, 255), outline=ACCENT_CYAN, width=2)
             draw.text((px0 + 60, py0 + 125), "2 ACROSS (7 Letters)", font=get_font("arialbd.ttf", 24), fill=ACCENT_CYAN)
-            draw.text((px0 + 60, py0 + 158), "Primary hero and wielder of the extraterrestrial device", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.text((px0 + 60, py0 + 158), "Primary hero and wielder of the extraterrestrial device", font=get_font("segoeui.ttf", 22), fill=(15, 23, 42, 255))
 
             # Crossword Grid (8x8) - Unsolved active gameplay state with hidden answers!
             grid_y = py0 + 230
@@ -325,18 +325,18 @@ def generate_screenshots():
                     if val is not None:
                         # Unsolved cell: blank slot with clue number in corner!
                         is_active = (r == 2 and c == 1)
-                        bg_col = ACCENT_CYAN if is_active else SURFACE_DARK
-                        bdr_col = (255, 255, 255, 255) if is_active else (70, 70, 95, 255)
+                        bg_col = (56, 189, 248, 255) if is_active else (255, 255, 255, 255)
+                        bdr_col = (30, 41, 59, 255) if is_active else (203, 213, 225, 255)
                         draw.rounded_rectangle([cx, cy, cx + cell_size, cy + cell_size], radius=12, fill=bg_col, outline=bdr_col, width=2)
                         if val > 0:
-                            draw.text((cx + 8, cy + 6), str(val), font=get_font("arialbd.ttf", 18), fill=(200, 200, 230, 255))
+                            draw.text((cx + 8, cy + 6), str(val), font=get_font("arialbd.ttf", 18), fill=(100, 116, 139, 255))
                         if is_active:
                             # Blinking typing cursor on native keyboard
                             draw.line([(cx + 45, cy + 20), (cx + 45, cy + 70)], fill=(0, 0, 0, 255), width=4)
 
             # Native Keyboard Area (Shows mobile phone typing with clue above)
             kb_y = py0 + 1040
-            draw.rounded_rectangle([px0 + 30, kb_y, px1 - 30, py1 - 30], radius=24, fill=(20, 20, 32, 255), outline=(50, 50, 75, 255), width=2)
+            draw.rounded_rectangle([px0 + 30, kb_y, px1 - 30, py1 - 30], radius=24, fill=(255, 255, 255, 255), outline=(203, 213, 225, 255), width=2)
             draw.text((px0 + 60, kb_y + 30), "📱 NATIVE PHONE KEYBOARD INTEGRATION", font=get_font("arialbd.ttf", 22), fill=ACCENT_CYAN)
             draw.text((px0 + 60, kb_y + 65), "Seamless Gboard & Samsung soft-keyboard support", font=get_font("segoeui.ttf", 20), fill=TEXT_MUTED)
             # Simulated native keyboard keys
@@ -347,8 +347,8 @@ def generate_screenshots():
                 rx_start = px0 + 50 + (10 - len(row_str)) * (k_w // 2)
                 for c_idx, k_char in enumerate(row_str):
                     kx = rx_start + c_idx * k_w
-                    draw.rounded_rectangle([kx + 4, ry, kx + k_w - 4, ry + 65], radius=10, fill=(38, 38, 55, 255))
-                    draw.text((kx + k_w//2 - 8, ry + 18), k_char, font=get_font("arialbd.ttf", 22), fill=TEXT_WHITE)
+                    draw.rounded_rectangle([kx + 4, ry, kx + k_w - 4, ry + 65], radius=10, fill=(241, 245, 249, 255), outline=(203, 213, 225, 255), width=1)
+                    draw.text((kx + k_w//2 - 8, ry + 18), k_char, font=get_font("arialbd.ttf", 22), fill=(15, 23, 42, 255))
 
         elif s["mode"] == "rebus":
             # Header
@@ -357,7 +357,7 @@ def generate_screenshots():
 
             # Big Emoji Card
             rebus_box = [px0 + 40, py0 + 120, px1 - 40, py0 + 360]
-            draw.rounded_rectangle(rebus_box, radius=32, fill=SURFACE_DARK, outline=ACCENT_ORANGE, width=3)
+            draw.rounded_rectangle(rebus_box, radius=32, fill=(255, 255, 255, 255), outline=ACCENT_ORANGE, width=3)
             draw.text((px0 + 120, py0 + 170), "👽   ⌚   🔟", font=get_font("segoeui.ttf", 72), fill=TEXT_WHITE)
             draw.text((px0 + 180, py0 + 290), "DECODE THE CARTOON NETWORK TITLE", font=get_font("arialbd.ttf", 22), fill=ACCENT_CYAN)
 
@@ -368,8 +368,8 @@ def generate_screenshots():
             for i in range(3):
                 bx = px0 + 50 + i * 110
                 is_sel = (i == 0)
-                b_col = ACCENT_CYAN if is_sel else SURFACE_DARK
-                bdr = (255, 255, 255, 255) if is_sel else (70, 70, 95, 255)
+                b_col = (56, 189, 248, 255) if is_sel else (255, 255, 255, 255)
+                bdr = (30, 41, 59, 255) if is_sel else (203, 213, 225, 255)
                 draw.rounded_rectangle([bx, row_y, bx + 95, row_y + 95], radius=16, fill=b_col, outline=bdr, width=3)
                 if is_sel:
                     draw.line([(bx + 47, row_y + 25), (bx + 47, row_y + 70)], fill=(0, 0, 0, 255), width=4)
@@ -379,14 +379,14 @@ def generate_screenshots():
             draw.text((px0 + 50, row2_y - 35), "WORD 2 (3 LETTERS)", font=get_font("arialbd.ttf", 20), fill=TEXT_MUTED)
             for i in range(3):
                 bx = px0 + 50 + i * 110
-                draw.rounded_rectangle([bx, row2_y, bx + 95, row2_y + 95], radius=16, fill=SURFACE_DARK, outline=(70, 70, 95, 255), width=3)
+                draw.rounded_rectangle([bx, row2_y, bx + 95, row2_y + 95], radius=16, fill=(255, 255, 255, 255), outline=(203, 213, 225, 255), width=3)
 
             # Callout: Dedicated Word Rows Guarantee
             card_y = row2_y + 160
-            draw.rounded_rectangle([px0 + 40, card_y, px1 - 40, card_y + 240], radius=24, fill=(20, 30, 45, 255), outline=ACCENT_CYAN, width=2)
+            draw.rounded_rectangle([px0 + 40, card_y, px1 - 40, card_y + 240], radius=24, fill=(255, 255, 255, 255), outline=ACCENT_CYAN, width=2)
             draw.text((px0 + 70, card_y + 35), "✨ DEDICATED WORD ROWS", font=get_font("impact.ttf", 34), fill=ACCENT_CYAN)
-            draw.text((px0 + 70, card_y + 85), "• Never splits words awkwardly across line breaks", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
-            draw.text((px0 + 70, card_y + 125), "• Inline fixed punctuation for hyphens & apostrophes", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.text((px0 + 70, card_y + 85), "• Never splits words awkwardly across line breaks", font=get_font("segoeui.ttf", 22), fill=(15, 23, 42, 255))
+            draw.text((px0 + 70, card_y + 125), "• Inline fixed punctuation for hyphens & apostrophes", font=get_font("segoeui.ttf", 22), fill=(15, 23, 42, 255))
             draw.text((px0 + 70, card_y + 165), "• Auto-scales dynamically to fit every phone screen", font=get_font("segoeui.ttf", 22), fill=ACCENT_GREEN)
 
         elif s["mode"] == "channels":
@@ -404,9 +404,9 @@ def generate_screenshots():
             ]
             cy = py0 + 170
             for name, desc, count, color in ch_list:
-                draw.rounded_rectangle([px0 + 35, cy, px1 - 35, cy + 125], radius=20, fill=SURFACE_DARK, outline=(50, 50, 75, 255), width=2)
+                draw.rounded_rectangle([px0 + 35, cy, px1 - 35, cy + 125], radius=20, fill=(255, 255, 255, 255), outline=(30, 41, 59, 255), width=2)
                 draw.rounded_rectangle([px0 + 50, cy + 20, px0 + 60, cy + 105], radius=5, fill=color)
-                draw.text((px0 + 80, cy + 22), name, font=get_font("arialbd.ttf", 28), fill=TEXT_WHITE)
+                draw.text((px0 + 80, cy + 22), name, font=get_font("arialbd.ttf", 28), fill=(15, 23, 42, 255))
                 draw.text((px0 + 80, cy + 65), desc, font=get_font("segoeui.ttf", 20), fill=TEXT_MUTED)
                 # Count badge
                 draw.rounded_rectangle([px1 - 200, cy + 40, px1 - 55, cy + 85], radius=14, fill=(35, 35, 55, 255), outline=color, width=1)
@@ -419,10 +419,10 @@ def generate_screenshots():
 
             # Sample Lore Card 1: Avatar
             card1_y = py0 + 170
-            draw.rounded_rectangle([px0 + 35, card1_y, px1 - 35, card1_y + 400], radius=26, fill=SURFACE_DARK, outline=GOLD, width=2)
+            draw.rounded_rectangle([px0 + 35, card1_y, px1 - 35, card1_y + 400], radius=26, fill=(255, 255, 255, 255), outline=GOLD, width=2)
             draw.rounded_rectangle([px0 + 60, card1_y + 30, px0 + 160, card1_y + 68], radius=12, fill=(80, 60, 20, 255), outline=GOLD, width=1)
             draw.text((px0 + 75, card1_y + 36), "CARD #01", font=get_font("arialbd.ttf", 18), fill=GOLD)
-            draw.text((px0 + 180, card1_y + 32), "Avatar: The Last Airbender", font=get_font("arialbd.ttf", 30), fill=TEXT_WHITE)
+            draw.text((px0 + 180, card1_y + 32), "Avatar: The Last Airbender", font=get_font("arialbd.ttf", 30), fill=(15, 23, 42, 255))
 
             lore1_text = (
                 "Bryan Konietzko and Michael Dante DiMartino originally\n"
@@ -432,16 +432,16 @@ def generate_screenshots():
                 "Tai Chi, and Ba Gua kung fu systems.\n\n"
                 "Double-Verified Source: Nickelodeon Archives & IGN Interviews"
             )
-            draw.text((px0 + 60, card1_y + 90), lore1_text, font=get_font("segoeui.ttf", 22), fill=(220, 220, 240, 255))
+            draw.text((px0 + 60, card1_y + 90), lore1_text, font=get_font("segoeui.ttf", 22), fill=(51, 65, 85, 255))
             draw.rounded_rectangle([px0 + 60, card1_y + 320, px1 - 60, card1_y + 365], radius=12, fill=(30, 50, 35, 255), outline=ACCENT_GREEN, width=1)
             draw.text((px0 + 160, card1_y + 330), "✓ UNLOCKED BY COMPLETING LEVEL 1", font=get_font("arialbd.ttf", 20), fill=ACCENT_GREEN)
 
             # Sample Lore Card 2: Teen Titans
             card2_y = card1_y + 430
-            draw.rounded_rectangle([px0 + 35, card2_y, px1 - 35, card2_y + 400], radius=26, fill=SURFACE_DARK, outline=ACCENT_CYAN, width=2)
+            draw.rounded_rectangle([px0 + 35, card2_y, px1 - 35, card2_y + 400], radius=26, fill=(255, 255, 255, 255), outline=ACCENT_CYAN, width=2)
             draw.rounded_rectangle([px0 + 60, card2_y + 30, px0 + 160, card2_y + 68], radius=12, fill=(20, 50, 70, 255), outline=ACCENT_CYAN, width=1)
             draw.text((px0 + 75, card2_y + 36), "CARD #02", font=get_font("arialbd.ttf", 18), fill=ACCENT_CYAN)
-            draw.text((px0 + 180, card2_y + 32), "Teen Titans (2003)", font=get_font("arialbd.ttf", 30), fill=TEXT_WHITE)
+            draw.text((px0 + 180, card2_y + 32), "Teen Titans (2003)", font=get_font("arialbd.ttf", 30), fill=(15, 23, 42, 255))
 
             lore2_text = (
                 "Puffy AmiYumi sang both the Japanese and English versions\n"
@@ -450,7 +450,7 @@ def generate_screenshots():
                 "English theme played instead!\n\n"
                 "Double-Verified Source: Warner Bros Animation & ToonZone"
             )
-            draw.text((px0 + 60, card2_y + 90), lore2_text, font=get_font("segoeui.ttf", 22), fill=(220, 220, 240, 255))
+            draw.text((px0 + 60, card2_y + 90), lore2_text, font=get_font("segoeui.ttf", 22), fill=(51, 65, 85, 255))
             draw.rounded_rectangle([px0 + 60, card2_y + 320, px1 - 60, card2_y + 365], radius=12, fill=(30, 50, 35, 255), outline=ACCENT_GREEN, width=1)
             draw.text((px0 + 160, card2_y + 330), "✓ UNLOCKED BY COMPLETING LEVEL 2", font=get_font("arialbd.ttf", 20), fill=ACCENT_GREEN)
 

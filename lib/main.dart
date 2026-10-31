@@ -29,7 +29,7 @@ class ToonCrosswordsApp extends StatelessWidget {
     return MaterialApp(
       title: '2000s Toon Crosswords',
       debugShowCheckedModeBanner: false,
-      theme: ToonTheme.darkTheme,
+      theme: ToonTheme.lightTheme,
       home: const HomeScreen(),
     );
   }

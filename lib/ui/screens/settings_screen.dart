@@ -10,7 +10,7 @@ class SettingsScreen extends StatelessWidget {
     final storage = GameStorage();
 
     return Scaffold(
-      backgroundColor: ToonTheme.deepSpaceBlack,
+      backgroundColor: ToonTheme.canvasBackground,
       appBar: AppBar(
         title: const Text('SETTINGS', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
       ),
@@ -38,12 +38,12 @@ class SettingsScreen extends StatelessWidget {
                       ),
                       subtitle: const Text(
                         'Chimes and celebration sounds on solves',
-                        style: TextStyle(color: Colors.white60, fontSize: 12),
+                        style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                       ),
                       value: storage.soundEnabled,
                       onChanged: (_) => storage.toggleSound(),
                     ),
-                    const Divider(height: 1, color: Colors.white12),
+                    const Divider(height: 1, color: Color(0xFFE2E8F0)),
                     SwitchListTile(
                       thumbColor: WidgetStateProperty.all(ToonTheme.slimeGreen),
                       title: const Text(
@@ -52,7 +52,7 @@ class SettingsScreen extends StatelessWidget {
                       ),
                       subtitle: const Text(
                         'Vibration feedback on typing and word locks',
-                        style: TextStyle(color: Colors.white60, fontSize: 12),
+                        style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                       ),
                       value: storage.hapticsEnabled,
                       onChanged: (_) => storage.toggleHaptics(),
@@ -124,7 +124,7 @@ class SettingsScreen extends StatelessWidget {
                     Text(
                       'Unofficial fan trivia game. Not affiliated with or endorsed by Cartoon Network, Nickelodeon, Disney, Warner Bros., KidsCo, JimJam, or any rights holder. All titles, character names, and registered trademarks belong to their respective owners.',
                       style: TextStyle(
-                        color: Colors.white60,
+                        color: ToonTheme.textMuted,
                         fontSize: 12,
                         height: 1.35,
                       ),
@@ -156,7 +156,7 @@ class SettingsScreen extends StatelessWidget {
                       ),
                       actions: [
                         TextButton(
-                          child: const Text('Cancel', style: TextStyle(color: Colors.white60)),
+                          child: const Text('Cancel', style: TextStyle(color: ToonTheme.textMuted)),
                           onPressed: () => Navigator.pop(ctx),
                         ),
                         ElevatedButton(

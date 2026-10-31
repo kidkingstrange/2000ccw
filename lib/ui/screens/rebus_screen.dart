@@ -102,7 +102,7 @@ class _RebusScreenState extends State<RebusScreen> {
       onLetter: _onLetter,
       onDelete: _onDelete,
       child: Scaffold(
-        backgroundColor: ToonTheme.deepSpaceBlack,
+        backgroundColor: ToonTheme.canvasBackground,
         appBar: AppBar(
           title: Text(
             _puzzle!.mysteryDisplayTitle,
@@ -159,7 +159,7 @@ class _RebusScreenState extends State<RebusScreen> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const Text('EMOJI TITLE REBUS', style: TextStyle(color: Colors.white70, fontSize: 11)),
+                  const Text('EMOJI TITLE REBUS', style: TextStyle(color: ToonTheme.textMuted, fontSize: 11)),
                 ],
               ),
             ),
@@ -223,14 +223,14 @@ class _RebusScreenState extends State<RebusScreen> {
             // Quick Hint Shop Drawer trigger
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              color: const Color(0xFF161628),
+              color: ToonTheme.surfaceCard,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     _puzzle!.isSolved ? 'SOLVED!' : 'Tap a slot to type letter',
                     style: TextStyle(
-                      color: _puzzle!.isSolved ? ToonTheme.slimeGreen : Colors.white60,
+                      color: _puzzle!.isSolved ? ToonTheme.slimeGreen : ToonTheme.textMuted,
                       fontSize: 13,
                       fontWeight: FontWeight.w600,
                     ),
@@ -304,13 +304,13 @@ class _RebusScreenState extends State<RebusScreen> {
           }
 
           Color bgColor = ToonTheme.surfaceCardLight;
-          Color borderColor = Colors.black;
+          Color borderColor = const Color(0xFFCBD5E1);
 
           if (_puzzle!.isSolved || slot.isLocked) {
             bgColor = ToonTheme.mintSolved;
           } else if (isSelected) {
-            bgColor = ToonTheme.electricCyan;
-            borderColor = Colors.white;
+            bgColor = ToonTheme.activeCell;
+            borderColor = ToonTheme.cardBorder;
           }
 
           return GestureDetector(
@@ -339,9 +339,7 @@ class _RebusScreenState extends State<RebusScreen> {
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
-                  color: (_puzzle!.isSolved || slot.isLocked)
-                      ? Colors.black
-                      : (isSelected ? Colors.black : Colors.white),
+                  color: (_puzzle!.isSolved || slot.isLocked) ? Colors.white : ToonTheme.textMain,
                 ),
               ),
             ),

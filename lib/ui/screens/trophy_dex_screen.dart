@@ -37,7 +37,7 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
     }).toList();
 
     return Scaffold(
-      backgroundColor: ToonTheme.deepSpaceBlack,
+      backgroundColor: ToonTheme.canvasBackground,
       appBar: AppBar(
         title: const Text('TROPHY HALL & LORE DEX', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
       ),
@@ -88,7 +88,7 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                           const SizedBox(height: 6),
                           Text(
                             '$percent% Verified Cartoon Lore Restored',
-                            style: const TextStyle(color: Colors.white60, fontSize: 12),
+                            style: const TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                           ),
                         ],
                       ),

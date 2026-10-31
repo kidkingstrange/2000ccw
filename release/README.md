@@ -7,7 +7,7 @@ Both the standalone **Release APK** and the **Google Play Release Bundle (AAB)**
 
 - **[📥 Direct Standalone APK (app-release.apk)](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.apk)** (47.9 MB)
 - **[📦 Google Play Console Bundle (app-release.aab)](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.aab)** (47.6 MB)
-- **[GitHub Releases v1.0.1](https://github.com/kidkingstrange/2000ccw/releases/tag/v1.0.1)**
+- **[GitHub Releases v1.0.2](https://github.com/kidkingstrange/2000ccw/releases/tag/v1.0.2)**
 - **Direct GitHub Actions Build Artifacts**:
   👉 [Download latest APK/AAB build artifacts from Actions tab](https://github.com/kidkingstrange/2000ccw/actions)
 

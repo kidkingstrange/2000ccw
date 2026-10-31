@@ -125,7 +125,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
       onLetter: _onLetter,
       onDelete: _onDelete,
       child: Scaffold(
-        backgroundColor: ToonTheme.deepSpaceBlack,
+        backgroundColor: ToonTheme.canvasBackground,
         appBar: AppBar(
           title: Text(
             'LEVEL $_currentLevel • ${_puzzle!.network.toUpperCase()}',
@@ -184,7 +184,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                   ),
                   Text(
                     'Difficulty: ${_puzzle!.difficulty}',
-                    style: const TextStyle(color: Colors.white70, fontSize: 12),
+                    style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                   ),
                 ],
               ),
@@ -221,7 +221,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                           if (cell == null || cell.isBlocked) {
                             return Container(
                               decoration: BoxDecoration(
-                                color: const Color(0xFF13131F),
+                                color: ToonTheme.blockedCell,
                                 borderRadius: BorderRadius.circular(4),
                               ),
                             );
@@ -232,15 +232,15 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                           final isWordSolved = cell.isLocked;
 
                           Color bgColor = ToonTheme.surfaceCardLight;
-                          Color borderColor = Colors.black;
+                          Color borderColor = const Color(0xFFCBD5E1);
 
                           if (isWordSolved) {
                             bgColor = ToonTheme.mintSolved;
                           } else if (isSelected) {
-                            bgColor = ToonTheme.electricCyan;
-                            borderColor = Colors.white;
+                            bgColor = ToonTheme.activeCell;
+                            borderColor = ToonTheme.cardBorder;
                           } else if (isInActiveWord) {
-                            bgColor = const Color(0xFF38385A);
+                            bgColor = ToonTheme.activeWordHighlight;
                           }
 
                           return GestureDetector(
@@ -272,7 +272,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                                         style: TextStyle(
                                           fontSize: 9,
                                           fontWeight: FontWeight.bold,
-                                          color: isWordSolved ? Colors.black87 : Colors.white60,
+                                          color: isWordSolved ? Colors.white : const Color(0xFF64748B),
                                         ),
                                       ),
                                     ),
@@ -284,9 +284,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                                         style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: FontWeight.bold,
-                                          color: isWordSolved
-                                              ? Colors.black
-                                              : (isSelected ? Colors.black : Colors.white),
+                                          color: isWordSolved ? Colors.white : ToonTheme.textMain,
                                         ),
                                       ),
                                     ),
@@ -295,7 +293,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                                     const Positioned(
                                       bottom: 1,
                                       right: 1,
-                                      child: Icon(Icons.check, size: 10, color: Colors.black87),
+                                      child: Icon(Icons.check, size: 10, color: ToonTheme.textMain),
                                     ),
                                 ],
                               ),
@@ -319,7 +317,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
               child: Row(
                 children: [
                   IconButton(
-                    icon: const Icon(Icons.chevron_left, color: Colors.white),
+                    icon: const Icon(Icons.chevron_left, color: ToonTheme.textMain),
                     onPressed: () {
                       setState(() => _engine!.prevClue());
                     },
@@ -353,7 +351,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                     ),
                   ),
                   IconButton(
-                    icon: const Icon(Icons.chevron_right, color: Colors.white),
+                    icon: const Icon(Icons.chevron_right, color: ToonTheme.textMain),
                     onPressed: () {
                       setState(() => _engine!.nextClue());
                     },

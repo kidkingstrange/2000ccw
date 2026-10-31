@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
     final loader = PuzzleLoader();
 
     return Scaffold(
-      backgroundColor: ToonTheme.deepSpaceBlack,
+      backgroundColor: ToonTheme.canvasBackground,
       body: SafeArea(
         child: ListenableBuilder(
           listenable: storage,
@@ -89,7 +89,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           const SizedBox(width: 8),
                           IconButton(
-                            icon: const Icon(Icons.settings, color: Colors.white70),
+                            icon: const Icon(Icons.settings, color: ToonTheme.textMuted),
                             onPressed: () {
                               Navigator.push(
                                 context,
@@ -193,7 +193,7 @@ class HomeScreen extends StatelessWidget {
                           child: LinearProgressIndicator(
                             value: totalLevels > 0 ? (solvedCount / totalLevels) : 0,
                             minHeight: 12,
-                            backgroundColor: Colors.white12,
+                            backgroundColor: const Color(0xFFE2E8F0),
                             color: ToonTheme.slimeGreen,
                           ),
                         ),
@@ -203,7 +203,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             Text(
                               '$solvedCount / $totalLevels Cleared',
-                              style: const TextStyle(color: Colors.white70, fontSize: 12),
+                              style: const TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                             ),
                             Row(
                               children: [
@@ -211,14 +211,14 @@ class HomeScreen extends StatelessWidget {
                                 const SizedBox(width: 2),
                                 Text(
                                   '$totalStars Stars',
-                                  style: const TextStyle(color: Colors.white70, fontSize: 12),
+                                  style: const TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                                 ),
                                 const SizedBox(width: 8),
                                 const Text('🏆', style: TextStyle(fontSize: 12)),
                                 const SizedBox(width: 2),
                                 Text(
                                   '$totalTrophies Trophies',
-                                  style: const TextStyle(color: Colors.white70, fontSize: 12),
+                                  style: const TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                                 ),
                               ],
                             ),
@@ -307,7 +307,7 @@ class HomeScreen extends StatelessWidget {
                                 SizedBox(height: 4),
                                 Text(
                                   '200 Grids • 4 Tiers',
-                                  style: TextStyle(color: Colors.white60, fontSize: 11),
+                                  style: TextStyle(color: ToonTheme.textMuted, fontSize: 11),
                                 ),
                               ],
                             ),
@@ -351,7 +351,7 @@ class HomeScreen extends StatelessWidget {
                                 SizedBox(height: 4),
                                 Text(
                                   '200 Riddles • Visuals',
-                                  style: TextStyle(color: Colors.white60, fontSize: 11),
+                                  style: TextStyle(color: ToonTheme.textMuted, fontSize: 11),
                                 ),
                               ],
                             ),
@@ -378,7 +378,7 @@ class HomeScreen extends StatelessWidget {
                     child: Container(
                       padding: const EdgeInsets.all(16),
                       decoration: ToonTheme.retroBox(
-                        background: const Color(0xFF231C38),
+                        background: ToonTheme.surfaceCard,
                         borderColor: ToonTheme.cheerfulOrange,
                         borderWidth: 2,
                         radius: 16,
@@ -413,12 +413,12 @@ class HomeScreen extends StatelessWidget {
                                 const SizedBox(height: 4),
                                 const Text(
                                   'Rotating daily special puzzle to keep your flame streak alive!',
-                                  style: TextStyle(color: Colors.white60, fontSize: 12),
+                                  style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                                 ),
                               ],
                             ),
                           ),
-                          const Icon(Icons.chevron_right, color: Colors.white70),
+                          const Icon(Icons.chevron_right, color: ToonTheme.textMuted),
                         ],
                       ),
                     ),
@@ -460,12 +460,12 @@ class HomeScreen extends StatelessWidget {
                                 SizedBox(height: 2),
                                 Text(
                                   'Unlock verified behind-the-scenes facts across 157 cartoons',
-                                  style: TextStyle(color: Colors.white60, fontSize: 12),
+                                  style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                                 ),
                               ],
                             ),
                           ),
-                          Icon(Icons.chevron_right, color: Colors.white70),
+                          Icon(Icons.chevron_right, color: ToonTheme.textMuted),
                         ],
                       ),
                     ),

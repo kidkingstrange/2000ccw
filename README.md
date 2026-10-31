@@ -49,7 +49,7 @@ Step back into the golden age of Saturday morning cartoons, overflowing cereal b
   - **Standalone Android APK**: [`release/app-release.apk`](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.apk)
   - **Google Play App Bundle**: [`release/app-release.aab`](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.aab)
 - **GitHub Releases Page**:
-  👉 [GitHub Releases v1.0.1 (Production Release)](https://github.com/kidkingstrange/2000ccw/releases)
+  👉 [GitHub Releases v1.0.2 (Light Theme & Native Keyboard)](https://github.com/kidkingstrange/2000ccw/releases)
 - **Google Play Testing Track**:
   👉 [Join the Official Google Play Test](https://play.google.com/apps/testing/com.retrogames.tooncrosswords.toon_crosswords)
 

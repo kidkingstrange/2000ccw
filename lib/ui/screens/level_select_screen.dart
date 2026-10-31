@@ -56,7 +56,7 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
     }).toList();
 
     return Scaffold(
-      backgroundColor: ToonTheme.deepSpaceBlack,
+      backgroundColor: ToonTheme.canvasBackground,
       appBar: AppBar(
         title: Text(
           isCrossword ? 'CROSSWORD LEVELS' : 'REBUS LEVELS',
