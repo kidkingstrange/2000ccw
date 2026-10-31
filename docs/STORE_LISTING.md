@@ -3,8 +3,8 @@
 ## 0. App Identity & Package Details
 * **App Name**: `2000s Toon Crosswords`
 * **Package Name (Application ID)**: `com.retrogames.tooncrosswords.toon_crosswords`
-* **Version Code**: `1`
-* **Version Name**: `1.0.0`
+* **Version Code**: `5`
+* **Version Name**: `1.0.4`
 * **App Category**: Puzzle / Trivia (Games)
 * **Default Language**: English (United States) - en-US
 
