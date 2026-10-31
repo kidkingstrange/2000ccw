@@ -73,27 +73,28 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         with:
-          tag_name: v1.0.0
-          name: "2000s Toon Crosswords v1.0.0 (Production Release)"
+          tag_name: v1.0.1
+          name: "2000s Toon Crosswords v1.0.1 (Production Release)"
           draft: false
           prerelease: false
+          overwrite: true
           body: |
-            ## 📺 2000s Toon Crosswords v1.0.0 (Production Release)
+            ## 📺 2000s Toon Crosswords v1.0.1 (Production Release)
 
             > **If you are a child of the 2000s, this is the game you were born to play!**
 
-            Official production release built strictly in **Release Mode** (signed with production upload keystore, zero debugger attached).
+            Official production release built strictly in **Release Mode** with signed production upload keystore.
 
-            ### Included Release Files:
-            - **`app-release.apk`**: Direct standalone Android installation package.
-            - **`app-release.aab`**: Google Play Console release bundle for production publishing.
+            ### 📦 Included Downloadable Files:
+            - **[Direct APK Download (app-release.apk)](https://github.com/kidkingstrange/2000ccw/releases/download/v1.0.1/app-release.apk)**: Standalone Android APK ready to sideload and install directly on any Android device!
+            - **[Play Store Bundle (app-release.aab)](https://github.com/kidkingstrange/2000ccw/releases/download/v1.0.1/app-release.aab)**: Google Play Console release bundle for production and internal testing tracks.
 
-            ### Highlights:
-            - **100% Offline & Zero Permission**: Zero internet permissions declared in AndroidManifest.xml. Zero tracking, zero ads.
-            - **400 Launch Levels**: 200 Classic Crosswords across 4 tiers + 200 Emoji Title Rebus Puzzles.
-            - **157 Verified Cartoons**: Cartoon Network, JimJam, Nickelodeon, Kids' WB, KidsCo, Disney Channel & Jetix, Teletoon.
-            - **2,612 Verified Clues**: Double-source verified factual trivia.
-            - **Systems**: 3-Tier Hint Shop, Trophy Hall / Dex, and Daily Challenge Streak.
+            ### 🚀 Updates in v1.0.1:
+            - **Zero Answer Leaks**: All crossword clues and rebus riddles sanitized with zero spoilers/leaks.
+            - **Native Phone Keyboard**: Utilizes the device's native soft keyboard (Gboard/Samsung/iOS) with automatic focus and backspace handling. Removed all extra virtual on-screen keyboards!
+            - **Responsive Retro UI**: Fully responsive on all mobile screen sizes with auto-scaling grid and dedicated rebus word rows.
+            - **100% Offline & Ad-Free**: Zero network permissions (`android.permission.INTERNET` omitted), zero ads, zero trackers.
+            - **400 Launch Levels**: 200 Classic Crosswords + 200 Emoji Title Rebuses across 7 channel packs.
           files: |
             build/app/outputs/flutter-apk/app-release.apk
             build/app/outputs/bundle/release/app-release.aab

@@ -40,8 +40,23 @@ Step back into the golden age of Saturday morning cartoons, overflowing cereal b
 
 ---
 
-## 🚀 Release Downloads
-- **Latest Production Release (APK & AAB)**:
-  👉 [Download from GitHub Releases (v1.0.0)](https://github.com/kidkingstrange/2000ccw/releases)
-- **Direct GitHub Actions Build Artifacts**:
-  👉 [Download latest APK/AAB build artifacts from Actions tab](https://github.com/kidkingstrange/2000ccw/actions)
+## 🚀 Instant Downloads & Releases
+
+### 📱 [📥 Download Android APK (Direct Sideload)](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.apk)
+*Tap to download the standalone, signed production `.apk` directly to your phone. 100% offline, zero ads!*
+
+* **Direct Repository Links**:
+  - **Standalone Android APK**: [`release/app-release.apk`](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.apk)
+  - **Google Play App Bundle**: [`release/app-release.aab`](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.aab)
+- **GitHub Releases Page**:
+  👉 [GitHub Releases v1.0.1 (Production Release)](https://github.com/kidkingstrange/2000ccw/releases)
+- **Google Play Testing Track**:
+  👉 [Join the Official Google Play Test](https://play.google.com/apps/testing/com.retrogames.tooncrosswords.toon_crosswords)
+
+---
+
+## 🛠️ 100% Flutter & Pure-Dart Architecture
+- **Framework**: 100% Flutter Framework & Pure Dart 3 (Zero Python runtime code).
+- **Native Keyboard**: Fully utilizes the phone's native soft keyboard (Gboard, Samsung Keyboard, iOS) without any clunky virtual on-screen extra keyboards.
+- **Responsive Design**: Automatically scales crossword grids and rebus rows to any screen aspect ratio.
+- **Strict Anti-Leak Protection**: 100% of clues and rebus hints are verified with zero spoilers/leaks. Answers are never displayed in questions or clues.

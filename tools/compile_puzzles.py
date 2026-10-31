@@ -172,7 +172,32 @@ def compile_all_puzzles():
     for t in titles:
         emojis = t.get("emojiCandidates", ["📺", "⭐"])
         chars = t.get("characters", [])
-        hint = f"{t['genres'][0]} show starring {chars[0]}" if chars else f"Classic {t['network']} cartoon"
+        title_tokens = set(clean_word(tok).lower() for tok in t["title"].split() if len(clean_word(tok)) >= 3)
+        genre = t.get("genres", ["Animation"])[0]
+        year = t.get("year", 2000)
+        net = t.get("network", "Saturday Morning")
+
+        # Find safe character that does not leak any word from the title
+        safe_char = None
+        for c in chars:
+            c_parts = set(clean_word(p).lower() for p in c.split() if len(clean_word(p)) >= 3)
+            if not (c_parts & title_tokens):
+                safe_char = c
+                break
+
+        if safe_char:
+            hint = f"Celebrated {year} {net} {genre.lower()} cartoon featuring {safe_char}"
+        else:
+            hint = f"Legendary {year} {net} {genre.lower()} animated television hit"
+
+        # STRICT ASSERTION: No title word allowed in hint (whole word check)!
+        for tok in title_tokens:
+            if re.search(r'\b' + re.escape(tok) + r'\b', hint.lower()):
+                hint = f"Acclaimed {year} {net} animated television broadcast"
+            # Extra safeguard for words like classic / class
+            if tok in ["class", "action", "classic"] and tok in hint.lower():
+                hint = f"Celebrated {year} {net} animated series"
+
         trivia = t["facts"][0]["text"] if t.get("facts") else f"A celebrated {t['network']} original series."
         sources = t["facts"][0]["sources"] if t.get("facts") else ["https://en.wikipedia.org"]
 
@@ -193,13 +218,14 @@ def compile_all_puzzles():
     extra_count = 200 - len(rebus_puzzles)
     for i in range(extra_count):
         t = titles[i % len(titles)]
+        genre = t.get("genres", ["Animation"])[0]
         rebus_puzzles.append({
             "id": f"rebus-{level_num:03d}",
             "levelNumber": level_num,
             "titleId": t["id"],
             "fullTitle": t["title"].upper(),
             "network": t["network"],
-            "hintText": f"Bonus challenge: {t['network']} classic ({t['year']})",
+            "hintText": f"Bonus 2000s {t['network']} animated favorite ({t['year']})",
             "emojis": t.get("emojiCandidates", ["📺", "✨"]),
             "triviaFact": t["facts"][0]["text"] if t.get("facts") else "",
             "sources": t["facts"][0]["sources"] if t.get("facts") else [],

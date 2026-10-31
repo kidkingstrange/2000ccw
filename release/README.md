@@ -3,10 +3,11 @@
 This folder documents the release packages for **2000s Toon Crosswords**.
 
 ## 1. Direct Download Link for Release APK & AAB
-Both the standalone **Release APK** and the **Google Play Release Bundle (AAB)** are compiled via the automated GitHub Actions CI/CD pipeline on every commit/tag to `main`.
+Both the standalone **Release APK** and the **Google Play Release Bundle (AAB)** are committed directly into this repository and compiled via the automated GitHub Actions CI/CD pipeline:
 
-- **Latest Production Release (APK & AAB)**:
-  👉 [Download from GitHub Releases (v1.0.0)](https://github.com/kidkingstrange/2000ccw/releases)
+- **[📥 Direct Standalone APK (app-release.apk)](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.apk)** (47.9 MB)
+- **[📦 Google Play Console Bundle (app-release.aab)](https://github.com/kidkingstrange/2000ccw/raw/main/release/app-release.aab)** (47.6 MB)
+- **[GitHub Releases v1.0.1](https://github.com/kidkingstrange/2000ccw/releases/tag/v1.0.1)**
 - **Direct GitHub Actions Build Artifacts**:
   👉 [Download latest APK/AAB build artifacts from Actions tab](https://github.com/kidkingstrange/2000ccw/actions)
 

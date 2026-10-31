@@ -265,10 +265,10 @@ class _RebusScreenState extends State<RebusScreen> {
               ),
             ),
 
-            // Virtual Keyboard Bar
-            ToonKeyboardBar(
-              onLetter: _onLetter,
-              onDelete: _onDelete,
+            // Native Keyboard Anchor Padding
+            const SafeArea(
+              top: false,
+              child: SizedBox(height: 8),
             ),
           ],
         ),
@@ -316,6 +316,7 @@ class _RebusScreenState extends State<RebusScreen> {
           return GestureDetector(
             onTap: () {
               HapticFeedback.selectionClick();
+              NativeKeyboardWrapper.of(context)?.requestFocus();
               setState(() {
                 _engine!.selectSlot(wordIdx, charIdx);
               });

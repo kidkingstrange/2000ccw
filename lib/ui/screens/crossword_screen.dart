@@ -246,6 +246,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                           return GestureDetector(
                             onTap: () {
                               HapticFeedback.selectionClick();
+                              NativeKeyboardWrapper.of(context)?.requestFocus();
                               setState(() {
                                 _engine!.selectCell(r, c);
                               });
@@ -377,10 +378,10 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
               ),
             ),
 
-            // Built-in Keyboard Toolbar
-            ToonKeyboardBar(
-              onLetter: _onLetter,
-              onDelete: _onDelete,
+            // Native Keyboard Anchor Padding
+            const SafeArea(
+              top: false,
+              child: SizedBox(height: 8),
             ),
           ],
         ),

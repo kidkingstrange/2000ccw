@@ -294,57 +294,66 @@ def generate_screenshots():
 
         elif s["mode"] == "crossword":
             # Top Ribbon: Level & Coin
-            draw.text((px0 + 40, py0 + 50), "LEVEL 14: CARTOON NETWORK", font=get_font("impact.ttf", 36), fill=ACCENT_GREEN)
-            draw.text((px1 - 200, py0 + 55), "💰 1,450 COINS", font=get_font("arialbd.ttf", 22), fill=GOLD)
+            draw.text((px0 + 40, py0 + 50), "LEVEL 14 • CARTOON NETWORK", font=get_font("impact.ttf", 36), fill=ACCENT_GREEN)
+            draw.text((px1 - 200, py0 + 55), "🪙 1,450 COINS", font=get_font("arialbd.ttf", 22), fill=GOLD)
 
-            # Clue Ribbon
+            # Active Clue Ribbon
             draw.rounded_rectangle([px0 + 40, py0 + 110, px1 - 40, py0 + 200], radius=16, fill=(35, 45, 65, 255), outline=ACCENT_CYAN, width=2)
             draw.text((px0 + 60, py0 + 125), "2 ACROSS (7 Letters)", font=get_font("arialbd.ttf", 24), fill=ACCENT_CYAN)
-            draw.text((px0 + 60, py0 + 158), "Wielder of the Omnitrix alien device (First & Last)", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.text((px0 + 60, py0 + 158), "Primary hero and wielder of the extraterrestrial device", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
 
-            # Crossword Grid (8x8)
+            # Crossword Grid (8x8) - Unsolved active gameplay state with hidden answers!
             grid_y = py0 + 230
             cell_size = 90
             grid_x_start = px0 + 50
-            sample_grid = [
-                ["B","E","N","T","E","N","N","Y"],
-                [None,None,"A",None,None,None,"E",None],
-                ["S","A","M","U","R","A","I",None],
-                [None,None,"U",None,None,None,"T",None],
-                [None,None,"R",None,"R","E","X",None],
-                ["C","H","O","W","D","E","R",None],
-                [None,None,"I",None,None,None,None,None],
-                ["F","L","A","P","J","A","C","K"]
+            # Grid pattern (None = black block, int = clue number)
+            grid_layout = [
+                [1, 2, None, None, 3, None, None, None],
+                [None, 0, None, None, 0, None, 4, None],
+                [5, 0, 0, 0, 0, None, 0, None],
+                [None, 0, None, None, 0, None, 0, None],
+                [None, None, 6, 0, 0, 0, 0, None],
+                [7, 0, 0, 0, None, None, 0, None],
+                [None, None, 0, None, None, None, None, None],
+                [8, 0, 0, 0, 0, None, None, None]
             ]
             for r in range(8):
                 for c in range(8):
-                    char = sample_grid[r][c]
+                    val = grid_layout[r][c]
                     cx = grid_x_start + c * 92
                     cy = grid_y + r * 92
-                    if char is not None:
-                        is_locked = (r == 0 or r == 5)
-                        bg_col = (45, 140, 55, 255) if is_locked else SURFACE_DARK
-                        bdr_col = ACCENT_GREEN if is_locked else (80, 80, 110, 255)
+                    if val is not None:
+                        # Unsolved cell: blank slot with clue number in corner!
+                        is_active = (r == 2 and c == 1)
+                        bg_col = ACCENT_CYAN if is_active else SURFACE_DARK
+                        bdr_col = (255, 255, 255, 255) if is_active else (70, 70, 95, 255)
                         draw.rounded_rectangle([cx, cy, cx + cell_size, cy + cell_size], radius=12, fill=bg_col, outline=bdr_col, width=2)
-                        draw.text((cx + 30, cy + 22), char, font=get_font("impact.ttf", 40), fill=TEXT_WHITE)
-                        if is_locked:
-                            draw.text((cx + cell_size - 22, cy + 4), "✓", font=get_font("arialbd.ttf", 16), fill=ACCENT_GREEN)
+                        if val > 0:
+                            draw.text((cx + 8, cy + 6), str(val), font=get_font("arialbd.ttf", 18), fill=(200, 200, 230, 255))
+                        if is_active:
+                            # Blinking typing cursor on native keyboard
+                            draw.line([(cx + 45, cy + 20), (cx + 45, cy + 70)], fill=(0, 0, 0, 255), width=4)
 
-            # Keyboard area
-            kb_y = py0 + 1010
-            draw.rounded_rectangle([px0 + 30, kb_y, px1 - 30, py1 - 30], radius=24, fill=(22, 22, 34, 255), outline=(50, 50, 70, 255), width=2)
-            # Hint bar
-            draw.rounded_rectangle([px0 + 50, kb_y + 20, px0 + 280, kb_y + 80], radius=14, fill=(40, 55, 45, 255), outline=ACCENT_GREEN, width=1)
-            draw.text((px0 + 75, kb_y + 36), "💡 1st Letter (50)", font=get_font("arialbd.ttf", 20), fill=ACCENT_GREEN)
-            draw.rounded_rectangle([px0 + 300, kb_y + 20, px0 + 530, kb_y + 80], radius=14, fill=(55, 45, 40, 255), outline=ACCENT_ORANGE, width=1)
-            draw.text((px0 + 325, kb_y + 36), "🎲 Random (100)", font=get_font("arialbd.ttf", 20), fill=ACCENT_ORANGE)
-            draw.rounded_rectangle([px0 + 550, kb_y + 20, px1 - 50, kb_y + 80], radius=14, fill=(50, 35, 60, 255), outline=(220, 100, 255, 255), width=1)
-            draw.text((px0 + 575, kb_y + 36), "⚡ Solve Word (250)", font=get_font("arialbd.ttf", 20), fill=(220, 150, 255, 255))
+            # Native Keyboard Area (Shows mobile phone typing with clue above)
+            kb_y = py0 + 1040
+            draw.rounded_rectangle([px0 + 30, kb_y, px1 - 30, py1 - 30], radius=24, fill=(20, 20, 32, 255), outline=(50, 50, 75, 255), width=2)
+            draw.text((px0 + 60, kb_y + 30), "📱 NATIVE PHONE KEYBOARD INTEGRATION", font=get_font("arialbd.ttf", 22), fill=ACCENT_CYAN)
+            draw.text((px0 + 60, kb_y + 65), "Seamless Gboard & Samsung soft-keyboard support", font=get_font("segoeui.ttf", 20), fill=TEXT_MUTED)
+            # Simulated native keyboard keys
+            key_rows = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"]
+            for r_idx, row_str in enumerate(key_rows):
+                ry = kb_y + 120 + r_idx * 75
+                k_w = (px1 - px0 - 100) // len(row_str)
+                rx_start = px0 + 50 + (10 - len(row_str)) * (k_w // 2)
+                for c_idx, k_char in enumerate(row_str):
+                    kx = rx_start + c_idx * k_w
+                    draw.rounded_rectangle([kx + 4, ry, kx + k_w - 4, ry + 65], radius=10, fill=(38, 38, 55, 255))
+                    draw.text((kx + k_w//2 - 8, ry + 18), k_char, font=get_font("arialbd.ttf", 22), fill=TEXT_WHITE)
 
         elif s["mode"] == "rebus":
             # Header
-            draw.text((px0 + 40, py0 + 50), "LEVEL 42: MYSTERY REBUS", font=get_font("impact.ttf", 36), fill=ACCENT_ORANGE)
-            draw.text((px1 - 200, py0 + 55), "💰 2,100 COINS", font=get_font("arialbd.ttf", 22), fill=GOLD)
+            draw.text((px0 + 40, py0 + 50), "LEVEL 42 • MYSTERY REBUS", font=get_font("impact.ttf", 36), fill=ACCENT_ORANGE)
+            draw.text((px1 - 200, py0 + 55), "🪙 2,100 COINS", font=get_font("arialbd.ttf", 22), fill=GOLD)
 
             # Big Emoji Card
             rebus_box = [px0 + 40, py0 + 120, px1 - 40, py0 + 360]
@@ -352,36 +361,33 @@ def generate_screenshots():
             draw.text((px0 + 120, py0 + 170), "👽   ⌚   🔟", font=get_font("segoeui.ttf", 72), fill=TEXT_WHITE)
             draw.text((px0 + 180, py0 + 290), "DECODE THE CARTOON NETWORK TITLE", font=get_font("arialbd.ttf", 22), fill=ACCENT_CYAN)
 
-            # Dedicated Word Rows Feature Highlight
+            # Dedicated Word Rows (HIDDEN ANSWERS - blank puzzle slots!)
             row_y = py0 + 420
-            # Word 1: [B][E][N]
+            # Word 1 (3 Letters) - empty slots
             draw.text((px0 + 50, row_y - 35), "WORD 1 (3 LETTERS)", font=get_font("arialbd.ttf", 20), fill=ACCENT_GREEN)
-            for i, letter in enumerate(["B", "E", "N"]):
+            for i in range(3):
                 bx = px0 + 50 + i * 110
-                draw.rounded_rectangle([bx, row_y, bx + 95, row_y + 95], radius=16, fill=(35, 120, 45, 255), outline=ACCENT_GREEN, width=3)
-                draw.text((bx + 32, row_y + 22), letter, font=get_font("impact.ttf", 44), fill=TEXT_WHITE)
+                is_sel = (i == 0)
+                b_col = ACCENT_CYAN if is_sel else SURFACE_DARK
+                bdr = (255, 255, 255, 255) if is_sel else (70, 70, 95, 255)
+                draw.rounded_rectangle([bx, row_y, bx + 95, row_y + 95], radius=16, fill=b_col, outline=bdr, width=3)
+                if is_sel:
+                    draw.line([(bx + 47, row_y + 25), (bx + 47, row_y + 70)], fill=(0, 0, 0, 255), width=4)
 
-            # Word 2: [1][0] or [T][E][N]
+            # Word 2 (3 Letters) - empty slots
             row2_y = row_y + 170
             draw.text((px0 + 50, row2_y - 35), "WORD 2 (3 LETTERS)", font=get_font("arialbd.ttf", 20), fill=TEXT_MUTED)
-            for i, letter in enumerate(["T", "E", "N"]):
+            for i in range(3):
                 bx = px0 + 50 + i * 110
-                draw.rounded_rectangle([bx, row2_y, bx + 95, row2_y + 95], radius=16, fill=(35, 120, 45, 255), outline=ACCENT_GREEN, width=3)
-                draw.text((bx + 32, row2_y + 22), letter, font=get_font("impact.ttf", 44), fill=TEXT_WHITE)
+                draw.rounded_rectangle([bx, row2_y, bx + 95, row2_y + 95], radius=16, fill=SURFACE_DARK, outline=(70, 70, 95, 255), width=3)
 
-            # Solved Card Callout
+            # Callout: Dedicated Word Rows Guarantee
             card_y = row2_y + 160
-            draw.rounded_rectangle([px0 + 40, card_y, px1 - 40, card_y + 360], radius=24, fill=(20, 40, 30, 255), outline=ACCENT_GREEN, width=2)
-            draw.text((px0 + 70, card_y + 35), "🎉 LEVEL SOLVED: BEN 10!", font=get_font("impact.ttf", 36), fill=ACCENT_GREEN)
-            draw.text((px0 + 70, card_y + 90), "+100 Coins Earned  •  Trivia Lore Unlocked", font=get_font("arialbd.ttf", 24), fill=GOLD)
-
-            trivia_text = (
-                "Created by Man of Action, Ben 10 debuted on Cartoon\n"
-                "Network in December 2005. The Omnitrix originally allowed\n"
-                "Ben Tennyson to transform into 10 alien superheroes\n"
-                "starting with Heatblast, Diamondhead, and XLR8!"
-            )
-            draw.text((px0 + 70, card_y + 150), trivia_text, font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.rounded_rectangle([px0 + 40, card_y, px1 - 40, card_y + 240], radius=24, fill=(20, 30, 45, 255), outline=ACCENT_CYAN, width=2)
+            draw.text((px0 + 70, card_y + 35), "✨ DEDICATED WORD ROWS", font=get_font("impact.ttf", 34), fill=ACCENT_CYAN)
+            draw.text((px0 + 70, card_y + 85), "• Never splits words awkwardly across line breaks", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.text((px0 + 70, card_y + 125), "• Inline fixed punctuation for hyphens & apostrophes", font=get_font("segoeui.ttf", 22), fill=TEXT_WHITE)
+            draw.text((px0 + 70, card_y + 165), "• Auto-scales dynamically to fit every phone screen", font=get_font("segoeui.ttf", 22), fill=ACCENT_GREEN)
 
         elif s["mode"] == "channels":
             draw.text((px0 + 40, py0 + 50), "CHOOSE CHANNEL PACK", font=get_font("impact.ttf", 38), fill=ACCENT_CYAN)
