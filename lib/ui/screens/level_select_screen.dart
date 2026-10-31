@@ -51,7 +51,7 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
 
     final filtered = items.where((p) {
       if (_selectedNetwork == 'All') return true;
-      final net = isCrossword ? (p as dynamic).network : (p as dynamic).network;
+      final net = (p as dynamic).network as String;
       return net.toLowerCase() == _selectedNetwork.toLowerCase();
     }).toList();
 
@@ -60,29 +60,25 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
       appBar: AppBar(
         title: Text(
           isCrossword ? 'CROSSWORD LEVELS' : 'REBUS LEVELS',
-          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+          style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16, letterSpacing: 0.5),
         ),
         actions: [
           ListenableBuilder(
             listenable: storage,
             builder: (context, _) => Container(
               margin: const EdgeInsets.only(right: 16),
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-              decoration: ToonTheme.retroBox(
-                background: ToonTheme.surfaceCard,
-                radius: 16,
-                shadowOffset: 2,
-              ),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+              decoration: ToonTheme.pillDecoration(color: ToonTheme.amberGold),
               child: Row(
                 children: [
-                  const Text('🪙', style: TextStyle(fontSize: 14)),
-                  const SizedBox(width: 4),
+                  const Icon(Icons.monetization_on_rounded, color: ToonTheme.amberGold, size: 16),
+                  const SizedBox(width: 5),
                   Text(
                     '${storage.coins}',
                     style: const TextStyle(
-                      color: ToonTheme.slimeGreen,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 14,
+                      color: ToonTheme.amberGold,
+                      fontWeight: FontWeight.w800,
+                      fontSize: 13,
                     ),
                   ),
                 ],
@@ -93,12 +89,14 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
       ),
       body: Column(
         children: [
-          // Mode Toggle Tabs (Crossword vs Rebus)
+          // Segmented Mode Control (Crossword vs Rebus)
           Container(
             margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            padding: const EdgeInsets.all(4),
             decoration: BoxDecoration(
-              color: ToonTheme.surfaceCard,
-              borderRadius: BorderRadius.circular(12),
+              color: ToonTheme.surfaceCardLight,
+              borderRadius: BorderRadius.circular(14),
+              border: Border.all(color: ToonTheme.cardBorder),
             ),
             child: Row(
               children: [
@@ -108,16 +106,37 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                     child: Container(
                       padding: const EdgeInsets.symmetric(vertical: 10),
                       decoration: BoxDecoration(
-                        color: isCrossword ? ToonTheme.electricCyan : Colors.transparent,
-                        borderRadius: BorderRadius.circular(12),
+                        color: isCrossword ? ToonTheme.surfaceCard : Colors.transparent,
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: isCrossword
+                            ? const [
+                                BoxShadow(
+                                  color: Color(0x0A0F172A),
+                                  blurRadius: 6,
+                                  offset: Offset(0, 2),
+                                ),
+                              ]
+                            : null,
                       ),
                       alignment: Alignment.center,
-                      child: Text(
-                        '🧩 Crosswords (${loader.crosswords.length})',
-                        style: TextStyle(
-                          color: isCrossword ? Colors.black : Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.grid_view_rounded,
+                            size: 16,
+                            color: isCrossword ? ToonTheme.electricCyan : ToonTheme.textMuted,
+                          ),
+                          const SizedBox(width: 6),
+                          Text(
+                            'Crosswords (${loader.crosswords.length})',
+                            style: TextStyle(
+                              color: isCrossword ? ToonTheme.textMain : ToonTheme.textMuted,
+                              fontWeight: isCrossword ? FontWeight.w800 : FontWeight.w600,
+                              fontSize: 13,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
@@ -128,16 +147,37 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                     child: Container(
                       padding: const EdgeInsets.symmetric(vertical: 10),
                       decoration: BoxDecoration(
-                        color: !isCrossword ? ToonTheme.cheerfulOrange : Colors.transparent,
-                        borderRadius: BorderRadius.circular(12),
+                        color: !isCrossword ? ToonTheme.surfaceCard : Colors.transparent,
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: !isCrossword
+                            ? const [
+                                BoxShadow(
+                                  color: Color(0x0A0F172A),
+                                  blurRadius: 6,
+                                  offset: Offset(0, 2),
+                                ),
+                              ]
+                            : null,
                       ),
                       alignment: Alignment.center,
-                      child: Text(
-                        '🤔 Rebus (${loader.rebusPuzzles.length})',
-                        style: TextStyle(
-                          color: !isCrossword ? Colors.black : Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.psychology_rounded,
+                            size: 16,
+                            color: !isCrossword ? ToonTheme.cheerfulOrange : ToonTheme.textMuted,
+                          ),
+                          const SizedBox(width: 6),
+                          Text(
+                            'Rebus (${loader.rebusPuzzles.length})',
+                            style: TextStyle(
+                              color: !isCrossword ? ToonTheme.textMain : ToonTheme.textMuted,
+                              fontWeight: !isCrossword ? FontWeight.w800 : FontWeight.w600,
+                              fontSize: 13,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
@@ -159,18 +199,22 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                 final isSelected = net == _selectedNetwork;
                 final netColor = ToonTheme.getNetworkColor(net);
 
-                return ChoiceChip(
+                return FilterChip(
                   label: Text(net),
                   selected: isSelected,
-                  selectedColor: netColor,
+                  selectedColor: netColor.withValues(alpha: 0.12),
                   backgroundColor: ToonTheme.surfaceCard,
+                  showCheckmark: false,
                   labelStyle: TextStyle(
-                    color: isSelected ? Colors.black : Colors.white70,
-                    fontWeight: FontWeight.bold,
+                    color: isSelected ? netColor : ToonTheme.textSecondary,
+                    fontWeight: isSelected ? FontWeight.w800 : FontWeight.w600,
                     fontSize: 12,
                   ),
-                  side: BorderSide(
-                    color: isSelected ? Colors.white : Colors.white24,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    side: BorderSide(
+                      color: isSelected ? netColor.withValues(alpha: 0.4) : ToonTheme.cardBorder,
+                    ),
                   ),
                   onSelected: (val) {
                     if (val) setState(() => _selectedNetwork = net);
@@ -187,7 +231,7 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
               listenable: storage,
               builder: (context, _) {
                 return GridView.builder(
-                  padding: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
                     childAspectRatio: 0.88,
@@ -227,37 +271,53 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                             }
                           : null,
                       child: Container(
-                        decoration: ToonTheme.retroBox(
-                          background: isUnlocked
-                              ? (isSolved ? const Color(0xFF1D2E2B) : ToonTheme.surfaceCard)
-                              : ToonTheme.lockedGrey,
-                          borderColor: isSolved
-                              ? ToonTheme.mintSolved
-                              : (isUnlocked ? netColor.withValues(alpha: 0.6) : Colors.black45),
-                          radius: 14,
-                          shadowOffset: isUnlocked ? 3 : 1,
+                        decoration: BoxDecoration(
+                          color: isUnlocked
+                              ? (isSolved ? ToonTheme.mintSolvedBg : ToonTheme.surfaceCard)
+                              : ToonTheme.surfaceCardLight,
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(
+                            color: isSolved
+                                ? ToonTheme.mintSolved.withValues(alpha: 0.4)
+                                : (isUnlocked ? ToonTheme.cardBorder : Colors.transparent),
+                            width: 1.0,
+                          ),
+                          boxShadow: isUnlocked
+                              ? const [
+                                  BoxShadow(
+                                    color: Color(0x080F172A),
+                                    blurRadius: 8,
+                                    offset: Offset(0, 2),
+                                  ),
+                                ]
+                              : null,
                         ),
                         padding: const EdgeInsets.all(8),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             if (!isUnlocked) ...[
-                              const Icon(Icons.lock, color: Colors.white38, size: 28),
+                              const Icon(Icons.lock_outline_rounded, color: ToonTheme.textSubtle, size: 24),
                               const SizedBox(height: 6),
                               Text(
                                 'Level $levelNum',
-                                style: const TextStyle(color: Colors.white38, fontSize: 13),
+                                style: const TextStyle(
+                                  color: ToonTheme.textSubtle,
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w600,
+                                ),
                               ),
                             ] else ...[
                               Text(
                                 'LEVEL $levelNum',
                                 style: TextStyle(
-                                  color: isSolved ? ToonTheme.mintSolved : Colors.white,
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.bold,
+                                  color: isSolved ? ToonTheme.mintSolvedText : ToonTheme.textMain,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w800,
+                                  letterSpacing: 0.5,
                                 ),
                               ),
-                              const SizedBox(height: 4),
+                              const SizedBox(height: 3),
                               Text(
                                 network,
                                 maxLines: 1,
@@ -265,7 +325,7 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                                 style: TextStyle(
                                   color: netColor,
                                   fontSize: 10,
-                                  fontWeight: FontWeight.w600,
+                                  fontWeight: FontWeight.w700,
                                 ),
                               ),
                               const SizedBox(height: 6),
@@ -274,9 +334,9 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
                                 children: List.generate(
                                   3,
                                   (i) => Icon(
-                                    i < stars ? Icons.star : Icons.star_border,
-                                    size: 16,
-                                    color: i < stars ? Colors.amber : Colors.white24,
+                                    i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
+                                    size: 15,
+                                    color: i < stars ? Colors.amber : ToonTheme.textSubtle.withValues(alpha: 0.5),
                                   ),
                                 ),
                               ),

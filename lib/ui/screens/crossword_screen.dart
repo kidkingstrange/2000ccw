@@ -46,21 +46,38 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
     setState(() {});
 
     if (result != null) {
-      // Word Solved celebration!
+      // Word Solved celebration
       HapticFeedback.mediumImpact();
       GameStorage().addCoins(result.coinsEarned);
 
+      ScaffoldMessenger.of(context).hideCurrentSnackBar();
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
+          behavior: SnackBarBehavior.floating,
+          margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
           backgroundColor: ToonTheme.mintSolved,
-          duration: const Duration(seconds: 1),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+          elevation: 6,
+          duration: const Duration(milliseconds: 1400),
           content: Row(
             children: [
-              const Icon(Icons.check_circle, color: Colors.black),
-              const SizedBox(width: 8),
+              Container(
+                padding: const EdgeInsets.all(4),
+                decoration: const BoxDecoration(
+                  color: Colors.white24,
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(Icons.check_rounded, color: Colors.white, size: 18),
+              ),
+              const SizedBox(width: 10),
               Text(
                 'WORD SOLVED! +${result.coinsEarned} COINS',
-                style: const TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 13,
+                  letterSpacing: 0.5,
+                ),
               ),
             ],
           ),
@@ -104,7 +121,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
         });
       },
       onViewTrophy: () {
-        Navigator.pop(context); // exit to level menu / dex
+        Navigator.pop(context);
       },
     );
   }
@@ -113,6 +130,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
   Widget build(BuildContext context) {
     if (_puzzle == null || _engine == null) {
       return const Scaffold(
+        backgroundColor: ToonTheme.canvasBackground,
         body: Center(child: CircularProgressIndicator(color: ToonTheme.slimeGreen)),
       );
     }
@@ -129,29 +147,33 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
         appBar: AppBar(
           title: Text(
             'LEVEL $_currentLevel • ${_puzzle!.network.toUpperCase()}',
-            style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+            style: const TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w800,
+              letterSpacing: 0.8,
+            ),
           ),
           actions: [
             ListenableBuilder(
               listenable: storage,
               builder: (context, _) => Container(
                 margin: const EdgeInsets.only(right: 16),
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                decoration: ToonTheme.retroBox(
-                  background: ToonTheme.surfaceCard,
-                  radius: 16,
-                  shadowOffset: 2,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                decoration: ToonTheme.pillDecoration(color: ToonTheme.amberGold),
                 child: Row(
                   children: [
-                    const Text('🪙', style: TextStyle(fontSize: 14)),
-                    const SizedBox(width: 4),
+                    const Icon(
+                      Icons.monetization_on_rounded,
+                      color: ToonTheme.amberGold,
+                      size: 16,
+                    ),
+                    const SizedBox(width: 5),
                     Text(
                       '${storage.coins}',
                       style: const TextStyle(
-                        color: ToonTheme.slimeGreen,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 14,
+                        color: ToonTheme.amberGold,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 13,
                       ),
                     ),
                   ],
@@ -162,29 +184,47 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
         ),
         body: Column(
           children: [
-            // Channel Banner Tag & Difficulty
+            // Channel Banner & Difficulty Tag
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
-              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
               decoration: BoxDecoration(
-                color: networkColor.withValues(alpha: 0.15),
-                borderRadius: BorderRadius.circular(10),
-                border: Border.all(color: networkColor.withValues(alpha: 0.5)),
+                color: networkColor.withValues(alpha: 0.08),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: networkColor.withValues(alpha: 0.20)),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    _puzzle!.network,
-                    style: TextStyle(
-                      color: networkColor,
-                      fontSize: 12,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  Row(
+                    children: [
+                      Container(
+                        width: 8,
+                        height: 8,
+                        decoration: BoxDecoration(
+                          color: networkColor,
+                          shape: BoxShape.circle,
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        _puzzle!.network,
+                        style: TextStyle(
+                          color: networkColor,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
                   ),
                   Text(
-                    'Difficulty: ${_puzzle!.difficulty}',
-                    style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
+                    'Difficulty: ${_puzzle!.difficulty.toUpperCase()}',
+                    style: const TextStyle(
+                      color: ToonTheme.textMuted,
+                      fontSize: 11,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: 0.5,
+                    ),
                   ),
                 ],
               ),
@@ -194,17 +234,16 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
             Expanded(
               child: Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(12.0),
                   child: AspectRatio(
                     aspectRatio: _puzzle!.cols / _puzzle!.rows,
                     child: Container(
-                      decoration: ToonTheme.retroBox(
-                        background: ToonTheme.surfaceCard,
-                        borderColor: ToonTheme.deepSpaceBlack,
-                        radius: 12,
+                      decoration: ToonTheme.cardDecoration(
+                        radius: 16,
                         shadowOffset: 4,
+                        blurRadius: 16,
                       ),
-                      padding: const EdgeInsets.all(6),
+                      padding: const EdgeInsets.all(8),
                       child: GridView.builder(
                         physics: const NeverScrollableScrollPhysics(),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -222,7 +261,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                             return Container(
                               decoration: BoxDecoration(
                                 color: ToonTheme.blockedCell,
-                                borderRadius: BorderRadius.circular(4),
+                                borderRadius: BorderRadius.circular(5),
                               ),
                             );
                           }
@@ -231,16 +270,20 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                           final isInActiveWord = activeWord != null && _wordContainsCoord(activeWord, r, c);
                           final isWordSolved = cell.isLocked;
 
-                          Color bgColor = ToonTheme.surfaceCardLight;
-                          Color borderColor = const Color(0xFFCBD5E1);
+                          Color bgColor = ToonTheme.surfaceCard;
+                          Color borderColor = ToonTheme.cardBorder;
+                          Color letterColor = ToonTheme.textMain;
 
                           if (isWordSolved) {
-                            bgColor = ToonTheme.mintSolved;
+                            bgColor = ToonTheme.mintSolvedBg;
+                            borderColor = ToonTheme.mintSolved.withValues(alpha: 0.4);
+                            letterColor = ToonTheme.mintSolvedText;
                           } else if (isSelected) {
-                            bgColor = ToonTheme.activeCell;
-                            borderColor = ToonTheme.cardBorder;
+                            bgColor = ToonTheme.activeCellBg;
+                            borderColor = ToonTheme.activeCell;
                           } else if (isInActiveWord) {
                             bgColor = ToonTheme.activeWordHighlight;
+                            borderColor = ToonTheme.activeWordBorder;
                           }
 
                           return GestureDetector(
@@ -255,24 +298,35 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                               duration: const Duration(milliseconds: 150),
                               decoration: BoxDecoration(
                                 color: bgColor,
-                                borderRadius: BorderRadius.circular(5),
+                                borderRadius: BorderRadius.circular(6),
                                 border: Border.all(
-                                  color: isSelected ? Colors.white : borderColor,
-                                  width: isSelected ? 2.5 : 1.2,
+                                  color: borderColor,
+                                  width: isSelected ? 2.0 : 1.0,
                                 ),
+                                boxShadow: isSelected
+                                    ? [
+                                        BoxShadow(
+                                          color: ToonTheme.activeCell.withValues(alpha: 0.25),
+                                          blurRadius: 6,
+                                          offset: const Offset(0, 1),
+                                        ),
+                                      ]
+                                    : null,
                               ),
                               child: Stack(
                                 children: [
                                   if (cell.clueNumber != null)
                                     Positioned(
                                       top: 2,
-                                      left: 2,
+                                      left: 3,
                                       child: Text(
                                         '${cell.clueNumber}',
                                         style: TextStyle(
                                           fontSize: 9,
-                                          fontWeight: FontWeight.bold,
-                                          color: isWordSolved ? Colors.white : const Color(0xFF64748B),
+                                          fontWeight: FontWeight.w700,
+                                          color: isWordSolved
+                                              ? ToonTheme.mintSolvedText.withValues(alpha: 0.7)
+                                              : ToonTheme.textMuted,
                                         ),
                                       ),
                                     ),
@@ -283,17 +337,21 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                                         cell.currentLetter,
                                         style: TextStyle(
                                           fontSize: 18,
-                                          fontWeight: FontWeight.bold,
-                                          color: isWordSolved ? Colors.white : ToonTheme.textMain,
+                                          fontWeight: FontWeight.w800,
+                                          color: letterColor,
                                         ),
                                       ),
                                     ),
                                   ),
                                   if (isWordSolved && cell.clueNumber != null)
-                                    const Positioned(
-                                      bottom: 1,
-                                      right: 1,
-                                      child: Icon(Icons.check, size: 10, color: ToonTheme.textMain),
+                                    Positioned(
+                                      bottom: 2,
+                                      right: 2,
+                                      child: Icon(
+                                        Icons.check_rounded,
+                                        size: 10,
+                                        color: ToonTheme.mintSolvedText,
+                                      ),
                                     ),
                                 ],
                               ),
@@ -307,70 +365,97 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
               ),
             ),
 
-            // Active Clue Ribbon above Keyboard
+            // Active Clue Floating Ribbon (Editorial White Paper Aesthetic)
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               decoration: const BoxDecoration(
-                color: Color(0xFF1A1A2E),
-                border: Border(top: BorderSide(color: ToonTheme.electricCyan, width: 2)),
+                color: ToonTheme.surfaceCard,
+                border: Border(
+                  top: BorderSide(color: ToonTheme.cardBorder, width: 1),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color(0x080F172A),
+                    offset: Offset(0, -4),
+                    blurRadius: 12,
+                  ),
+                ],
               ),
               child: Row(
                 children: [
                   IconButton(
-                    icon: const Icon(Icons.chevron_left, color: ToonTheme.textMain),
+                    icon: const Icon(Icons.chevron_left_rounded, color: ToonTheme.textSecondary, size: 28),
+                    padding: EdgeInsets.zero,
+                    constraints: const BoxConstraints(),
                     onPressed: () {
                       setState(() => _engine!.prevClue());
                     },
                   ),
+                  const SizedBox(width: 10),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           activeWord != null
-                              ? '${activeWord.number} ${activeWord.direction.name.toUpperCase()} (${activeWord.length} Letters)'
+                              ? '${activeWord.number} ${activeWord.direction.name.toUpperCase()} • ${activeWord.length} LETTERS'
                               : 'CLUE',
                           style: const TextStyle(
                             color: ToonTheme.electricCyan,
                             fontSize: 11,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w800,
+                            letterSpacing: 0.8,
                           ),
                         ),
-                        const SizedBox(height: 2),
+                        const SizedBox(height: 3),
                         Text(
-                          activeWord?.clue ?? 'Select a clue on the grid',
+                          activeWord?.clue ?? 'Select a cell on the grid',
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            color: ToonTheme.parchmentMilk,
-                            fontSize: 13,
+                            color: ToonTheme.textMain,
+                            fontSize: 14,
                             fontWeight: FontWeight.w600,
+                            height: 1.25,
                           ),
                         ),
                       ],
                     ),
                   ),
+                  const SizedBox(width: 10),
                   IconButton(
-                    icon: const Icon(Icons.chevron_right, color: ToonTheme.textMain),
+                    icon: const Icon(Icons.chevron_right_rounded, color: ToonTheme.textSecondary, size: 28),
+                    padding: EdgeInsets.zero,
+                    constraints: const BoxConstraints(),
                     onPressed: () {
                       setState(() => _engine!.nextClue());
                     },
                   ),
-                  IconButton(
-                    icon: const Icon(Icons.lightbulb, color: Colors.amber),
-                    tooltip: 'Hint Shop',
-                    onPressed: () {
-                      HintShopSheet.show(
-                        context,
-                        modeName: 'Word',
-                        onHint1: () => setState(() => _engine!.revealFirstLetterOfActiveWord()),
-                        onHint2: () => setState(() => _engine!.revealRandomLetterOfActiveWord()),
-                        onHint3: () => setState(() {
-                          _engine!.revealActiveWord();
-                          if (_engine!.isPuzzleComplete) _onPuzzleCompleted();
-                        }),
-                      );
-                    },
+                  const SizedBox(width: 8),
+                  // Hint Shop Trigger Button
+                  Container(
+                    decoration: BoxDecoration(
+                      color: ToonTheme.amberGold.withValues(alpha: 0.12),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: IconButton(
+                      icon: const Icon(Icons.lightbulb_rounded, color: ToonTheme.amberGold, size: 22),
+                      tooltip: 'Hint Shop',
+                      padding: const EdgeInsets.all(8),
+                      constraints: const BoxConstraints(),
+                      onPressed: () {
+                        HintShopSheet.show(
+                          context,
+                          modeName: 'Word',
+                          onHint1: () => setState(() => _engine!.revealFirstLetterOfActiveWord()),
+                          onHint2: () => setState(() => _engine!.revealRandomLetterOfActiveWord()),
+                          onHint3: () => setState(() {
+                            _engine!.revealActiveWord();
+                            if (_engine!.isPuzzleComplete) _onPuzzleCompleted();
+                          }),
+                        );
+                      },
+                    ),
                   ),
                 ],
               ),
@@ -379,7 +464,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
             // Native Keyboard Anchor Padding
             const SafeArea(
               top: false,
-              child: SizedBox(height: 8),
+              child: SizedBox(height: 4),
             ),
           ],
         ),

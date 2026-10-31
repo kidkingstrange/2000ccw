@@ -73,28 +73,28 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         with:
-          tag_name: v1.0.2
-          name: "2000s Toon Crosswords v1.0.2 (Light Theme & Native Keyboard)"
+          tag_name: v1.0.3
+          name: "2000s Toon Crosswords v1.0.3 (Luxury Editorial Redesign)"
           draft: false
           prerelease: false
           overwrite: true
           body: |
-            ## 📺 2000s Toon Crosswords v1.0.2 (Light Theme & Native Keyboard)
+            ## 📺 2000s Toon Crosswords v1.0.3 (Luxury Editorial Redesign)
 
             > **If you are a child of the 2000s, this is the game you were born to play!**
 
             Official production release built strictly in **Release Mode** with signed production upload keystore.
 
             ### 📦 Included Downloadable Files:
-            - **[Direct APK Download (app-release.apk)](https://github.com/kidkingstrange/2000ccw/releases/download/v1.0.2/app-release.apk)**: Standalone Android APK ready to sideload and install directly on any Android device!
-            - **[Play Store Bundle (app-release.aab)](https://github.com/kidkingstrange/2000ccw/releases/download/v1.0.2/app-release.aab)**: Google Play Console release bundle for production and internal testing tracks.
+            - **[Direct APK Download (app-release.apk)](https://github.com/kidkingstrange/2000ccw/releases/download/v1.0.3/app-release.apk)**: Standalone Android APK ready to sideload and install directly on any Android device!
+            - **[Play Store Bundle (app-release.aab)](https://github.com/kidkingstrange/2000ccw/releases/download/v1.0.3/app-release.aab)**: Google Play Console release bundle for production and internal testing tracks.
 
-            ### 🚀 Highlights in v1.0.2:
-            - **Vibrant Light Theme**: Crisp, clean, high-contrast light theme with tactile cartoon cards, pure white surfaces, and bold retro styling.
-            - **Native Phone Keyboard Only**: Complete integration with Gboard, Samsung Keyboard, and iOS native keyboards. No extra virtual keyboards!
+            ### 🚀 Highlights in v1.0.3 (Luxury Editorial Redesign):
+            - **Luxury Editorial Aesthetic**: Replaced clunky comic outlines with refined paper cards, Slate 50 canvas, and soft multi-layer ambient shadows benchmarked against Apple Design Award winners and NYT Crossword.
+            - **Typography & Color Harmony**: High-contrast Slate 900 text, Sky Blue active cell focus ring, soft mint solve states, and fixed contrast issues across dialogs and cards.
+            - **Polished Iconography**: Replaced raw OS emojis with custom vector icon badges and subtle gradients for streaks, coins, and modes.
+            - **Native Phone Keyboard Only**: Seamless Gboard, Samsung Keyboard, and iOS keyboard input channeling.
             - **Zero Answer Leaks**: All 2,610 crossword clues and 200 rebus riddles completely sanitized with zero spoilers.
-            - **400 Launch Levels**: 200 Classic Crosswords + 200 Emoji Title Rebuses across 7 channel packs.
-            - **100% Offline & Ad-Free**: Zero network permissions (`android.permission.INTERNET` omitted), zero ads, zero trackers.
             - **100% Offline & Ad-Free**: Zero network permissions (`android.permission.INTERNET` omitted), zero ads, zero trackers.
             - **400 Launch Levels**: 200 Classic Crosswords + 200 Emoji Title Rebuses across 7 channel packs.
           files: |

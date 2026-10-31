@@ -74,8 +74,8 @@ void main() {
 
     // Verify Title and elements
     expect(find.text('2000s TOON CROSSWORDS'), findsOneWidget);
-    expect(find.text('QUICK PLAY (NEXT PUZZLE)'), findsOneWidget);
-    expect(find.text('TROPHY HALL / DEX'), findsOneWidget);
+    expect(find.text('CONTINUE PUZZLE (LEVEL 1)'), findsOneWidget);
+    expect(find.text('Trophy Hall & Lore Dex'), findsOneWidget);
 
     // Verify Coin display
     expect(find.text('100'), findsOneWidget); // starter coins

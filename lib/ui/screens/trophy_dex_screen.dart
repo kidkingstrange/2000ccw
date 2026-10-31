@@ -39,7 +39,10 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
     return Scaffold(
       backgroundColor: ToonTheme.canvasBackground,
       appBar: AppBar(
-        title: const Text('TROPHY HALL & LORE DEX', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+        title: const Text(
+          'TROPHY HALL & LORE DEX',
+          style: TextStyle(fontWeight: FontWeight.w800, fontSize: 16, letterSpacing: 0.5),
+        ),
       ),
       body: Column(
         children: [
@@ -52,42 +55,56 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
 
               return Container(
                 margin: const EdgeInsets.all(16),
-                padding: const EdgeInsets.all(16),
-                decoration: ToonTheme.retroBox(
-                  background: ToonTheme.surfaceCard,
-                  borderColor: ToonTheme.electricCyan,
-                  radius: 16,
-                  shadowOffset: 4,
-                ),
+                padding: const EdgeInsets.all(18),
+                decoration: ToonTheme.cardDecoration(radius: 18),
                 child: Row(
                   children: [
-                    const Text('🏆', style: TextStyle(fontSize: 40)),
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          colors: [Color(0xFF0284C7), Color(0xFF38BDF8)],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Color(0x200284C7),
+                            blurRadius: 10,
+                            offset: Offset(0, 4),
+                          ),
+                        ],
+                      ),
+                      child: const Icon(Icons.emoji_events_rounded, color: Colors.white, size: 28),
+                    ),
                     const SizedBox(width: 16),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            '$unlockedCount OF ${allTitles.length} TROPHIES COLLECTED',
+                            '$unlockedCount OF ${allTitles.length} ARCHIVES UNLOCKED',
                             style: const TextStyle(
-                              color: ToonTheme.electricCyan,
-                              fontSize: 14,
-                              fontWeight: FontWeight.bold,
+                              color: ToonTheme.textMain,
+                              fontSize: 13,
+                              fontWeight: FontWeight.w800,
+                              letterSpacing: 0.5,
                             ),
                           ),
-                          const SizedBox(height: 6),
+                          const SizedBox(height: 8),
                           ClipRRect(
                             borderRadius: BorderRadius.circular(6),
                             child: LinearProgressIndicator(
                               value: allTitles.isNotEmpty ? unlockedCount / allTitles.length : 0,
-                              backgroundColor: Colors.white12,
+                              backgroundColor: ToonTheme.surfaceCardLight,
                               color: ToonTheme.slimeGreen,
-                              minHeight: 10,
+                              minHeight: 8,
                             ),
                           ),
                           const SizedBox(height: 6),
                           Text(
-                            '$percent% Verified Cartoon Lore Restored',
+                            '$percent% Verified Historical Animation Lore',
                             style: const TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                           ),
                         ],
@@ -99,7 +116,7 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
             },
           ),
 
-          // Categorized Channel Filter
+          // Categorized Channel Filter Pills
           SizedBox(
             height: 42,
             child: ListView.separated(
@@ -112,15 +129,22 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                 final isSelected = net == _selectedNetwork;
                 final netColor = ToonTheme.getNetworkColor(net);
 
-                return ChoiceChip(
+                return FilterChip(
                   label: Text(net),
                   selected: isSelected,
-                  selectedColor: netColor,
+                  selectedColor: netColor.withValues(alpha: 0.12),
                   backgroundColor: ToonTheme.surfaceCard,
+                  showCheckmark: false,
                   labelStyle: TextStyle(
-                    color: isSelected ? Colors.black : Colors.white70,
-                    fontWeight: FontWeight.bold,
+                    color: isSelected ? netColor : ToonTheme.textSecondary,
+                    fontWeight: isSelected ? FontWeight.w800 : FontWeight.w600,
                     fontSize: 12,
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    side: BorderSide(
+                      color: isSelected ? netColor.withValues(alpha: 0.4) : ToonTheme.cardBorder,
+                    ),
                   ),
                   onSelected: (val) {
                     if (val) setState(() => _selectedNetwork = net);
@@ -131,15 +155,15 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
           ),
           const SizedBox(height: 12),
 
-          // Trophy Cards Grid
+          // Trophy Cards List
           Expanded(
             child: ListenableBuilder(
               listenable: storage,
               builder: (context, _) {
                 return ListView.separated(
-                  padding: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   itemCount: filtered.length,
-                  separatorBuilder: (_, _) => const SizedBox(height: 14),
+                  separatorBuilder: (_, _) => const SizedBox(height: 12),
                   itemBuilder: (context, idx) {
                     final item = filtered[idx];
                     final tid = item['id'] as String;
@@ -151,18 +175,20 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                       // Locked Card Silhouette
                       return Container(
                         padding: const EdgeInsets.all(16),
-                        decoration: ToonTheme.retroBox(
-                          background: ToonTheme.lockedGrey,
-                          borderColor: Colors.black45,
-                          radius: 14,
-                          shadowOffset: 2,
+                        decoration: BoxDecoration(
+                          color: ToonTheme.surfaceCardLight,
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(color: ToonTheme.cardBorder),
                         ),
                         child: Row(
                           children: [
-                            CircleAvatar(
-                              radius: 22,
-                              backgroundColor: Colors.white12,
-                              child: const Icon(Icons.lock, color: Colors.white38),
+                            Container(
+                              padding: const EdgeInsets.all(10),
+                              decoration: BoxDecoration(
+                                color: ToonTheme.cardBorder,
+                                shape: BoxShape.circle,
+                              ),
+                              child: const Icon(Icons.lock_outline_rounded, color: ToonTheme.textSubtle, size: 20),
                             ),
                             const SizedBox(width: 14),
                             Expanded(
@@ -172,15 +198,15 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                                   Text(
                                     'Locked Lore Card • $network',
                                     style: const TextStyle(
-                                      color: Colors.white38,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 14,
+                                      color: ToonTheme.textSecondary,
+                                      fontWeight: FontWeight.w700,
+                                      fontSize: 13,
                                     ),
                                   ),
-                                  const SizedBox(height: 4),
+                                  const SizedBox(height: 2),
                                   const Text(
-                                    'Complete this cartoon\'s levels to unlock behind-the-scenes trivia.',
-                                    style: TextStyle(color: Colors.white24, fontSize: 12),
+                                    'Solve this cartoon\'s puzzles to unlock verified trivia facts.',
+                                    style: TextStyle(color: ToonTheme.textMuted, fontSize: 12),
                                   ),
                                 ],
                               ),
@@ -190,7 +216,7 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                       );
                     }
 
-                    // Unlocked Full Card
+                    // Unlocked Full Lore Card
                     final factObj = (item['facts'] as List?)?.firstOrNull;
                     final factText = factObj?['text'] ?? 'Verified classic series.';
                     final sources = List<String>.from(factObj?['sources'] ?? []);
@@ -198,19 +224,21 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
 
                     return Container(
                       padding: const EdgeInsets.all(16),
-                      decoration: ToonTheme.retroBox(
-                        background: ToonTheme.surfaceCard,
-                        borderColor: netColor,
-                        borderWidth: 2,
-                        radius: 16,
-                        shadowOffset: 4,
-                      ),
+                      decoration: ToonTheme.cardDecoration(radius: 16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
                             children: [
-                              Text(emojis.first, style: const TextStyle(fontSize: 28)),
+                              Container(
+                                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                                decoration: BoxDecoration(
+                                  color: ToonTheme.surfaceCardLight,
+                                  borderRadius: BorderRadius.circular(10),
+                                  border: Border.all(color: ToonTheme.cardBorder),
+                                ),
+                                child: Text(emojis.first, style: const TextStyle(fontSize: 22)),
+                              ),
                               const SizedBox(width: 12),
                               Expanded(
                                 child: Column(
@@ -219,9 +247,9 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                                     Text(
                                       '${item['title']} (${item['year']})',
                                       style: const TextStyle(
-                                        color: ToonTheme.parchmentMilk,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
+                                        color: ToonTheme.textMain,
+                                        fontWeight: FontWeight.w800,
+                                        fontSize: 15,
                                       ),
                                     ),
                                     const SizedBox(height: 2),
@@ -230,26 +258,27 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                                       style: TextStyle(
                                         color: netColor,
                                         fontSize: 12,
-                                        fontWeight: FontWeight.w600,
+                                        fontWeight: FontWeight.w700,
                                       ),
                                     ),
                                   ],
                                 ),
                               ),
-                              const Icon(Icons.verified, color: ToonTheme.slimeGreen, size: 22),
+                              const Icon(Icons.verified_rounded, color: ToonTheme.slimeGreen, size: 22),
                             ],
                           ),
                           const SizedBox(height: 12),
                           Container(
                             padding: const EdgeInsets.all(12),
                             decoration: BoxDecoration(
-                              color: const Color(0xFF161626),
-                              borderRadius: BorderRadius.circular(10),
+                              color: ToonTheme.surfaceCardLight,
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(color: ToonTheme.cardBorder),
                             ),
                             child: Text(
                               '"$factText"',
                               style: const TextStyle(
-                                color: ToonTheme.parchmentMilk,
+                                color: ToonTheme.textSecondary,
                                 fontSize: 13,
                                 fontStyle: FontStyle.italic,
                                 height: 1.35,
@@ -259,12 +288,13 @@ class _TrophyDexScreenState extends State<TrophyDexScreen> {
                           if (sources.isNotEmpty) ...[
                             const SizedBox(height: 8),
                             Text(
-                              'Verified Dual Sources: ${sources.join(', ')}',
+                              'Verified Sources: ${sources.join(', ')}',
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                color: Colors.white.withValues(alpha: 0.4),
+                              style: const TextStyle(
+                                color: ToonTheme.textMuted,
                                 fontSize: 11,
+                                fontWeight: FontWeight.w500,
                               ),
                             ),
                           ],

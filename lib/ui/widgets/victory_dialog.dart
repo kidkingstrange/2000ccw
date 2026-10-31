@@ -56,32 +56,56 @@ class VictoryDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Dialog(
       backgroundColor: Colors.transparent,
-      insetPadding: const EdgeInsets.symmetric(horizontal: 20),
+      insetPadding: const EdgeInsets.symmetric(horizontal: 24),
       child: Container(
-        decoration: ToonTheme.retroBox(
-          background: ToonTheme.surfaceCard,
-          borderColor: ToonTheme.slimeGreen,
-          borderWidth: 3,
+        decoration: ToonTheme.cardDecoration(
           radius: 24,
-          shadowOffset: 6,
+          shadowOffset: 8,
+          blurRadius: 24,
         ),
-        padding: const EdgeInsets.all(22),
+        padding: const EdgeInsets.all(24),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            // Fanfare badge
-            const Text('🎉', style: TextStyle(fontSize: 48)),
-            const SizedBox(height: 6),
+            // Fanfare Emblem
+            Container(
+              width: 68,
+              height: 68,
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [Color(0xFFD97706), Color(0xFFF59E0B)],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+                shape: BoxShape.circle,
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x30D97706),
+                    blurRadius: 16,
+                    offset: Offset(0, 6),
+                  ),
+                ],
+              ),
+              child: const Icon(
+                Icons.emoji_events_rounded,
+                color: Colors.white,
+                size: 38,
+              ),
+            ),
+            const SizedBox(height: 14),
+
             const Text(
               'PUZZLE SOLVED!',
               style: TextStyle(
-                color: ToonTheme.slimeGreen,
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1,
+                color: ToonTheme.textMain,
+                fontSize: 22,
+                fontWeight: FontWeight.w900,
+                letterSpacing: 0.8,
               ),
             ),
-            const SizedBox(height: 6),
+            const SizedBox(height: 8),
+
+            // Stars Row
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: List.generate(
@@ -93,73 +117,79 @@ class VictoryDialog extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 12),
+
+            // Coins Reward Pill
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
-              decoration: BoxDecoration(
-                color: ToonTheme.cheerfulOrange.withValues(alpha: 0.2),
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(color: ToonTheme.cheerfulOrange, width: 1.5),
-              ),
-              child: Text(
-                '+$coinsEarned COINS EARNED',
-                style: const TextStyle(
-                  color: ToonTheme.cheerfulOrange,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 14,
-                ),
+              decoration: ToonTheme.pillDecoration(color: ToonTheme.amberGold),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Icon(Icons.monetization_on_rounded, color: ToonTheme.amberGold, size: 16),
+                  const SizedBox(width: 6),
+                  Text(
+                    '+$coinsEarned COINS EARNED',
+                    style: const TextStyle(
+                      color: ToonTheme.amberGold,
+                      fontWeight: FontWeight.w800,
+                      fontSize: 12,
+                      letterSpacing: 0.5,
+                    ),
+                  ),
+                ],
               ),
             ),
             const SizedBox(height: 16),
 
-            // Trivia Lore Card if unlocked
+            // Trivia Archive Lore Card
             if (triviaFact != null && triviaFact!.isNotEmpty) ...[
               Container(
                 width: double.infinity,
-                padding: const EdgeInsets.all(14),
-                decoration: ToonTheme.retroBox(
-                  background: const Color(0xFF161628),
-                  borderColor: ToonTheme.electricCyan,
-                  borderWidth: 1.5,
-                  radius: 14,
-                  shadowOffset: 2,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: ToonTheme.surfaceCardLight,
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(color: ToonTheme.cardBorder),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
-                        const Text('🏆', style: TextStyle(fontSize: 16)),
+                        const Icon(Icons.auto_awesome_rounded, color: ToonTheme.electricCyan, size: 16),
                         const SizedBox(width: 6),
                         Expanded(
                           child: Text(
-                            'UNLOCKED TROPHY: $title',
+                            'UNLOCKED ARCHIVE: $title',
                             style: const TextStyle(
                               color: ToonTheme.electricCyan,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 13,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 11,
+                              letterSpacing: 0.5,
                             ),
                           ),
                         ),
                       ],
                     ),
-                    const SizedBox(height: 6),
+                    const SizedBox(height: 8),
                     Text(
                       '"$triviaFact"',
                       style: const TextStyle(
-                        color: ToonTheme.parchmentMilk,
+                        color: ToonTheme.textSecondary,
                         fontSize: 13,
                         fontStyle: FontStyle.italic,
-                        height: 1.3,
+                        height: 1.35,
                       ),
                     ),
                     if (sources.isNotEmpty) ...[
-                      const SizedBox(height: 6),
+                      const SizedBox(height: 8),
                       Text(
                         'Verified Sources: ${sources.length} citations',
-                        style: TextStyle(
-                          color: Colors.white.withValues(alpha: 0.5),
+                        style: const TextStyle(
+                          color: ToonTheme.textMuted,
                           fontSize: 11,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ],
@@ -176,7 +206,7 @@ class VictoryDialog extends StatelessWidget {
                   Expanded(
                     child: OutlinedButton(
                       style: OutlinedButton.styleFrom(
-                        side: const BorderSide(color: ToonTheme.electricCyan, width: 2),
+                        side: const BorderSide(color: ToonTheme.cardBorder),
                         padding: const EdgeInsets.symmetric(vertical: 14),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(14),
@@ -189,8 +219,9 @@ class VictoryDialog extends StatelessWidget {
                       child: const Text(
                         'Trophy Hall',
                         style: TextStyle(
-                          color: ToonTheme.electricCyan,
-                          fontWeight: FontWeight.bold,
+                          color: ToonTheme.textSecondary,
+                          fontWeight: FontWeight.w700,
+                          fontSize: 14,
                         ),
                       ),
                     ),
@@ -198,25 +229,43 @@ class VictoryDialog extends StatelessWidget {
                   const SizedBox(width: 12),
                 ],
                 Expanded(
-                  child: ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: ToonTheme.slimeGreen,
-                      foregroundColor: Colors.black,
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      elevation: 4,
-                    ),
-                    onPressed: () {
+                  child: GestureDetector(
+                    onTap: () {
                       Navigator.pop(context);
                       onNextLevel();
                     },
-                    child: const Text(
-                      'NEXT LEVEL ➡️',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          colors: [Color(0xFF059669), Color(0xFF10B981)],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(14),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Color(0x30059669),
+                            blurRadius: 10,
+                            offset: Offset(0, 4),
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [
+                          Text(
+                            'NEXT LEVEL',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 14,
+                              letterSpacing: 0.5,
+                            ),
+                          ),
+                          SizedBox(width: 6),
+                          Icon(Icons.arrow_forward_rounded, color: Colors.white, size: 18),
+                        ],
                       ),
                     ),
                   ),

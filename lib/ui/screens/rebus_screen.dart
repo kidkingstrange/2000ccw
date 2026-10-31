@@ -91,6 +91,7 @@ class _RebusScreenState extends State<RebusScreen> {
   Widget build(BuildContext context) {
     if (_puzzle == null || _engine == null) {
       return const Scaffold(
+        backgroundColor: ToonTheme.canvasBackground,
         body: Center(child: CircularProgressIndicator(color: ToonTheme.slimeGreen)),
       );
     }
@@ -106,29 +107,29 @@ class _RebusScreenState extends State<RebusScreen> {
         appBar: AppBar(
           title: Text(
             _puzzle!.mysteryDisplayTitle,
-            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, letterSpacing: 0.5),
           ),
           actions: [
             ListenableBuilder(
               listenable: storage,
               builder: (context, _) => Container(
                 margin: const EdgeInsets.only(right: 16),
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                decoration: ToonTheme.retroBox(
-                  background: ToonTheme.surfaceCard,
-                  radius: 16,
-                  shadowOffset: 2,
-                ),
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                decoration: ToonTheme.pillDecoration(color: ToonTheme.amberGold),
                 child: Row(
                   children: [
-                    const Text('🪙', style: TextStyle(fontSize: 14)),
-                    const SizedBox(width: 4),
+                    const Icon(
+                      Icons.monetization_on_rounded,
+                      color: ToonTheme.amberGold,
+                      size: 16,
+                    ),
+                    const SizedBox(width: 5),
                     Text(
                       '${storage.coins}',
                       style: const TextStyle(
-                        color: ToonTheme.slimeGreen,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 14,
+                        color: ToonTheme.amberGold,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 13,
                       ),
                     ),
                   ],
@@ -141,25 +142,46 @@ class _RebusScreenState extends State<RebusScreen> {
           children: [
             // Network Category Banner
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
-              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
               decoration: BoxDecoration(
-                color: networkColor.withValues(alpha: 0.15),
-                borderRadius: BorderRadius.circular(10),
-                border: Border.all(color: networkColor.withValues(alpha: 0.5)),
+                color: networkColor.withValues(alpha: 0.08),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: networkColor.withValues(alpha: 0.20)),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    _puzzle!.network,
+                  Row(
+                    children: [
+                      Container(
+                        width: 8,
+                        height: 8,
+                        decoration: BoxDecoration(
+                          color: networkColor,
+                          shape: BoxShape.circle,
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        _puzzle!.network,
+                        style: TextStyle(
+                          color: networkColor,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const Text(
+                    'EMOJI TITLE REBUS',
                     style: TextStyle(
-                      color: networkColor,
-                      fontSize: 12,
-                      fontWeight: FontWeight.bold,
+                      color: ToonTheme.textMuted,
+                      fontSize: 11,
+                      fontWeight: FontWeight.w700,
+                      letterSpacing: 0.6,
                     ),
                   ),
-                  const Text('EMOJI TITLE REBUS', style: TextStyle(color: ToonTheme.textMuted, fontSize: 11)),
                 ],
               ),
             ),
@@ -167,38 +189,51 @@ class _RebusScreenState extends State<RebusScreen> {
             // Emoji Riddle Stage Area
             Container(
               margin: const EdgeInsets.all(16),
-              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
-              decoration: ToonTheme.retroBox(
-                background: ToonTheme.surfaceCard,
-                borderColor: ToonTheme.electricCyan,
-                borderWidth: 2,
-                radius: 16,
+              padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
+              decoration: ToonTheme.cardDecoration(
+                radius: 20,
                 shadowOffset: 4,
+                blurRadius: 16,
               ),
               child: Column(
                 children: [
-                  // Emoji Sequence
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                  // Emoji Sequence with elegant presentation
+                  Wrap(
+                    spacing: 12,
+                    runSpacing: 10,
+                    alignment: WrapAlignment.center,
                     children: _puzzle!.emojis.map((emoji) {
-                      return Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 8),
+                      return Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                        decoration: BoxDecoration(
+                          color: ToonTheme.surfaceCardLight,
+                          borderRadius: BorderRadius.circular(14),
+                          border: Border.all(color: ToonTheme.cardBorder),
+                        ),
                         child: Text(
                           emoji,
-                          style: const TextStyle(fontSize: 44),
+                          style: const TextStyle(fontSize: 38),
                         ),
                       );
                     }).toList(),
                   ),
-                  const SizedBox(height: 12),
+                  const SizedBox(height: 16),
                   // Hint Subtitle
-                  Text(
-                    '"${_puzzle!.hintText}"',
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(
-                      color: ToonTheme.parchmentMilk,
-                      fontSize: 14,
-                      fontStyle: FontStyle.italic,
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                    decoration: BoxDecoration(
+                      color: ToonTheme.surfaceCardLight,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      '"${_puzzle!.hintText}"',
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: ToonTheme.textSecondary,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w600,
+                        fontStyle: FontStyle.italic,
+                      ),
                     ),
                   ),
                 ],
@@ -220,30 +255,35 @@ class _RebusScreenState extends State<RebusScreen> {
               ),
             ),
 
-            // Quick Hint Shop Drawer trigger
+            // Quick Hint Shop Bottom Ribbon
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              color: ToonTheme.surfaceCard,
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+              decoration: const BoxDecoration(
+                color: ToonTheme.surfaceCard,
+                border: Border(
+                  top: BorderSide(color: ToonTheme.cardBorder, width: 1),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color(0x060F172A),
+                    offset: Offset(0, -3),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    _puzzle!.isSolved ? 'SOLVED!' : 'Tap a slot to type letter',
+                    _puzzle!.isSolved ? 'PUZZLE SOLVED!' : 'Tap any slot to enter letters',
                     style: TextStyle(
                       color: _puzzle!.isSolved ? ToonTheme.slimeGreen : ToonTheme.textMuted,
                       fontSize: 13,
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
-                  ElevatedButton.icon(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: ToonTheme.cheerfulOrange,
-                      foregroundColor: Colors.white,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                    ),
-                    icon: const Icon(Icons.lightbulb, size: 18),
-                    label: const Text('HINTS', style: TextStyle(fontWeight: FontWeight.bold)),
-                    onPressed: () {
+                  GestureDetector(
+                    onTap: () {
                       HintShopSheet.show(
                         context,
                         modeName: 'Title',
@@ -260,6 +300,39 @@ class _RebusScreenState extends State<RebusScreen> {
                         }),
                       );
                     },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          colors: [Color(0xFFEA580C), Color(0xFFF97316)],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(12),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Color(0x25EA580C),
+                            blurRadius: 8,
+                            offset: Offset(0, 3),
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        children: const [
+                          Icon(Icons.lightbulb_rounded, color: Colors.white, size: 18),
+                          SizedBox(width: 6),
+                          Text(
+                            'HINTS',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 13,
+                              letterSpacing: 0.5,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -268,7 +341,7 @@ class _RebusScreenState extends State<RebusScreen> {
             // Native Keyboard Anchor Padding
             const SafeArea(
               top: false,
-              child: SizedBox(height: 8),
+              child: SizedBox(height: 4),
             ),
           ],
         ),
@@ -295,22 +368,25 @@ class _RebusScreenState extends State<RebusScreen> {
               child: Text(
                 slot.correctChar,
                 style: const TextStyle(
-                  color: ToonTheme.parchmentMilk,
+                  color: ToonTheme.textSecondary,
                   fontSize: 26,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w800,
                 ),
               ),
             );
           }
 
-          Color bgColor = ToonTheme.surfaceCardLight;
-          Color borderColor = const Color(0xFFCBD5E1);
+          Color bgColor = ToonTheme.surfaceCard;
+          Color borderColor = ToonTheme.cardBorder;
+          Color letterColor = ToonTheme.textMain;
 
           if (_puzzle!.isSolved || slot.isLocked) {
-            bgColor = ToonTheme.mintSolved;
+            bgColor = ToonTheme.mintSolvedBg;
+            borderColor = ToonTheme.mintSolved.withValues(alpha: 0.4);
+            letterColor = ToonTheme.mintSolvedText;
           } else if (isSelected) {
-            bgColor = ToonTheme.activeCell;
-            borderColor = ToonTheme.cardBorder;
+            bgColor = ToonTheme.activeCellBg;
+            borderColor = ToonTheme.activeCell;
           }
 
           return GestureDetector(
@@ -327,19 +403,34 @@ class _RebusScreenState extends State<RebusScreen> {
               margin: const EdgeInsets.symmetric(horizontal: 3),
               decoration: BoxDecoration(
                 color: bgColor,
-                borderRadius: BorderRadius.circular(8),
+                borderRadius: BorderRadius.circular(10),
                 border: Border.all(
-                  color: isSelected ? Colors.white : borderColor,
-                  width: isSelected ? 2.5 : 1.2,
+                  color: borderColor,
+                  width: isSelected ? 2.0 : 1.0,
                 ),
+                boxShadow: isSelected
+                    ? [
+                        BoxShadow(
+                          color: ToonTheme.activeCell.withValues(alpha: 0.25),
+                          blurRadius: 6,
+                          offset: const Offset(0, 1),
+                        ),
+                      ]
+                    : const [
+                        BoxShadow(
+                          color: Color(0x060F172A),
+                          blurRadius: 4,
+                          offset: Offset(0, 1),
+                        ),
+                      ],
               ),
               alignment: Alignment.center,
               child: Text(
                 slot.currentChar,
                 style: TextStyle(
                   fontSize: 22,
-                  fontWeight: FontWeight.bold,
-                  color: (_puzzle!.isSolved || slot.isLocked) ? Colors.white : ToonTheme.textMain,
+                  fontWeight: FontWeight.w800,
+                  color: letterColor,
                 ),
               ),
             ),
